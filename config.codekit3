@@ -25,6 +25,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/aos.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/aos-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -653,6 +663,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/art-bg.jpg": {
+		"ft": 16384,
+		"iS": 428272,
+		"oA": 0,
+		"oAP": "\/images\/art-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/art.png": {
 		"ft": 32768,
 		"iS": 32456,
@@ -710,8 +730,8 @@
 		"oA": 0,
 		"oAP": "\/images\/belisario-a.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -951,6 +971,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/logo2xw.png": {
+		"ft": 32768,
+		"iS": 8036,
+		"oA": 0,
+		"oAP": "\/images\/logo2xw.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logotop.jpg": {
 		"ft": 16384,
 		"iS": 5277,
@@ -1003,6 +1034,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/social-fb-ico.png": {
+		"ft": 32768,
+		"iS": 974,
+		"oA": 0,
+		"oAP": "\/images\/social-fb-ico.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/social-in-ico.png": {
+		"ft": 32768,
+		"iS": 1388,
+		"oA": 0,
+		"oAP": "\/images\/social-in-ico.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/social-pi-ico.png": {
+		"ft": 32768,
+		"iS": 1440,
+		"oA": 0,
+		"oAP": "\/images\/social-pi-ico.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/social-tw-ico.png": {
+		"ft": 32768,
+		"iS": 1213,
+		"oA": 0,
+		"oAP": "\/images\/social-tw-ico.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/suite1.jpg": {
 		"ft": 16384,
 		"iS": 404667,
@@ -1049,8 +1124,8 @@
 		"oA": 0,
 		"oAP": "\/images\/tennyson-a.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1115,6 +1190,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/all-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/aos.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/aos-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1254,6 +1338,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/jquery.parallax.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/jquery.parallax.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/jquery.scrollTo.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1317,11 +1410,29 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/parallax.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/parallax-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/scrolloverflow.min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/scrolloverflow.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/scrollreveal.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/scrollreveal.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
