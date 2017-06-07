@@ -15,6 +15,28 @@
 		"oAP": "\/allanpoe.html",
 		"oF": 0
 		},
+	"\/allanpoe_.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/allanpoe_.html",
+		"oF": 0
+		},
+	"\/belisario.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/belisario.html",
+		"oF": 0
+		},
+	"\/css\/animate.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/animate.min-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/animate.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -350,6 +372,34 @@
 		"oAP": "\/fonts\/ufonts.com_abadimtstd-opentype.otf",
 		"oF": 0
 		},
+	"\/fonts2\/abadi.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts2\/abadi.eot",
+		"oF": 0
+		},
+	"\/fonts2\/abadi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fonts2\/abadi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fonts2\/abadi.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts2\/abadi.ttf",
+		"oF": 0
+		},
+	"\/fonts2\/abadi.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/fonts2\/abadi.woff",
+		"oF": 0
+		},
 	"\/fonts2\/baron_neue-webfont.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -641,6 +691,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/allanpoe-bg.jpg": {
+		"ft": 16384,
+		"iS": 346240,
+		"oA": 0,
+		"oAP": "\/images\/allanpoe-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/allanpoe-bg.png": {
 		"ft": 32768,
 		"iS": 123673,
@@ -694,6 +754,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/barrawho 2.jpg": {
+		"ft": 16384,
+		"iS": 25571,
+		"oA": 0,
+		"oAP": "\/images\/barrawho 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/barrawho-rooms.jpg": {
+		"ft": 16384,
+		"iS": 17355,
+		"oA": 0,
+		"oAP": "\/images\/barrawho-rooms.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/barrawho.jpg": {
 		"ft": 16384,
 		"iS": 25571,
@@ -733,6 +813,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/belisario-bg.jpg": {
+		"ft": 16384,
+		"iS": 341343,
+		"oA": 0,
+		"oAP": "\/images\/belisario-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/belisario-bg.png": {
@@ -822,6 +912,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/exec-bg.jpg": {
+		"ft": 16384,
+		"iS": 44097,
+		"oA": 0,
+		"oAP": "\/images\/exec-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/experience-bg.jpg": {
 		"ft": 16384,
 		"iS": 33040,
@@ -853,14 +953,25 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/feelhome.png": {
+		"ft": 32768,
+		"iS": 81968,
+		"oA": 0,
+		"oAP": "\/images\/feelhome.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/footer-seal.png": {
 		"ft": 32768,
 		"iS": 19239,
 		"oA": 0,
 		"oAP": "\/images\/footer-seal.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -941,6 +1052,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/junior-bg.jpg": {
+		"ft": 16384,
+		"iS": 27783,
+		"oA": 0,
+		"oAP": "\/images\/junior-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/left-house.png": {
+		"ft": 32768,
+		"iS": 1362,
+		"oA": 0,
+		"oAP": "\/images\/left-house.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/loader.gif": {
 		"ft": 4194304,
 		"iS": 1665,
@@ -955,8 +1087,8 @@
 		"oA": 0,
 		"oAP": "\/images\/logo-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -992,6 +1124,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/master-bg.jpg": {
+		"ft": 16384,
+		"iS": 57820,
+		"oA": 0,
+		"oAP": "\/images\/master-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/palenque-bg.png": {
 		"ft": 32768,
 		"iS": 181766,
@@ -1014,6 +1156,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/private-txt.png": {
+		"ft": 32768,
+		"iS": 3786,
+		"oA": 0,
+		"oAP": "\/images\/private-txt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/punteado.jpg": {
 		"ft": 16384,
 		"iS": 3933,
@@ -1022,6 +1175,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/quetzalL.png": {
+		"ft": 32768,
+		"iS": 57472,
+		"oA": 0,
+		"oAP": "\/images\/quetzalL.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quetzalR.png": {
+		"ft": 32768,
+		"iS": 16054,
+		"oA": 0,
+		"oAP": "\/images\/quetzalR.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/right-house.png": {
+		"ft": 32768,
+		"iS": 1304,
+		"oA": 0,
+		"oAP": "\/images\/right-house.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/sectionA-bg.jpg": {
@@ -1076,6 +1262,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/suite-bg.jpg": {
+		"ft": 16384,
+		"iS": 327368,
+		"oA": 0,
+		"oAP": "\/images\/suite-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/suite1.jpg": {
@@ -1167,6 +1363,17 @@
 		"iS": 12773,
 		"oA": 0,
 		"oAP": "\/images\/welc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/whirlpool.png": {
+		"ft": 32768,
+		"iS": 21693,
+		"oA": 0,
+		"oAP": "\/images\/whirlpool.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1383,6 +1590,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/masonry.pkgd.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -1472,10 +1688,28 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/untitled.txt": {
+	"\/videos\/bacalar.mp4": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/untitled.txt",
+		"oAP": "\/videos\/bacalar.mp4",
+		"oF": 0
+		},
+	"\/videos\/bacalar.ogv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar.ogv",
+		"oF": 0
+		},
+	"\/videos\/bacalar.webm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar.webm",
+		"oF": 0
+		},
+	"\/videos\/bacalar_.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar_.mp4",
 		"oF": 0
 		},
 	"\/videos\/v1-small.mp4": {
