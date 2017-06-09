@@ -774,6 +774,20 @@ body{
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+		&.bellart{
+			background: url('../images/art-bgb.jpg') no-repeat left top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		&.tennart{
+			background: url('../images/art-bgc.jpg') no-repeat left top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
 	}
 	.overall-img{
 		position: absolute;
@@ -1168,6 +1182,10 @@ button:focus {
 		font-weight: 700;
 		padding: 0;
 		-webkit-text-stroke: 1px #117E90;
+		&.bellih2{
+			color: #38387f !important;
+			-webkit-text-stroke: 1px #38387f;
+		}
 	}
 }
 
@@ -1226,8 +1244,10 @@ button:focus {
 
 /*- - - - - - - - */
 
-#sectionRooms, #sectionRoomsB{
+#sectionRooms, #sectionRoomsB, #sectionRoomsC, #sectionRoomsD, #sectionRoomsE, #sectionRoomsF{
 	height: 580px !important;
+	overflow: auto;
+	overflow-x: hidden;
 	.fp-tableCell{display: block;}
 	.row{
 		position: relative;
@@ -1235,6 +1255,19 @@ button:focus {
 		.col{
 			position: relative;
 		}
+	}
+	h3{
+		width: 100%;
+		display: block;
+		position: absolute;
+		left: 0;
+		bottom: -35px;
+		text-align: center;
+		z-index: 88;
+		font-family: 'BaronNeue';
+		letter-spacing: 10px;
+		font-size: 30px;
+		color: white;
 	}
 	.suite{
 		height: 480px;
@@ -1438,7 +1471,7 @@ button:focus {
 	}
 }
 
-#sectionRoomsB{
+#sectionRoomsB,#sectionRoomsF{
 	height: 480px !important;
 	.fp-tableCell{display: block;}
 	.row{
@@ -1449,6 +1482,284 @@ button:focus {
 		.col{
 			position: relative;
 		}
+	}
+}
+
+#sectionRoomsC{
+	height: 445px !important;
+	background: url('../images/belltext.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  padding-top: 100px;
+	  overflow: hidden;
+	  h3{
+	  	left: auto;
+	  	bottom: auto;
+	  	right: 0;
+	  	top: 30px;
+	  	color: #545454;
+	  	text-align: right;
+	  	padding-right: 100px;
+	  }
+	.fp-tableCell{display: block;}
+	.row{
+		position: relative;
+		top: 0px;
+		margin: 0;
+		padding: 0;
+		.col{
+			height: 273px;
+			position: relative;
+			img{
+				height: 500px;
+				width: auto;
+				position: absolute;
+				left: 0;
+				top: -120px;
+				-webkit-clip-path: polygon(0 25%, 0 75%, 100% 50%);
+				clip-path: polygon(0 25%, 0 75%, 100% 50%);
+				&.overlyclr{
+					top: -100px;
+				}
+			}
+			&.suite{
+				background: none;
+				.suite-actns{
+					left: 0;
+					top: 50%;
+					transform: translate(0%,-50%);
+				}
+				.actns-bx{
+					left: 5%;
+					top: 40%;
+				}
+				h2{
+					font-size: 25px;
+				    left: 65%;
+				    top: 40%;
+				    color: #10f11b;
+				    letter-spacing: 5px;
+				}
+			}
+			&.junior{
+				background: none;
+				height: 263px;
+				margin-top: -50px;
+				.actns-bx{
+					left: 50%;
+					top: 40%;
+				}
+				h2{
+					font-size: 25px;
+				    left: 110%;
+				    top: 40%;
+				    color: yellow;
+				    letter-spacing: 5px;
+				}
+				img{
+					height: 500px;
+					width: auto;
+					position: absolute;
+					left: auto;
+					right: 0;
+					top: -120px;
+					-webkit-clip-path: polygon(100% 25%, 0 50%, 250% 100%);
+					clip-path: polygon(100% 25%, 0 50%, 250% 100%);
+					&.overlyclr{
+						top: -100px;
+					}
+				}
+				&:before{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+#sectionRoomsD{
+	height: 445px !important;
+	background: url('../images/belltext.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	  overflow: auto;
+	  overflow-x: hidden;
+	.fp-tableCell{display: block;}
+	.row{
+		position: relative;
+		top: 0px;
+		margin: 0;
+		padding: 0;
+		.col{
+			height: 273px;
+			position: relative;
+			img{
+				height: 500px;
+				width: auto;
+				position: absolute;
+				left: 0;
+				top: -120px;
+				-webkit-clip-path: polygon(0 25%, 0 75%, 100% 50%);
+				clip-path: polygon(0 25%, 0 75%, 100% 50%);
+				&.overlyclr{
+					top: -100px;
+				}
+			}
+			&.suite{
+				background: none;
+				margin-top: -50px;
+				.suite-actns{
+					left: 0;
+					top: 50%;
+					transform: translate(0%,-50%);
+				}
+				.actns-bx{
+					left: 5%;
+					top: 40%;
+				}
+				h2{
+					font-size: 25px;
+				    left: 65%;
+				    top: 40%;
+				    color: red;
+				    letter-spacing: 5px;
+				}
+			}
+			&.junior{
+				background: none;
+				.actns-bx{
+					left: 50%;
+					top: 40%;
+				}
+				h2{
+					font-size: 25px;
+				    left: 110%;
+				    top: 30%;
+				    color: #20e4ae;
+				    letter-spacing: 5px;
+				}
+				img{
+					height: 500px;
+					width: auto;
+					position: absolute;
+					left: auto;
+					right: 0;
+					top: -120px;
+					-webkit-clip-path: polygon(100% 25%, 0 50%, 250% 100%);
+					clip-path: polygon(100% 25%, 0 50%, 250% 100%);
+					&.overlyclr{
+						top: -100px;
+					}
+				}
+				&:before{
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+#sectionRoomsE{
+	.suite{
+		height: 480px;
+		background: url('../images/tenna.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+ 	}
+ 	.junior{
+ 		height: 480px;
+ 		background: url('../images/tennb.jpg') no-repeat center center;
+ 		-webkit-background-size: cover;
+ 		  -moz-background-size: cover;
+ 		  -o-background-size: cover;
+ 		  background-size: cover;
+ 		  &:before{
+ 		  	display: none;
+ 		  }
+ 		  h2.jrhd{
+ 		  	color: #83272d;
+ 		  }
+ 	}
+ 	h3{
+ 		bottom: auto;
+ 		top: 120px;
+ 		color: black;
+ 	}
+ 	.tennsuite{
+ 		border: 4px solid white;
+ 		position: absolute;
+ 		left: 50%;
+ 		top: 12%;
+ 		transform: translate(-50%,0%);
+ 	}
+ 	.suite-actns{
+ 		width: 420px;
+	    height: 190px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,0%);
+	    h2{
+	    	margin-top: 0;
+	    }
+	    .actns-bx{
+	    	top: 70%;
+	    }
+ 	}
+}
+
+#sectionRoomsF{
+ 	.exec{
+		height: 480px;
+		background: url('../images/tennc.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		 &:before{
+		  	display: none;
+		  }
+		  h2.exhd{
+		  	color: #e22351;
+		  }
+ 	}
+ 	.master{
+		height: 480px;
+		background: url('../images/tennd.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		  h2.mahd{
+		  	color: #806aef;
+		  }
+	}
+	.tennsuite{
+			border: 4px solid white;
+			position: absolute;
+			left: 50%;
+			top: 12%;
+			transform: translate(-50%,0%);
+		}
+	.suite-actns{
+			width: 420px;
+	    height: 190px;
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,0%);
+	    h2{
+	    	margin-top: 0;
+	    }
+	    .actns-bx{
+	    	top: 70%;
+	    }
 	}
 }
 
@@ -1463,6 +1774,22 @@ button:focus {
 	  -o-background-size: cover;
 	  background-size: cover;
 	border: 20px solid white;
+	&.bellhome{
+		background: url('../images/feelhomeb.png') no-repeat center center;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		border: 20px solid white;
+	}
+	&.tennhome{
+		background: url('../images/feelhomec.jpg') no-repeat center center;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+		border: 20px solid white;
+	}
 	p{
 		font-family: 'OratorStd';
 		font-size: 20px;

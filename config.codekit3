@@ -733,6 +733,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/art-bgb.jpg": {
+		"ft": 16384,
+		"iS": 188625,
+		"oA": 0,
+		"oAP": "\/images\/art-bgb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/art-bgc.jpg": {
+		"ft": 16384,
+		"iS": 140549,
+		"oA": 0,
+		"oAP": "\/images\/art-bgc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/art.png": {
 		"ft": 32768,
 		"iS": 32456,
@@ -845,6 +865,80 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bell2013.jpg": {
+		"ft": 16384,
+		"iS": 325066,
+		"oA": 0,
+		"oAP": "\/images\/bell2013.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/bell7.jpg": {
+		"ft": 16384,
+		"iS": 100407,
+		"oA": 0,
+		"oAP": "\/images\/bell7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bell7t.png": {
+		"ft": 32768,
+		"iS": 6254,
+		"oA": 0,
+		"oAP": "\/images\/bell7t.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bell7tt.png": {
+		"ft": 32768,
+		"iS": 6049,
+		"oA": 0,
+		"oAP": "\/images\/bell7tt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bell7ttt.png": {
+		"ft": 32768,
+		"iS": 6050,
+		"oA": 0,
+		"oAP": "\/images\/bell7ttt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bell7tttt.png": {
+		"ft": 32768,
+		"iS": 6049,
+		"oA": 0,
+		"oAP": "\/images\/bell7tttt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/belltext.jpg": {
+		"ft": 16384,
+		"iS": 228415,
+		"oA": 0,
+		"oAP": "\/images\/belltext.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/book.jpg": {
@@ -962,6 +1056,27 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/feelhomeb.png": {
+		"ft": 32768,
+		"iS": 81968,
+		"oA": 0,
+		"oAP": "\/images\/feelhomeb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/feelhomec.jpg": {
+		"ft": 16384,
+		"iS": 25896,
+		"oA": 0,
+		"oAP": "\/images\/feelhomec.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/footer-seal.png": {
@@ -1179,9 +1294,20 @@
 		},
 	"\/images\/quetzalL.png": {
 		"ft": 32768,
-		"iS": 57472,
+		"iS": 22109,
 		"oA": 0,
 		"oAP": "\/images\/quetzalL.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quetzalL2.png": {
+		"ft": 32768,
+		"iS": 57472,
+		"oA": 0,
+		"oAP": "\/images\/quetzalL2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -1193,6 +1319,17 @@
 		"iS": 16054,
 		"oA": 0,
 		"oAP": "\/images\/quetzalR.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/quetzalR2.png": {
+		"ft": 32768,
+		"iS": 22591,
+		"oA": 0,
+		"oAP": "\/images\/quetzalR2.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
@@ -1314,6 +1451,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/tenna.jpg": {
+		"ft": 16384,
+		"iS": 169708,
+		"oA": 0,
+		"oAP": "\/images\/tenna.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tennb.jpg": {
+		"ft": 16384,
+		"iS": 209510,
+		"oA": 0,
+		"oAP": "\/images\/tennb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tennc.jpg": {
+		"ft": 16384,
+		"iS": 230684,
+		"oA": 0,
+		"oAP": "\/images\/tennc.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tennd.jpg": {
+		"ft": 16384,
+		"iS": 205746,
+		"oA": 0,
+		"oAP": "\/images\/tennd.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tennsuite.jpg": {
+		"ft": 16384,
+		"iS": 12478,
+		"oA": 0,
+		"oAP": "\/images\/tennsuite.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/tennyson-a.png": {
 		"ft": 32768,
 		"iS": 15092,
@@ -1330,6 +1517,17 @@
 		"iS": 95140,
 		"oA": 0,
 		"oAP": "\/images\/tennyson-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tennyson-bga.png": {
+		"ft": 32768,
+		"iS": 2073596,
+		"oA": 0,
+		"oAP": "\/images\/tennyson-bga.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1687,6 +1885,12 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/tenyson.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tenyson.html",
+		"oF": 0
 		},
 	"\/videos\/bacalar.mp4": {
 		"ft": 8192,
