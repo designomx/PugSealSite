@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25813",
 "files": {
+	"\/allanpoe-habitacion.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/allanpoe-habitacion.html",
+		"oF": 0
+		},
 	"\/allanpoe.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1090,6 +1096,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/habita-poe-bg.jpg": {
+		"ft": 16384,
+		"iS": 121074,
+		"oA": 0,
+		"oAP": "\/images\/habita-poe-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/hot1.png": {
 		"ft": 32768,
 		"iS": 310033,
@@ -1175,6 +1191,36 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-a.jpg": {
+		"ft": 16384,
+		"iS": 118077,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-b.jpg": {
+		"ft": 16384,
+		"iS": 660473,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-c.jpg": {
+		"ft": 16384,
+		"iS": 99492,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/left-house.png": {
@@ -1784,6 +1830,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/jquery.viewport.mini-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

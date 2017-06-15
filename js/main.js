@@ -9,27 +9,27 @@ $(document).ready(function() {
 //			Casas Animations
 			
 			$('.belisario-a img').mouseover(function(){
-				$('.belisario-img').toggleClass('animated pulse');
+				$('.belisario-img').toggleClass('animatedx pulse');
 			});
 			
 			$('.belisario-a img').mouseleave(function(){
-				$('.belisario-img').toggleClass('animated pulse');
+				$('.belisario-img').toggleClass('animatedx pulse');
 			});
 			
 			$('.tennyson-a img').mouseover(function(){
-				$('.tennyson-img').toggleClass('animated pulse');
+				$('.tennyson-img').toggleClass('animatedx pulse');
 			});
 			
 			$('.tennyson-a img').mouseleave(function(){
-				$('.tennyson-img').toggleClass('animated pulse');
+				$('.tennyson-img').toggleClass('animatedx pulse');
 			});
 			
 			$('.allanpoe-a img').mouseover(function(){
-				$('.allanpoe-img').toggleClass('animated pulse');
+				$('.allanpoe-img').toggleClass('animatedx pulse');
 			});
 			
 			$('.allanpoe-a img').mouseleave(function(){
-				$('.allanpoe-img').toggleClass('animated pulse');
+				$('.allanpoe-img').toggleClass('animatedx pulse');
 			});
 			
 //			var Wwidth = window.innerWidth;
