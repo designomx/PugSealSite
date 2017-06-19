@@ -49,7 +49,7 @@ $(document).ready(function() {
 			     
 			  });
 
-			$('.close-ovrly').on('click', function() {
+			$('.close-ovrly, .overlay-menu ul a').on('click', function() {
 			  $('.hamburger').toggleClass('is-active');
 			  $('.overlay').removeClass('open');
 			  useHam=0;
