@@ -27,6 +27,12 @@
 		"oAP": "\/allanpoe-master.html",
 		"oF": 0
 		},
+	"\/allanpoe-suite.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/allanpoe-suite.html",
+		"oF": 0
+		},
 	"\/allanpoe.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -801,6 +807,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/allanX.jpg": {
+		"ft": 16384,
+		"iS": 138429,
+		"oA": 0,
+		"oAP": "\/images\/allanX.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/allanZ.jpg": {
+		"ft": 16384,
+		"iS": 126782,
+		"oA": 0,
+		"oAP": "\/images\/allanZ.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/art-bg.jpg": {
 		"ft": 16384,
 		"iS": 428272,
@@ -1203,6 +1229,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/belljunX.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/belljunX.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bellrufino.jpg": {
 		"ft": 16384,
 		"iS": 133488,
@@ -1231,6 +1268,27 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bellY.jpg": {
+		"ft": 16384,
+		"iS": 22343,
+		"oA": 0,
+		"oAP": "\/images\/bellY.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bellY.png": {
+		"ft": 32768,
+		"iS": 182499,
+		"oA": 0,
+		"oAP": "\/images\/bellY.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/book.jpg": {
@@ -2637,6 +2695,12 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/m\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/index.html",
+		"oF": 0
 		},
 	"\/tennyson-exec.html": {
 		"ft": 8192,
