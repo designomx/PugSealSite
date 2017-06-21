@@ -362,7 +362,7 @@ body{
 	top: 100px;
 	left: 0;
 	display: block;
-	background: url('../images/sectionA-bg.jpg') no-repeat left top;
+	background: url('../images/section.jpg') no-repeat left top;
 	-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -894,6 +894,7 @@ body{
 		height: 600px;
 		border: 20px solid white;
 		border-top: none;
+		overflow: hidden;
 		/*background: url('../images/experience-bg2.jpg') no-repeat left top;*/
 		-webkit-background-size: cover;
 		  -moz-background-size: cover;
@@ -990,6 +991,12 @@ body{
 				font-size: 12px;
 				text-transform: lowercase;
 				padding: 20px;
+				a{
+					color: #333333;
+					&:hover{
+						text-decoration: underline;
+					}
+				}
 			}
 			p{
 				font-family: 'OratorStd';
@@ -1256,13 +1263,14 @@ button:focus {
 	position: relative;
 	background: url('../images/whirlpool.png') repeat left top;
 	.hospiface{
-		width: 100%;
-		height: 100%;
-		position: absolute;
-		left: 0;
-		top: 0;
+		width: 400px;
+		height: 400px;
+		position: absolute !important;
+		left: 50% !important;
+		top: 50% !important;
 		background: url('../images/hospitalidad.png') no-repeat center center;
 		background-size: 250px;
+		margin: -200px 0 0 -200px;
 	}
 }
 
@@ -2048,6 +2056,22 @@ button:focus {
 			top: 400px !important;
 			z-index: 10;
 		}
+	}
+}
+
+#habita-cion-nav{
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	display: block;
+	background: red;
+	text-align: center;
+	li{
+		width: 20%;
+		display: inline-block;
+		background: green;
 	}
 }
 
