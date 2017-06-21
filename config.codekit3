@@ -9,96 +9,6 @@
 	],
 "creatorBuild": "25813",
 "files": {
-	"\/allanpoe-exec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe-exec.html",
-		"oF": 0
-		},
-	"\/allanpoe-junior.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe-junior.html",
-		"oF": 0
-		},
-	"\/allanpoe-master.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe-master.html",
-		"oF": 0
-		},
-	"\/allanpoe-suite.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe-suite.html",
-		"oF": 0
-		},
-	"\/allanpoe.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe.html",
-		"oF": 0
-		},
-	"\/belisario-2013.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-2013.html",
-		"oF": 0
-		},
-	"\/belisario-atl.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-atl.html",
-		"oF": 0
-		},
-	"\/belisario-belisario.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-belisario.html",
-		"oF": 0
-		},
-	"\/belisario-comitan.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-comitan.html",
-		"oF": 0
-		},
-	"\/belisario-fuentes.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-fuentes.html",
-		"oF": 0
-		},
-	"\/belisario-octubre.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-octubre.html",
-		"oF": 0
-		},
-	"\/belisario-rufino.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-rufino.html",
-		"oF": 0
-		},
-	"\/belisario-sabines.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-sabines.html",
-		"oF": 0
-		},
-	"\/belisario-suite.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario-suite.html",
-		"oF": 0
-		},
-	"\/belisario.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/belisario.html",
-		"oF": 0
-		},
 	"\/comentarios.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -2379,12 +2289,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/index.html",
-		"oF": 0
-		},
 	"\/index_.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -2700,30 +2604,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index.html",
-		"oF": 0
-		},
-	"\/tennyson-exec.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tennyson-exec.html",
-		"oF": 0
-		},
-	"\/tennyson-master.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tennyson-master.html",
-		"oF": 0
-		},
-	"\/tennyson-suite.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tennyson-suite.html",
-		"oF": 0
-		},
-	"\/tenyson.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tenyson.html",
 		"oF": 0
 		},
 	"\/videos\/bacalar.mp4": {
