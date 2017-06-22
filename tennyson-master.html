@@ -51,6 +51,13 @@
 
 <div id="fullpage">
 	<div class="section" id="section0">
+	
+		<ul id="habita-cion-nav">
+			<li><a href="tennyson-suite.html">Suite</a></li>
+			<li><a href="tennyson-exec.html">Executive Suite</a></li>
+			<li><a href="#!" class="active">Master Suite</a></li>
+		</ul>
+	
 		<div class="video-bgbox habita-bg">
 			<!--<video id="myVideo" loop muted data-autoplay>
 				<source src="videos/v1.mp4" type="video/mp4">
@@ -58,7 +65,7 @@
 				 <source src="videos/v1.ogv" type="video/ogg" />
 			</video>-->
 			<div class="oflw" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/habita-ten-bg3.jpg');"></div>
-			<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" target="_blank" class="internal-headng" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-sine" style="color: #806AEF;">
+			<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" target="_blank" class="internal-headng" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-sine" style="color: #FEC32D;">
 				MASTER<br />SUITE<br />
 				<span>VER DISPONIBILIDAD</span>
 			</a>
@@ -91,7 +98,7 @@
 			</p></div>
 			<div class="clearfix"></div>
 			<div class="col s12 m6 img-a">
-				<img src="images/junior-img-te.jpg" width="300" alt="" class="layer" data-depth="0.0"  />
+				<img src="images/junior-img-tex.jpg" width="300" alt="" class="layer" data-depth="0.0"  />
 				<div class="borderimg-a layer" data-depth="0.40" ></div>
 			</div>
 			<div class="col s12 m6 diponible-bx">
@@ -112,10 +119,10 @@
 			<div class="clearfix"></div>
 			<div class="col s12 m6 txtin-b">
 				<ul data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-sine">
-					<li>- 5 habitaciones</li>
+					<li>- 2 habitaciones</li>
 					<li>- Cama King size</li>
-					<li>- Baño privado</li>
-					<li>- 20-30 m2</li>
+					<li>- Sala</li>
+					<li>- Desayuno Incluído</li>
 				</ul>
 			</div>
 			<div class="col s12 m6 img-b">
@@ -123,7 +130,8 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12">
-				<img class="img-c layer" data-depth="0.3" src="images/junior-img-tg.jpg" width="450" alt="" />
+				<img class="img-c layer" data-depth="0.3" src="images/junior-img-d-2x.jpg" width="300" alt="" />
+				<img class="img-d layer" data-depth="0.6" src="images/junior-img-c-2x.jpg" width="450" alt="" />
 			</div>
 		</div>
 	</div>
@@ -267,6 +275,7 @@
 					if(anchorLink == 'firstPage'){
 						$('.top-brand-bar').addClass('habita-in');
 						$('.close-ovrly').show();
+						$('#habita-cion-nav').removeClass('animated fadeIn show-me');
 					}
 					
 					if(anchorLink == '3rdPage'){
@@ -284,6 +293,15 @@
 					if(anchorLink != 'firstPage'){
 						$('.top-brand-bar').removeClass('habita-in');
 						$('.close-ovrly').hide();
+						$('#habita-cion-nav').addClass('animated fadeIn show-me');
+					}
+					
+					if(anchorLink == 'footer'){
+						$('#habita-cion-nav').fadeOut('slow');
+					}
+					
+					if(anchorLink != 'footer' && anchorLink != 'firstPage'){
+						$('#habita-cion-nav').fadeIn();
 					}
 					
 				}
