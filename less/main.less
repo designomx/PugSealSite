@@ -452,7 +452,7 @@ body{
 	height: 5%;
 	position: absolute;
 	left: 0;
-	bottom: 0px;
+	bottom: 50px;
 	z-index: 89;
 	svg{
 		display: block;
@@ -1784,21 +1784,33 @@ button:focus {
  		border: 4px solid white;
  		position: absolute;
  		left: 50%;
- 		top: 12%;
+ 		top: 22%;
  		transform: translate(-50%,0%);
+ 		&.movelext{
+ 			top: 12%;
+ 			margin-left: -110px;
+ 		}
  	}
  	.suite-actns{
  		width: 420px;
 	    height: 190px;
 	    position: absolute;
-	    left: 50%;
-	    top: 50%;
+	    left: 45%;
+	    top: 45%;
 	    transform: translate(-50%,0%);
 	    h2{
-	    	margin-top: 0;
+	    	margin-top: 100px;
 	    }
 	    .actns-bx{
 	    	top: 70%;
+	    }
+	    &.tennmove{
+	    	left: 50%;
+	    	top: 48%;
+	    	h2{
+	    		margin-top: 0;
+	    		margin-left: 140px;
+	    	}
 	    }
  	}
 }
@@ -1833,15 +1845,18 @@ button:focus {
 			border: 4px solid white;
 			position: absolute;
 			left: 50%;
-			top: 12%;
+			top: 18%;
 			transform: translate(-50%,0%);
+			&.mastermvo{
+				left: 65% !important;
+			}
 		}
 	.suite-actns{
-			width: 420px;
+		width: 420px;
 	    height: 190px;
 	    position: absolute;
-	    left: 50%;
-	    top: 50%;
+	    left: 35%;
+	    top: 30%;
 	    transform: translate(-50%,0%);
 	    h2{
 	    	margin-top: 0;
@@ -2061,17 +2076,35 @@ button:focus {
 
 #habita-cion-nav{
 	width: 100%;
-	height: 30px;
-	position: fixed;
-	bottom: 0;
+	position: absolute;
+	bottom: 10px;
 	z-index: 999;
 	display: block;
-	background: red;
 	text-align: center;
 	li{
 		width: 20%;
 		display: inline-block;
-		background: green;
+		margin: 0;
+		padding: 0;
+		a{
+			color: white;
+			font-family: 'OratorStd';
+			display: block;
+			background: rgba(0, 0, 0, .6);
+			padding: 6px 0 0 0;
+			&.active{
+				background: rgba(0, 0, 0, 1);
+				cursor: default;
+			}
+			&:hover{
+				background: rgba(0, 0, 0, 1);
+			}
+		}
+	}
+	&.show-me{
+		position: fixed;
+		bottom: auto;
+		top: 101px;
 	}
 }
 

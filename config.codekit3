@@ -1356,6 +1356,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/exec-bg-x.jpg": {
+		"ft": 16384,
+		"iS": 182832,
+		"oA": 0,
+		"oAP": "\/images\/exec-bg-x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/exec-bg.jpg": {
 		"ft": 16384,
 		"iS": 44097,
@@ -1364,6 +1374,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/images\/exec-img-a-3.jpg": {
+		"ft": 16384,
+		"iS": 108743,
+		"oA": 0,
+		"oAP": "\/images\/exec-img-a-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/exec-img-a-4.jpg": {
+		"ft": 16384,
+		"iS": 84020,
+		"oA": 0,
+		"oAP": "\/images\/exec-img-a-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/experience-bg.jpg": {
@@ -1470,6 +1500,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/habita-poe-exe-3.jpg": {
+		"ft": 16384,
+		"iS": 162415,
+		"oA": 0,
+		"oAP": "\/images\/habita-poe-exe-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/habita-ten-bg.jpg": {
 		"ft": 16384,
 		"iS": 219512,
@@ -1500,11 +1540,42 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/habita-ten-bg2y.jpg": {
+		"ft": 16384,
+		"iS": 262817,
+		"oA": 0,
+		"oAP": "\/images\/habita-ten-bg2y.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/habita-ten-bg3.jpg": {
 		"ft": 16384,
 		"iS": 164034,
 		"oA": 0,
 		"oAP": "\/images\/habita-ten-bg3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/habita-ten-bg3.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/habita-ten-bg3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/habita-ten-bgx.jpg": {
+		"ft": 16384,
+		"iS": 134011,
+		"oA": 0,
+		"oAP": "\/images\/habita-ten-bgx.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1645,7 +1716,7 @@
 		"oAP": "\/images\/junior-img-a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/junior-img-b-2.png": {
@@ -1699,7 +1770,17 @@
 		"oAP": "\/images\/junior-img-c-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-c-2x.jpg": {
+		"ft": 16384,
+		"iS": 85723,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-c-2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/junior-img-c-3.jpg": {
@@ -1729,7 +1810,28 @@
 		"oAP": "\/images\/junior-img-d-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-d-2x.jpg": {
+		"ft": 16384,
+		"iS": 91846,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-d-2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-d-2x.png": {
+		"ft": 32768,
+		"iS": 556243,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-d-2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/junior-img-d-3.jpg": {
@@ -1752,6 +1854,16 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/junior-img-tax.jpg": {
+		"ft": 16384,
+		"iS": 80918,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-tax.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/junior-img-tb.jpg": {
 		"ft": 16384,
 		"iS": 102594,
@@ -1771,6 +1883,27 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-tbx.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-tbx.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-tby.jpg": {
+		"ft": 16384,
+		"iS": 101607,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-tby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/junior-img-tc.jpg": {
@@ -1809,6 +1942,27 @@
 		"iS": 99742,
 		"oA": 0,
 		"oAP": "\/images\/junior-img-te.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-te.png": {
+		"ft": 32768,
+		"iS": 901612,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-te.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/junior-img-tex.jpg": {
+		"ft": 16384,
+		"iS": 133988,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-tex.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2066,7 +2220,7 @@
 		"oAP": "\/images\/suite-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/suite1.jpg": {
@@ -2292,6 +2446,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/tennsuite2x.jpg": {
+		"ft": 16384,
+		"iS": 71856,
+		"oA": 0,
+		"oAP": "\/images\/tennsuite2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/tennsuite3.jpg": {
 		"ft": 16384,
 		"iS": 48445,
@@ -2300,6 +2464,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/tennsuite3x.jpg": {
+		"ft": 16384,
+		"iS": 66253,
+		"oA": 0,
+		"oAP": "\/images\/tennsuite3x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/tennsuitex.jpg": {
+		"ft": 16384,
+		"iS": 48271,
+		"oA": 0,
+		"oAP": "\/images\/tennsuitex.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/tennyson-a.png": {

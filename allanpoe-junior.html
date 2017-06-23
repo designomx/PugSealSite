@@ -51,6 +51,14 @@
 
 <div id="fullpage">
 	<div class="section" id="section0">
+		
+		<ul id="habita-cion-nav">
+			<li><a href="#!" class="active">Junior Suite</a></li>
+			<li><a href="allanpoe-suite.html">Suite</a></li>
+			<li><a href="allanpoe-exec.html">Executive Suite</a></li>
+			<li><a href="allanpoe-master.html">Master Suite</a></li>
+		</ul>
+	
 		<div class="video-bgbox habita-bg">
 			<!--<video id="myVideo" loop muted data-autoplay>
 				<source src="videos/v1.mp4" type="video/mp4">
@@ -114,8 +122,7 @@
 				<ul data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-sine">
 					<li>- 5 habitaciones</li>
 					<li>- Cama King size</li>
-					<li>- Baño privado</li>
-					<li>- 20-30 m2</li>
+					<li>- Desayuno Incluído</li>
 				</ul>
 			</div>
 			<div class="col s12 m6 img-b">
@@ -123,8 +130,8 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12">
-				<img class="img-c layer" data-depth="0.3" src="images/junior-img-a-2.jpg" width="300" alt="" />
-				<img class="img-d layer" data-depth="0.6" src="images/bellY.jpg" width="450" alt="" />
+				<img class="img-c layer" data-depth="0.3" src="images/junior-img-d-2.jpg" width="450" alt="" />
+				<img class="img-d layer" data-depth="0.6" src="images/junior-img-c-2.jpg" width="450" alt="" />
 			</div>
 		</div>
 	</div>
@@ -143,9 +150,9 @@
 				<li>/</li>
 				<li><a href="#!">HISTORIA</a></li>
 				<li>/</li>
-				<li><a href="#!">EVENTS</a></li>
+				<li><a href="#!">EVENTOS</a></li>
 				<li>/</li>
-				<li><a href="#!">CONTACT</a></li>
+				<li><a href="#!">CONTACTO</a></li>
 			</ul>
 			<div class="bottomlinesvg">
 				<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
@@ -171,7 +178,7 @@
 		<div class="row ubicaciones">
 			<div class="col s12 m4">
 				<h3><a href="belisario.html">B E L I S A R I O &nbsp; D O M ÍN G U E Z</a></h3>
-				<p>1er. Cerrada Belisario Dominguez No. 16
+				<p>1er. Cerrada Belisario Dominguez
 				<br />
 				Col. Del Carmen
 				<br />
@@ -268,6 +275,7 @@
 					if(anchorLink == 'firstPage'){
 						$('.top-brand-bar').addClass('habita-in');
 						$('.close-ovrly').show();
+						$('#habita-cion-nav').removeClass('animated fadeIn show-me');
 					}
 					
 					if(anchorLink == '3rdPage'){
@@ -285,6 +293,15 @@
 					if(anchorLink != 'firstPage'){
 						$('.top-brand-bar').removeClass('habita-in');
 						$('.close-ovrly').hide();
+						$('#habita-cion-nav').addClass('animated fadeIn show-me');
+					}
+					
+					if(anchorLink == 'footer'){
+						$('#habita-cion-nav').fadeOut('slow');
+					}
+					
+					if(anchorLink != 'footer' && anchorLink != 'firstPage'){
+						$('#habita-cion-nav').fadeIn();
 					}
 					
 				}
