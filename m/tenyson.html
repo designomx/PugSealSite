@@ -15,7 +15,7 @@
 
 	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body class="bodyNoX">
 	<div class="navbar-fixed" >
 		<nav>
 			<div class="nav-wrapper">
@@ -45,7 +45,7 @@
 					</div>
 				</div>
 			</div>
-			<img src="../images/logo2xw.png" class="responsive-image logoindividuales">
+			<img src="../images/logo2xw.png" class="responsive-img logoindividuales">
 			<div class="clearfix"></div>
 			<div class="col s12 footportadaindividuales center-align">
 				<span>ROOMS</span>
@@ -59,12 +59,123 @@
 						<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
 					</g>
 					</svg>
-					
+
 				</div>
 			</div>
 		</div>
 		<div class="row" id='section-rooms'>
-			bla bla bla
+			<div class="col s8 offset-s2 valign-wrapper logo-rooms">
+				<img src="../images/logo2x.png" class="responsive-img">
+			</div>
+			<div class="col s12 room-preview-left-box">
+				<img src="../images/room_preview.png" class="responsive-img room-preview-left-img">
+				<a class="ver_mas_room_left col s4 offset-s8">Galeria ...</a>
+				<div class="s12 box-titulos-left">
+					<div class="col s9 offset-s3 titulo_room_left center-align">
+							bed & breakfast
+					</div>
+					<div class="col s5 offset-s3 push-s2 subtitulo_room_left center-align" style="background-color: #000;color:#fff;">
+						boutique
+					</div>
+				</div>
+				<div class="clearfix"></div>
+				<div class="box especificaciones-room-left">
+					<div class="col s5 offset-s7 tipo-room">
+						SuITE
+					</div>
+					<div class="col s5 offset-s7 descripcion-room">
+						20-30mts2<br>
+						cama king size
+					</div>
+				</div>
+				<div class="col s6 offset-s6 box_ubicacion_room_left">
+					polanco / cdmx
+				</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col s12 room-preview-right-box">
+				<img src="../images/room_preview.png" class="responsive-img room-preview-right-img">
+				<a class="ver_mas_room_right col s4">Galeria ...</a>
+				<!--
+				<div class="s12 box-titulos-right">
+					<div class="col s9 offset-s3 titulo_room_right center-align">
+							bed & breakfast
+					</div>
+					<div class="col s5 offset-s3 push-s2 subtitulo_room_tight center-align" style="background-color: #000;color:#fff;">
+						boutique
+					</div>
+				</div>
+				-->
+				<div class="clearfix"></div>
+				<div class="box especificaciones-room-right">
+					<div class="col s5  tipo-room">
+						executive<br>
+						SuITE
+					</div>
+					<div class="clearfix"></div>
+					<div class="col s5 descripcion-room">
+						20-30mts2<br>
+						cama king size
+					</div>
+				</div>
+				<!--
+				<div class="col s6 offset-s6 box_ubicacion_room_right">
+					polanco / cdmx
+				</div>
+				-->
+			</div>
+			<div class="clearfix"></div>
+			<div class="col s12 room-preview-center-box">
+				<img src="../images/room_preview.png" class="responsive-img room-preview-center-img">
+				<a class="ver_mas_room_center col s4 push-s6">Galeria ...</a>
+				<!--
+				<div class="s12 box-titulos-right">
+					<div class="col s9 offset-s3 titulo_room_right center-align">
+							bed & breakfast
+					</div>
+					<div class="col s5 offset-s3 push-s2 subtitulo_room_tight center-align" style="background-color: #000;color:#fff;">
+						boutique
+					</div>
+				</div>
+				-->
+				<div class="clearfix"></div>
+				<div class="box especificaciones-room-center">
+					<div class="col s6 offset-s3 tipo-room center-align">
+						Master<br>
+						SuITE
+					</div>
+					<div class="clearfix"></div>
+					<div class="col s6 offset-s3 descripcion-room center-align">
+						20-30mts2<br>
+						cama king size
+					</div>
+				</div>
+				<!--
+				<div class="col s6 offset-s6 box_ubicacion_room_right">
+					polanco / cdmx
+				</div>
+				-->
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<br>
+		<div class="row" id='section-extra'>
+			<div class="col s10 offset-s1 info-extra center-align">
+				<h1>
+					11 suites
+				</h1>
+				<h3>
+					sentimientos
+				</h3>
+			</div>
+			<div class="clearfix"></div>
+			<div class="col s8 offset-s2 center-align concepto-extra">
+				concepto<br>
+				German velasco
+			</div>
+			<div class="col s10 push-s1 center-align imagen-extra">
+				<img src="../images/icon.png" class="responsive-img " style="margin: 0 auto;">
+			</div>
 		</div>
 	</div>
 
@@ -95,7 +206,7 @@
 	  </nav>
 	</div>
 
-	
+
 	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 	<script src="../js/materialize.min.js"></script>
 	<script type="text/javascript" src="../fullpage/jquery.fullpage.min.js"></script>
@@ -103,10 +214,10 @@
 	<script src="../js/jquery.parallax.min.js"></script>
 	<script src="../js/mainmobile.js"></script>
 	<script src="../js/individuales-mobile.js"></script>
-		
+
 	<script>
 	    AOS.init();
-	</script>	
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -116,32 +227,32 @@
 			scrollingSpeed: 1000,
 			afterLoad: function(anchorLink, index){
 					var loadedSection = $(this);
-					
+
 					if(anchorLink == 'firstPage'){
 						$('.close-ovrly').show();
 					}
-					
+
 					if(anchorLink == '3rdPage'){
 						$('.allanpoe-bx').addClass('slideInLeft back-o');
 						$('.belisario-bx').addClass('slideInDown back-o');
 						$('.tennyson-bx').addClass('slideInUp back-o');
 					}
-					
+
 					if(anchorLink != '3rdPage'){
 						$('.allanpoe-bx').removeClass('slideInLeft back-o');
 						$('.belisario-bx').removeClass('slideInDown back-o');
 						$('.tennyson-bx').removeClass('slideInUp back-o');
-					}					
-			
+					}
+
 					if(anchorLink != 'firstPage'){
 						$('.close-ovrly').hide();
 					}
-					
+
 				}
 			});
 
 		});
 	</script>
-	
+
 </body>
 </html>
