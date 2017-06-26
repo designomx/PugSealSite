@@ -2374,3 +2374,33 @@ nav .nav-wrapper .book-now {
 @viewport {
   orientation: portrait;
 }
+.portadaindividuales {
+  background-image: url('../images/background-portada.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  font-family: BaronNeue;
+  color: #FFF;
+  position: absolute;
+}
+.portadaindividuales .tituloindividuales {
+  color: #FFF;
+  font-size: 19px;
+}
+.portadaindividuales .ubicacionindividuales {
+  color: #FFF;
+  font-size: 14px;
+}
+.logoindividuales {
+  position: relative;
+  display: block;
+  /*margin: 0 auto;*/
+  width: 30%;
+  top: 70%;
+  left: 5%;
+}
+.footportadaindividuales {
+  font-family: BaronNeue;
+  color: #000;
+  font-size: 19px;
+}
