@@ -2490,4 +2490,38 @@ nav .nav-wrapper .book-now {
 .bodyNoX {
   overflow-x: hidden;
 }
+/*modalgaleria*/
+.modalgaleria {
+  font-family: BaronNeue;
+  height: 100% !important;
+  max-height: 100% !important;
+  width: 100% !important;
+  top: 0 !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.modalgaleria .modal-content {
+  color: #fff;
+}
+.modalgaleria .modal-content .closemodal {
+  color: #fff;
+  font-size: 30px;
+}
+.modalgaleria .modal-content .titulomodal {
+  color: #fff;
+}
+.modalgaleria .modal-content .subtitulomodal {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+.modalgaleria .modal-content .descripcionomodal {
+  color: #fff;
+  margin-top: 30px;
+}
+.modalgaleria .modal-content .checardisponiblemodal {
+  color: #fff;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=mainmobile.css.map */

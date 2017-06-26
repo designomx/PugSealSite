@@ -68,8 +68,8 @@
 				<img src="../images/logo2x.png" class="responsive-img">
 			</div>
 			<div class="col s12 room-preview-left-box">
-				<img src="../images/room_preview.png" class="responsive-img room-preview-left-img">
-				<a class="ver_mas_room_left col s4 offset-s8">Galeria ...</a>
+				<a data-target="modal1"><img src="../images/room_preview.png" class="responsive-img room-preview-left-img"></a>
+				<a data-target="modal1" class="ver_mas_room_left col s4 offset-s8">Galeria ...</a>
 				<div class="s12 box-titulos-left">
 					<div class="col s9 offset-s3 titulo_room_left center-align">
 							bed & breakfast
@@ -94,8 +94,8 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12 room-preview-right-box">
-				<img src="../images/room_preview.png" class="responsive-img room-preview-right-img">
-				<a class="ver_mas_room_right col s4">Galeria ...</a>
+				<a data-target="modal1"><img src="../images/room_preview.png" class="responsive-img room-preview-right-img"></a>
+				<a data-target="modal1" class="ver_mas_room_right col s4">Galeria ...</a>
 				<!--
 				<div class="s12 box-titulos-right">
 					<div class="col s9 offset-s3 titulo_room_right center-align">
@@ -126,8 +126,8 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12 room-preview-center-box">
-				<img src="../images/room_preview.png" class="responsive-img room-preview-center-img">
-				<a class="ver_mas_room_center col s4 push-s6">Galeria ...</a>
+				<a data-target="modal1"><img src="../images/room_preview.png" class="responsive-img room-preview-center-img"></a>
+				<a data-target="modal1" class="ver_mas_room_center col s4 push-s6">Galeria ...</a>
 				<!--
 				<div class="s12 box-titulos-right">
 					<div class="col s9 offset-s3 titulo_room_right center-align">
@@ -206,6 +206,56 @@
 	  </nav>
 	</div>
 
+	 <!-- Modal Structure -->
+	  <div id="modal1" class="modal modalgaleria">
+	    <div class="modal-content row">
+	    	<a class="closemodal col s12 center-align modal-action modal-close">
+	    		x
+	    	</a>
+	    	<div class="titulomodal col s12 center-align">
+	    		T &middot; E &middot; N &middot; N &middot; Y &middot; S &middot; o &middot; N
+	    	</div>
+	    	<div class="subtitulomodal col s12 center-align">
+	    		suite
+	    	</div>
+	    	<div class="slider col s12">
+				<ul class="slides">
+				  <li>
+				    <img src="../images/tennsuite.jpg" class="responsive-img"> <!-- random image 
+				    <div class="caption center-align">
+				      <h3>This is our big Tagline!</h3>
+				      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				    </div>
+				    -->
+				  </li>
+				  <li>
+				    <img src="../images/tennsuite2.jpg" class="responsive-img"> <!-- random image 
+				    <div class="caption left-align">
+				      <h3>Left Aligned Caption</h3>
+				      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				    </div>
+				    -->
+				  </li>
+				  <li>
+				    <img src="../images/tennsuite3.jpg" class="responsive-img"> <!-- random image 
+				    <div class="caption right-align">
+				      <h3>Right Aligned Caption</h3>
+				      <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				    </div>
+				    -->
+				  </li>
+				</ul>
+			</div>
+			<div class="descripcionomodal col s12 ">
+	    		20-30mts2<br>
+				cama king size
+	    	</div>
+	    	<a class="checardisponiblemodal col s12">
+	    		checar disponibilidad
+	    	</a>
+	    </div>
+	  </div>
+
 
 	<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 	<script src="../js/materialize.min.js"></script>
@@ -220,6 +270,13 @@
 	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$('#modal1').modal();
+			$('.slider').slider({
+				full_width: true,
+				indicators:false,
+				autoplay:false
+			});
+			$('.slider').slider('pause');
 			$('#fullpage').fullpage({
 			anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', '6thPage', 'footer'],
 			menu: '#menu',
