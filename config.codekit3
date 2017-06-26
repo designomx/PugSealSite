@@ -7,8 +7,14 @@
 		"uuidString": "908F78E3-5B3E-448E-85FD-E6D9A28BFC52"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/allanpoe-exec.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -236,6 +242,22 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
+		"oF": 0
+		},
+	"\/css\/mainmobile.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/mainmobile-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/mainmobile.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/mainmobile.css.map",
 		"oF": 0
 		},
 	"\/css\/materialize.min.css": {
@@ -807,6 +829,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/allanpoemobile.png": {
+		"ft": 32768,
+		"iS": 348465,
+		"oA": 0,
+		"oAP": "\/images\/allanpoemobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/allanX.jpg": {
 		"ft": 16384,
 		"iS": 138429,
@@ -965,6 +998,17 @@
 		"iS": 4606,
 		"oA": 0,
 		"oAP": "\/images\/belisario-v.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/belisariomobile.png": {
+		"ft": 32768,
+		"iS": 845261,
+		"oA": 0,
+		"oAP": "\/images\/belisariomobile.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2530,6 +2574,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/tennysonmobile.png": {
+		"ft": 32768,
+		"iS": 845261,
+		"oA": 0,
+		"oAP": "\/images\/tennysonmobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/trans.png": {
 		"ft": 32768,
 		"iS": 171,
@@ -2791,6 +2846,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/mainmobile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/mainmobile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/masonry.pkgd.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -2880,10 +2944,74 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/less\/mainmobile.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/less\/mainmobile-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/less\/mainmobile.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/css\/mainmobile.css",
+		"oF": 0,
+		"oS": 1,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/m\/dbklphmbjiblolmk.jpg": {
+		"ft": 16384,
+		"iS": 153077,
+		"oA": 0,
+		"oAP": "\/m\/dbklphmbjiblolmk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/m\/gpdiemdjfjndiioo.png": {
+		"ft": 32768,
+		"iS": 217802,
+		"oA": 0,
+		"oAP": "\/m\/gpdiemdjfjndiioo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/imklhnpaphfngccg.jpg": {
+		"ft": 16384,
+		"iS": 206782,
+		"oA": 0,
+		"oAP": "\/m\/imklhnpaphfngccg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/m\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index.html",
+		"oF": 0
+		},
+	"\/m\/mobile.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/mobile.html",
 		"oF": 0
 		},
 	"\/tennyson-exec.html": {
@@ -4927,6 +5055,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
