@@ -98,7 +98,7 @@
 /*- - - - - - */
 /*HAMBURGER*/
 .hamburger {
-  padding: 15px 35px;
+  padding: 21px 35px;
   display: inline-block;
   cursor: pointer;
   transition-property: opacity, filter;
@@ -217,10 +217,10 @@ body{
 	.boo-king-a{
 		position: absolute;
 		left: 50%;
-		top: 35px;
+		top: 40px;
 		color: white;
 		font-family: 'BaronNeueBold';
-		font-size: 18px;
+		font-size: 22px;
 		display: inline-block;
 		margin-left: -90px;
 		letter-spacing: 10px;
@@ -276,7 +276,7 @@ body{
 				transition: all 1s linear;
 				float: left;
 				font-family: 'OratorStdSlanted';
-				padding: 10px 5px;
+				padding: 15px 5px 5px 5px;
 				margin: 0 auto;
 				font-size: 12px;
 				color: white;
@@ -447,12 +447,24 @@ body{
 	overflow: hidden;
 }
 
+.pug-seal-decox{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 0px;
+	display: block;
+	background: white url('../images/barrawho.jpg') no-repeat center center;
+	background-size: auto 90px;
+	overflow: hidden;
+	opacity: .6;
+}
+
 .down-scroll{
 	width: 100%;
 	height: 5%;
 	position: absolute;
 	left: 0;
-	bottom: 50px;
+	bottom: 20px;
 	z-index: 89;
 	svg{
 		display: block;
@@ -853,11 +865,11 @@ body{
 }
 
 #section5{
-	height: 650px !important;
+	/*height: 650px !important;*/
 	.fp-tableCell{display: block;}
 	.left-bx{
 		position: relative;
-		top: 50px;
+		top: 140px;
 		height: 600px;
 		background: #faf6e1;
 		border: 20px solid white;
@@ -890,11 +902,10 @@ body{
 	}
 	.right-bx{
 		position: relative;
-		top: 50px;
+		top: 140px;
 		height: 600px;
 		border: 20px solid white;
 		border-top: none;
-		overflow: hidden;
 		/*background: url('../images/experience-bg2.jpg') no-repeat left top;*/
 		-webkit-background-size: cover;
 		  -moz-background-size: cover;
@@ -902,8 +913,9 @@ body{
 		  background-size: cover;
 		 .svgline{
 		 	position: absolute;
-		 	left: -20px;
+		 	left: -15px;
 		 	top: 100px;
+		 	z-index: 999;
 		 }
 		 .instafoot{
 		 	width: 100%;
@@ -916,6 +928,11 @@ body{
 		 		margin: 20px auto;
 		 	}
 		 }
+		 iframe{
+		 	height: 100% !important;
+		 	max-height: 500px;
+		 	overflow: hidden;
+		 }
 	}
 }
 
@@ -925,7 +942,7 @@ body{
 		width: 100%;
 		text-align: center;
 		position: relative;
-		top: 110px;
+		top: 140px;
 		letter-spacing: 10px;
 		a{
 			display: inline-block;
@@ -1964,6 +1981,18 @@ button:focus {
 	.row{
 		position: relative;
 		top: 100px;
+		.txtin-b{
+			ul{
+				width: 250px;
+				display: block;
+				font-family: 'OratorStdSlanted';
+				font-size: 14px;
+				margin: 0 auto;
+				position: relative;
+				top: 100px;
+				left: -300px;
+			}
+		}
 		h2{
 			width: 100%;
 			display: block;
@@ -1978,15 +2007,15 @@ button:focus {
 		p{
 			display: block;
 			font-family: 'OratorStd';
-			font-size: 12px;
+			font-size: 14px;
 			color: #808080;
-			padding: 100px 100px 100px 20px;
+			padding: 100px 100px 50px 20px;
 		}
 		.col{
 			position: relative;
 		}
 		.img-a{
-			padding-top: 50px;
+			padding-top: 0px;
 			img{
 				display: block;
 				margin: 0 auto;
@@ -2050,11 +2079,11 @@ button:focus {
 		}
 		.img-b{
 			height: 100px;
-			position: relative;
+			position: absolute;
+			left: 0;
 			img{
 				display: block;
 				position: absolute;
-				left: 50% !important;
 				top: -150px !important;
 				margin-left: -250px;
 			}
@@ -2104,7 +2133,20 @@ button:focus {
 	&.show-me{
 		position: fixed;
 		bottom: auto;
-		top: 101px;
+		top: 118px;
+		li{
+			width: 12%;
+		}
+	}
+}
+
+.btn-floating{
+	z-index: 9999;
+		position: fixed;
+	&.floating-br{
+		bottom: 20px;
+		left: auto;
+		right: 20px;
 	}
 }
 

@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="fullpage/jquery.fullpage.min.css">
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/animate.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -25,6 +27,8 @@
 	<li data-menuanchor="5thPage"><a href="#5thPage">Fifth slide</a></li>
 	<li data-menuanchor="6thpage"><a href="#6thpage">Sixth slide</a></li>
 </ul>-->
+
+<a href="#firstPage" class="btn-floating floating-br btn-large waves-effect waves-light grey darken-3" style="display: none;"><i class="material-icons">keyboard_arrow_up</i></a>
 
 <div class="top-brand-bar">
 
@@ -45,8 +49,8 @@
 		</ul>
 	</div>
 	<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" class="boo-king-a">Book Now</a>
-	<img class="puglogob" src="images/logo2x.png" height="53" alt="PugSeal-Logo"/>
-	<a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="53" alt="PugSeal-Logo"/></a>
+	<img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo"/>
+	<a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo"/></a>
 </div>
 
 <div id="fullpage">
@@ -78,7 +82,7 @@
 				</span>
 			</div>
 		</div>
-		<div class="down-scroll">
+		<a href="#secondPage" class="down-scroll">
 			<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
 			<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
 			<defs>
@@ -89,7 +93,7 @@
 			</g>
 			</svg>
 			
-		</div>
+		</a>
 		<div class="clearfix"></div>
 		<div class="pug-seal-deco" style="background: white url('images/barrawho-rooms.jpg') no-repeat center center;"></div>
 		<div class="clearfix"></div>
@@ -100,7 +104,7 @@
 			<p data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">Es uno de los dioses de la cultura mesoamericana, llegando a considerarse como el dios principal del panteón prehispánico.</p>
 			<p data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back"><em>Leer más...</em></p>
 		</div>
-		<div class="down-scroll">
+		<a href="#3rdPage" class="down-scroll">
 			<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
 			<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
 			<defs>
@@ -111,7 +115,7 @@
 			</g>
 			</svg>
 			
-		</div>
+		</a>
 		<div class="quetzaL">
 			<div class="vectrL parallax-bx">
 				<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
@@ -152,7 +156,7 @@
 		</div>
 	</div>
 	<div class="section fp-auto-height" id="sectionRooms">
-	
+	<div class="pug-seal-decox" style="background: white url('images/barrawho-rooms.jpg') no-repeat center center;"></div>
 		<div class="row">
 			<div class="col s12 m6 suite">
 				<div class="suite-bg" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-sine"></div>
@@ -313,7 +317,11 @@
 	<div class="overlay">
 	  <nav class="overlay-menu">
 	    <ul>
-	      <li><a href="index.html#3rdPage">B&B</a></li>
+	      <li><a href="index.html#3rdPage">B&B</a>
+  	      	<ul><li><a href="allanpoe.html"><small class="grey-text">ALLANPOE</small></a></li></ul>
+  	      	<ul><li><a href="belisario.html"><small class="grey-text">BELISARIO</small></a></li></ul>
+  	      	<ul><li><a href="tenyson.html"><small class="grey-text">TENNYSON</small></a></li></ul>
+  	      </li>
 	      <li><a href="index.html#4thpage">Experiences</a></li>
 	      <li><a href="index.html#6thPage">Art Collection</a></li>
 	      <li><a class="close-ovrly" href="#!"><!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
@@ -356,9 +364,11 @@
 			scrollingSpeed: 1000,
 			afterLoad: function(anchorLink, index){
 					var loadedSection = $(this);
+
 					
 					if(anchorLink == 'firstPage'){
 						$('.close-ovrly').show();
+						$('.btn-floating').fadeOut();
 					}
 					
 					if(anchorLink == '3rdPage'){
@@ -375,6 +385,7 @@
 			
 					if(anchorLink != 'firstPage'){
 						$('.close-ovrly').hide();
+						$('.btn-floating').fadeIn();
 					}
 					
 				}
