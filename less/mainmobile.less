@@ -2246,6 +2246,11 @@ button:focus {
 	margin-top: -5%;
 	left: 23%;
 }
+@media (min-width: 600px) {
+	#rectanglebelisario{
+		margin-top: 0%;
+	}
+}
 .imagentriangularbelisario{
 	position: relative;
 	display: block;
@@ -2277,15 +2282,29 @@ button:focus {
 	border-style: dashed;
 	font-family: BaronNeue;
 	font-size: 25px;
-	top:-10%;
+	top:-5%;
 }
 .black-rectangle{
 	background-color: #000;
-	top: -5%;
+	top: 0%;
+	max-height: 500px;
 }
 .texto-feel{
 	font-size: 15px;
 	font-family: BaronNeue;
+	top: 5%;
+}
+
+@media (min-width: 600px) {
+	.feel{
+		top:0%;
+	}
+	.black-rectangle{
+		top: 5%;
+	}
+	.texto-feel{
+		top: 10%;
+	}
 }
 
 /*nav bar*/
@@ -2297,6 +2316,9 @@ nav{
 			font-size: 15px;
 		}
 	}
+}
+.navbar-fixed-mainmobile{
+	position: fixed !important;
 }
 
 @viewport {

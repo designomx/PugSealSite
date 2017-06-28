@@ -12,11 +12,11 @@
 	<link rel="stylesheet" href="../fullpage/jquery.fullpage.min.css">
 	<link rel="stylesheet" href="../css/aos.css">
 	<link rel="stylesheet" href="../css/animate.min.css">
-	
+
 <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 </head>
 <body>
-	<div class="navbar-fixed" style="display: none;">
+	<div class="navbar-fixed navbar-fixed-mainmobile" style="display: none;">
 		<nav>
 			<div class="nav-wrapper">
 				<span class="brand-logo book-now">b o o k &nbsp; n o w</span>
@@ -32,7 +32,6 @@
 			</div>
 		</nav>
 	</div>
-  	
 <div id="fullpage">
 	<div class="section" id="section0">
 		<div class="video-bgbox" style="background-image: url('../images/sectionA-bg.jpg');">
@@ -60,7 +59,7 @@
 				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
 			</g>
 			</svg>
-			
+
 		</div>
 		<div class="clearfix"></div>
 		<div class="pug-seal-deco"></div>
@@ -83,7 +82,7 @@
 				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
 			</g>
 			</svg>
-			
+
 		</div>
 	</div>
 	<div class="section sectionSedes">
@@ -114,7 +113,7 @@
 			</div>
 			<div class="border-inferior col s8 push-s2"></div>
 		</div>
-		
+
 	</div>
 	<div class="section sectionSedes">
 		<div class="sectionallanpoe row">
@@ -176,7 +175,7 @@
 			<div class="border-inferior col s8 push-s2"></div>
 		</div>
 	</div>
-	
+
 	<div class="section row" id="">
 		<div class="feel col s10 push-s1 right-align">
 			FEEL<br>
@@ -238,7 +237,7 @@
 	  </nav>
 	</div>
 
-	
+
 		<script type="text/javascript" src="../js/jquery-1.11.2.min.js"></script>
 		<script src="../js/materialize.min.js"></script>
 		<script type="text/javascript" src="../fullpage/jquery.fullpage.min.js"></script>
@@ -246,10 +245,10 @@
 		<script src="../js/jquery.parallax.min.js"></script>
 		<script src="../js/mainmobile.js"></script>
 		<script src="../js/index-mobile.js"></script>
-		
+
 	<script>
 	    AOS.init();
-	</script>	
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -257,33 +256,35 @@
 			menu: '#menu',
 			scrollBar: true,
 			scrollingSpeed: 1000,
+			paddingTop: '-56px'
+			,
 			afterLoad: function(anchorLink, index){
 					var loadedSection = $(this);
-					
+
 					if(anchorLink == 'firstPage'){
 						$('.top-brand-bar').addClass('initstate-bx');
 						//$('.close-ovrly').show();
 						$('.navbar-fixed').hide();
 					}
-					
+
 					if(anchorLink == '3rdPage'){
 						$('.allanpoe-bx').addClass('slideInLeft back-o');
 						$('.belisario-bx').addClass('slideInDown back-o');
 						$('.tennyson-bx').addClass('slideInUp back-o');
 					}
-					
+
 					if(anchorLink != '3rdPage'){
 						$('.allanpoe-bx').removeClass('slideInLeft back-o');
 						$('.belisario-bx').removeClass('slideInDown back-o');
 						$('.tennyson-bx').removeClass('slideInUp back-o');
-					}					
-			
+					}
+
 					if(anchorLink != 'firstPage'){
 						$('.top-brand-bar').removeClass('initstate-bx');
 						//$('.close-ovrly').hide();
 						$('.navbar-fixed').show();
 					}
-					
+
 				}
 			});
 			$(window).on('orientationchange', function(event){
@@ -319,6 +320,6 @@
 			}
 		});
 	</script>
-	
+
 </body>
 </html>
