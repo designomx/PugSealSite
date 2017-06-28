@@ -20,27 +20,27 @@ $(document).ready(function() {
 			
 //			Casas Animations
 			
-			$('.belisario-a img').mouseover(function(){
+			$('.belisario-a, .belisario-v').mouseover(function(){
 				$('.belisario-img').toggleClass('animatedx pulse');
 			});
 			
-			$('.belisario-a img').mouseleave(function(){
+			$('.belisario-a, .belisario-v').mouseleave(function(){
 				$('.belisario-img').toggleClass('animatedx pulse');
 			});
 			
-			$('.tennyson-a img').mouseover(function(){
+			$('.tennyson-a, .tennyson-v').mouseover(function(){
 				$('.tennyson-img').toggleClass('animatedx pulse');
 			});
 			
-			$('.tennyson-a img').mouseleave(function(){
+			$('.tennyson-a, .tennyson-v').mouseleave(function(){
 				$('.tennyson-img').toggleClass('animatedx pulse');
 			});
 			
-			$('.allanpoe-a img').mouseover(function(){
+			$('.allanpoe-a, .allanpoe-v').mouseover(function(){
 				$('.allanpoe-img').toggleClass('animatedx pulse');
 			});
 			
-			$('.allanpoe-a img').mouseleave(function(){
+			$('.allanpoe-a, .allanpoe-v').mouseleave(function(){
 				$('.allanpoe-img').toggleClass('animatedx pulse');
 			});
 			

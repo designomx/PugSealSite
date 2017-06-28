@@ -911,6 +911,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/background-portada.jpg": {
+		"ft": 16384,
+		"iS": 95643,
+		"oA": 0,
+		"oAP": "\/images\/background-portada.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/barrawho 2.jpg": {
 		"ft": 16384,
 		"iS": 25571,
@@ -1447,7 +1457,7 @@
 		"oAP": "\/images\/experience-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/experience-bg2.jpg": {
@@ -1541,7 +1551,7 @@
 		"oAP": "\/images\/habita-poe-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/habita-poe-exe-3.jpg": {
@@ -1931,7 +1941,7 @@
 		},
 	"\/images\/junior-img-tbx.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 978966,
 		"oA": 0,
 		"oAP": "\/images\/junior-img-tbx.png",
 		"oF": 0,
@@ -1962,12 +1972,12 @@
 		},
 	"\/images\/junior-img-tc.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 186788,
 		"oA": 0,
 		"oAP": "\/images\/junior-img-tc.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2014,12 +2024,12 @@
 		},
 	"\/images\/junior-img-tf.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 206013,
 		"oA": 0,
 		"oAP": "\/images\/junior-img-tf.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2197,6 +2207,17 @@
 		"iS": 1304,
 		"oA": 0,
 		"oAP": "\/images\/right-house.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview.png": {
+		"ft": 32768,
+		"iS": 660473,
+		"oA": 0,
+		"oAP": "\/images\/room_preview.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2684,6 +2705,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/index-mobile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/index-mobile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/individuales-mobile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/individuales-mobile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/isotope.pkgd.min.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3014,6 +3053,12 @@
 		"oAP": "\/m\/mobile.html",
 		"oF": 0
 		},
+	"\/m\/tenyson.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/tenyson.html",
+		"oF": 0
+		},
 	"\/tennyson-exec.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -3054,12 +3099,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/bacalar.webm",
-		"oF": 0
-		},
-	"\/videos\/bacalar_.mp4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/videos\/bacalar_.mp4",
 		"oF": 0
 		},
 	"\/videos\/v1-small.mp4": {

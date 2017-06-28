@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="fullpage/jquery.fullpage.min.css">
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/animate.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -26,7 +27,7 @@
 	<li data-menuanchor="6thpage"><a href="#6thpage">Sixth slide</a></li>
 </ul>-->
 
-
+<a href="#firstPage" class="btn-floating floating-br btn-large waves-effect waves-light grey darken-3" style="display: none;"><i class="material-icons">keyboard_arrow_up</i></a>
 
 <div class="top-brand-bar habita-in">
 
@@ -47,8 +48,8 @@
 		</ul>
 	</div>
 	<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" class="boo-king-a">Book Now</a>
-	<img class="puglogob" src="images/logo2x.png" height="53" alt="PugSeal-Logo"/>
-	<a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="53" alt="PugSeal-Logo"/></a>
+	<img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo"/>
+	<a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo"/></a>
 </div>
 
 <div id="fullpage">
@@ -73,7 +74,7 @@
 				<span>VER DISPONIBILIDAD</span>
 			</a>
 		</div>
-		<div class="down-scroll">
+		<div class="down-scroll" style="bottom: 30px;">
 			<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
 			<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
 			<defs>
@@ -101,8 +102,11 @@
 			</p></div>
 			<div class="clearfix"></div>
 			<div class="col s12 m6 img-a">
-				<img src="images/junior-img-c.jpg" width="300" alt="" class="layer" data-depth="0.0"  />
+				<img src="images/junior-img-c.jpg" width="280" alt="" class="layer" data-depth="0.0"  />
 				<div class="borderimg-a layer" data-depth="0.40" ></div>
+			</div>
+			<div class="col s12 m6 img-b">
+				<img class="layer" data-depth="0" src="images/junior-img-b-2.png" width="280px" alt="" />
 			</div>
 			<div class="col s12 m6 diponible-bx">
 				<div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-sine">
@@ -112,31 +116,16 @@
 					</p>
 				</div>
 			</div>
-		</div>
-		
-	</div>
-	
-	<div class="section parallax-bx" id="sectionroomsb">
-	
-		<div class="row">
-			<div class="clearfix"></div>
 			<div class="col s12 m6 txtin-b">
-				<ul data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-sine">
+				<ul>
 					<li>- 5 habitaciones sencillas</li>
 					<li>- 4 habitaciones dobles</li>
 					<li>- Cama King size</li>
 					<li>- Desayuno Incluído</li>
 				</ul>
 			</div>
-			<div class="col s12 m6 img-b">
-				<img class="layer" data-depth="0.1" src="images/junior-img-b-2.png" width="450px" alt="" />
-			</div>
-			<div class="clearfix"></div>
-			<div class="col s12">
-				<img class="img-c layer" data-depth="0.3" src="images/junior-img-d-2.jpg" width="450" alt="" />
-				<img class="img-d layer" data-depth="0.6" src="images/junior-img-c-2.jpg" width="450" alt="" />
-			</div>
 		</div>
+		
 	</div>
 	
 	<div class="section" id="section6">
@@ -231,7 +220,11 @@
 	<div class="overlay">
 	  <nav class="overlay-menu">
 	    <ul>
-	      <li><a href="index.html#3rdPage">B&B</a></li>
+	      <li><a href="index.html#3rdPage">B&B</a>
+  	      	<ul><li><a href="allanpoe.html"><small class="grey-text">ALLANPOE</small></a></li></ul>
+  	      	<ul><li><a href="belisario.html"><small class="grey-text">BELISARIO</small></a></li></ul>
+  	      	<ul><li><a href="tenyson.html"><small class="grey-text">TENNYSON</small></a></li></ul>
+  	      </li>
 	      <li><a href="index.html#4thpage">Experiences</a></li>
 	      <li><a href="index.html#6thPage">Art Collection</a></li>
 	      <li><a class="close-ovrly" href="#!"><!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
@@ -268,7 +261,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-			anchors: ['firstPage', 'secondPage', '3rdPage', 'footer'],
+			anchors: ['firstPage', 'secondPage', 'footer'],
 			menu: '#menu',
 			scrollBar: true,
 			scrollingSpeed: 1000,
@@ -279,6 +272,7 @@
 						$('.top-brand-bar').addClass('habita-in');
 						$('.close-ovrly').show();
 						$('#habita-cion-nav').removeClass('animated fadeIn show-me');
+						$('.btn-floating').fadeOut();
 					}
 						
 					if(anchorLink == '3rdPage'){
@@ -297,6 +291,7 @@
 						$('.top-brand-bar').removeClass('habita-in');
 						$('.close-ovrly').hide();
 						$('#habita-cion-nav').addClass('animated fadeIn show-me');
+						$('.btn-floating').fadeIn();
 					}
 					
 					if(anchorLink == 'footer'){
