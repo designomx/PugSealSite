@@ -2,14 +2,14 @@
 
 $(document).ready(function() {
 
-			
-			
-	var MOBILE_SITE = 'm/index.html'; // site to redirect to
+
+
+	var DESKTOP_SITE = '/index.html'; // site to redirect to
 
 	// I only want to redirect iPhones, Android phones and a handful of 7" devices
-	if (isMobile.any) {
+	if (!isMobile.any || $(window).width()>1023) {
 
-	//document.location = MOBILE_SITE;
+		document.location = DESKTOP_SITE;
 	}
 
 	$('.hamburgermobile').click(function(){
@@ -61,7 +61,7 @@ $(document).ready(function() {
 			$('.overlay').removeClass('open');
 			useHam=0;
 		}
-	 
+
 	});
 	$('.hamburgermobilenav').on('click', function() {
 		$('.overlay').height(Wheight);
@@ -73,7 +73,7 @@ $(document).ready(function() {
 			$('.overlay').removeClass('open');
 			useHam=0;
 		}
-	 
+
 	});
 
 	$('.close-ovrly, .overlay-menu ul a').on('click', function() {
@@ -88,11 +88,11 @@ $(document).ready(function() {
 
 
 
-	
+
 
 
 });
 
 $(window).on('resize', function () {
-    
+
 });
