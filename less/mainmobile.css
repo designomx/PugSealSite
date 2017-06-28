@@ -2405,3 +2405,169 @@ nav .nav-wrapper .book-now {
   font-size: 19px;
 }
 /*section-rooms*/
+#section-rooms .tipo-room {
+  font-family: 'BaronNeueBlack';
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+#section-rooms .descripcion-room {
+  font-family: BaronNeue;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #9E9E8F;
+}
+#section-rooms .room-preview-left-box {
+  margin-top: 25px;
+}
+#section-rooms .room-preview-left-box .ver_mas_room_left {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  left: -50%;
+}
+#section-rooms .room-preview-left-box .room-preview-left-img {
+  position: absolute;
+  left: -50%;
+}
+#section-rooms .room-preview-left-box .titulo_room_left {
+  font-family: BaronNeue;
+  letter-spacing: 5px;
+  font-size: 18px;
+  margin-top: -20px;
+}
+@media (max-width: 360px) {
+  #section-rooms .room-preview-left-box .titulo_room_left {
+    font-size: 14px;
+  }
+  #section-rooms .room-preview-left-box .subtitulo_room_left {
+    font-size: 12px;
+  }
+}
+#section-rooms .room-preview-left-box .subtitulo_room_left {
+  font-family: BaronNeue;
+  letter-spacing: 4px;
+}
+#section-rooms .room-preview-left-box .box_ubicacion_room_left {
+  font-family: BaronNeue;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #9E9E8F;
+}
+#section-rooms .room-preview-right-box {
+  margin-top: 25px;
+}
+#section-rooms .room-preview-right-box .ver_mas_room_right {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  right: -50%;
+  margin-left: 5px;
+}
+#section-rooms .room-preview-right-box .room-preview-right-img {
+  position: absolute;
+  right: -50%;
+}
+#section-rooms .room-preview-center-box {
+  margin-top: 50px;
+}
+#section-rooms .room-preview-center-box .ver_mas_room_center {
+  position: relative;
+  background-color: #fff;
+  color: #000;
+  margin-left: 5px;
+}
+#section-rooms .room-preview-center-box .room-preview-center-img {
+  /*position: absolute;*/
+}
+/*section-extra*/
+#section-extra {
+  font-family: 'NexaLight';
+  font-style: italic;
+  font-weight: 700 !important;
+  letter-spacing: 5px;
+}
+#section-extra .info-extra {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  margin-top: 50px;
+  color: #000;
+}
+#section-extra .info-extra .titulo-info-extra {
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+#section-extra .info-extra .titulo-info-extra .titulo-info-extra-numero {
+  font-style: normal;
+  font-family: 'NexaBold';
+  font-size: 55px;
+}
+#section-extra .info-extra .titulo-info-extra .titulo-info-extra-primera {
+  font-size: 55px;
+}
+#section-extra .info-extra .subtitulo-info-extra {
+  font-size: 25px;
+}
+#section-extra .info-extra .subtitulo-info-extra .subtitulo-info-extra-primera {
+  font-size: 35px;
+}
+@media (max-width: 360px) {
+  #section-extra .info-extra .titulo-info-extra {
+    font-size: 30px;
+  }
+  #section-extra .info-extra .titulo-info-extra .titulo-info-extra-numero {
+    font-size: 50px;
+  }
+  #section-extra .info-extra .titulo-info-extra .titulo-info-extra-primera {
+    font-size: 50px;
+  }
+  #section-extra .info-extra .subtitulo-info-extra {
+    font-size: 20px;
+  }
+  #section-extra .info-extra .subtitulo-info-extra .subtitulo-info-extra-primera {
+    font-size: 30px;
+  }
+}
+#section-extra .concepto-extra {
+  margin-top: 15px;
+}
+#section-extra .imagen-extra {
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.bodyNoX {
+  overflow-x: hidden;
+}
+/*modalgaleria*/
+.modalgaleria {
+  font-family: BaronNeue;
+  height: 100% !important;
+  max-height: 100% !important;
+  width: 100% !important;
+  top: 0 !important;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+.modalgaleria .modal-content {
+  color: #fff;
+}
+.modalgaleria .modal-content .closemodal {
+  color: #fff;
+  font-size: 30px;
+}
+.modalgaleria .modal-content .titulomodal {
+  color: #fff;
+}
+.modalgaleria .modal-content .subtitulomodal {
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+}
+.modalgaleria .modal-content .descripcionomodal {
+  color: #fff;
+  margin-top: 30px;
+}
+.modalgaleria .modal-content .checardisponiblemodal {
+  color: #fff;
+  margin-top: 30px;
+}

@@ -2339,7 +2339,7 @@ nav{
 /*section-rooms*/
 #section-rooms{
 	.tipo-room{
-			font-family: BaronNeue;
+			font-family: 'BaronNeueBlack';
 			letter-spacing: 4px;
 			font-size: 20px;
 		}
@@ -2366,6 +2366,14 @@ nav{
 			letter-spacing: 5px;
 			font-size: 18px;
 			margin-top: -20px;
+		}
+		@media (max-width: 360px) {
+		  .titulo_room_left{
+		    font-size: 14px;
+		  }
+		  .subtitulo_room_left{
+		  	font-size: 12px;
+		  }
 		}
 		.subtitulo_room_left{
 			font-family: BaronNeue;
@@ -2408,11 +2416,50 @@ nav{
 
 /*section-extra*/
 #section-extra{
-	font-family: BaronNeue;
+	font-family: 'NexaLight';
+	font-style: italic;
+	font-weight: 700 !important;
+	letter-spacing: 5px;
 	.info-extra{
 		border-top: 1px solid #000;
 		border-bottom: 1px solid #000;
 		margin-top: 50px;
+		color: #000;
+		.titulo-info-extra{
+			font-size: 35px;
+			letter-spacing: 8px;
+			.titulo-info-extra-numero{
+				font-style: normal; 
+				font-family: 'NexaBold';
+				font-size: 55px;
+			}
+			.titulo-info-extra-primera{
+				font-size: 55px;
+			}
+		}
+		.subtitulo-info-extra{
+			font-size: 25px;
+			.subtitulo-info-extra-primera{
+				font-size: 35px;
+			}	
+		}
+		@media (max-width: 360px) {
+		  	.titulo-info-extra{
+				font-size: 30px;
+				.titulo-info-extra-numero{
+					font-size: 50px;
+				}
+				.titulo-info-extra-primera{
+					font-size: 50px;
+				}
+			}
+			.subtitulo-info-extra{
+				font-size: 20px;
+				.subtitulo-info-extra-primera{
+					font-size: 30px;
+				}	
+			}
+		}
 	}
 	.concepto-extra{
 		margin-top: 15px;

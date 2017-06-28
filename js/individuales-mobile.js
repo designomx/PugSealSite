@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    $('body').scrollLeft(0);
     $('#section-portada').height($(window).height()-56);
     $('#section-rooms').height($(window).height()-56);
     $('.portadaindividuales').height($(window).height()*(3/4));
@@ -38,4 +39,5 @@ $(window).on('resize', function () {
     $('.room-preview-center-box').css('margin-top',$('.room-preview-center-img').height()*(1/4));
     $('.ver_mas_room_center').css('top',$('.room-preview-center-img').height()*(-1/5));
     $('.especificaciones-room-right').css('margin-top',$('.room-preview-center-img').height()*(3/5));
+    $('body').scrollLeft(0);
 });
