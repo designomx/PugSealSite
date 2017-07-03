@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+	<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no" />
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Pug Seal Boutique Bed & Breakfast</title>
 
@@ -95,7 +95,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12 room-preview-right-box">
-				<a data-target="modal1"><img src="../images/room_preview.png" class="responsive-img room-preview-right-img"></a>
+				<a data-target="modal1"><img src="../images/room_preview_b.png" class="responsive-img room-preview-right-img"></a>
 				<a data-target="modal1" class="ver_mas_room_right col s4">Galeria ...</a>
 				<div class="clearfix"></div>
 				<div class="box especificaciones-room-right">
@@ -117,7 +117,7 @@
 			</div>
 			<div class="clearfix"></div>
 			<div class="col s12 room-preview-center-box">
-				<a data-target="modal1"><img src="../images/room_preview.png" class="responsive-img room-preview-center-img"></a>
+				<a data-target="modal1"><img src="../images/room_preview_c.png" class="responsive-img room-preview-center-img"></a>
 				<a data-target="modal1" class="ver_mas_room_center col s4 push-s6">Galeria ...</a>
 				<div class="clearfix"></div>
 				<div class="box especificaciones-room-center">
@@ -278,6 +278,9 @@
 
 				}
 			});
+			
+			var Wwidth = $(window).width();
+			$('#full').width(Wwidth);
 
 		});
 	</script>

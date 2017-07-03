@@ -221,13 +221,28 @@ button:focus {
 body{
 	position: relative;
 	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	overflow-y: scroll; /* has to be scroll, not auto */
+	  -webkit-overflow-scrolling: touch;
 }
+
+html,
+body {
+    overflow: hidden;
+} 
 
 .clearfix{
 	width: 100%;
 	height: 0px;
 	display: block;
 	float: none;
+}
+
+#full{
+	overflow: hidden;
 }
 
 .top-brand-bar{
@@ -1279,6 +1294,12 @@ button:focus {
 ---- Responsive
 */
 
+@media (max-width: 380px) {
+  body{
+  	zoom: 0.8;
+  }
+}
+
 @media (max-width: 670px) {
   .overlay nav {
     font-size: 30px;
@@ -2208,6 +2229,7 @@ button:focus {
 	width: 100%;
 	letter-spacing: 4px;
 	padding-left: 5px;
+	color: black;
 }
 
 /*allanpoe*/
@@ -2241,6 +2263,7 @@ button:focus {
 	width: 100%;
 	letter-spacing: 4px;
 	padding-left: 5px;
+	color: black;
 }
 /*belisario*/
 #rectanglebelisario{
@@ -2280,6 +2303,7 @@ button:focus {
 	width: 100%;
 	letter-spacing: 4px;
 	padding-left: 5px;
+	color: black;
 }
 .titulo-nombre-belisario{
 	font-family: BaronNeue;
@@ -2332,6 +2356,9 @@ nav{
 		.mobile-regresar{
 			margin-left: 10px;
     		font-size: 30px;
+    		a{
+    			padding: 10px;
+    		}
 		}
 		.book-now{
 			font-size: 15px;
@@ -2423,6 +2450,10 @@ nav{
 			background-color: #fff;
 			color:#000;
 			left: -50%;
+			letter-spacing: 4px;
+			padding-left: 5px;
+			font-family: 'OratorStd';
+			width: 180px;
 		}
 		.room-preview-left-img{
 			position: absolute;
@@ -2485,6 +2516,10 @@ nav{
 			color:#000;
 			right: -50%;
 			margin-left: 5px;
+			letter-spacing: 4px;
+			padding-left: 5px;
+			font-family: 'OratorStd';
+			width: 160px;
 		}
 		@media (min-width: 700px) and (max-width: 768px) {
 		  	.ver_mas_room_right{
@@ -2508,6 +2543,11 @@ nav{
 			background-color: #fff;
 			color:#000;
 			margin-left: 5px;
+			margin-left: 5px;
+			letter-spacing: 4px;
+			padding-left: 5px;
+			font-family: 'OratorStd';
+			width: 160px;
 		}
 		.room-preview-center-img{
 			/*position: absolute;*/
@@ -2526,6 +2566,7 @@ nav{
 		border-bottom: 1px solid #000;
 		margin-top: 50px;
 		color: #000;
+		font-family: 'OratorStd' !important;
 		.titulo-info-extra{
 			font-size: 35px;
 			letter-spacing: 8px;
