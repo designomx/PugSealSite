@@ -67,6 +67,26 @@ $(document).ready(function() {
 			  useHam=0;
 			});
 			
+			var useHamBook = 0;
+			
+			$('.boo-king-a').on('click', function(ev) {
+			
+				ev.preventDefault();
+				
+				 if (useHam==0) {
+				 	$('.overlay-book').addClass('opened');
+				 	useHamBook=1;
+				 }else {
+				 	$('.overlay-book').removeClass('opened');
+				 	useHamBook=0;
+				 }
+
+			  });
+			  
+			$('.close-ovrly-book').on('click', function() {
+			  $('.overlay-book').removeClass('opened');
+			  useHamBook=0;
+			});
 			
 			var interSlide = function(){
 			    $('.container-xfade').hide();
@@ -94,5 +114,7 @@ $(document).ready(function() {
 			    },5000);
 			}
 			interSlide();
+			
+			
 
 		});

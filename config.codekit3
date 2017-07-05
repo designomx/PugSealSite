@@ -765,6 +765,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/allan-select.png": {
+		"ft": 32768,
+		"iS": 70914,
+		"oA": 0,
+		"oAP": "\/images\/allan-select.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/allan.png": {
 		"ft": 32768,
 		"iS": 2243,
@@ -1065,6 +1076,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bell-select.png": {
+		"ft": 32768,
+		"iS": 74324,
+		"oA": 0,
+		"oAP": "\/images\/bell-select.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -2603,6 +2625,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/tenn-select.png": {
+		"ft": 32768,
+		"iS": 62401,
+		"oA": 0,
+		"oAP": "\/images\/tenn-select.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/tenn1A.jpg": {
