@@ -169,7 +169,7 @@
 	<div class="section" id="section0">
 		<div class="video-bgbox" id="seccion_home" style="background-image: url('../images/sectionA-bg.jpg');">
 			 <!-- Video BG Init -->
-			<div class="player" data-property="{videoURL:'https://youtu.be/x_TWE30tv5k?vq=hd1080',containment:'#seccion_home',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1, hd:1, quality:'large'}">
+			<div class="player" data-property="{videoURL:'https://youtu.be/x_TWE30tv5k',containment:'#seccion_home',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1}">
 			</div>
 			 <!-- End Video BG Init -->
 			<div class="oflw"></div>
@@ -248,7 +248,7 @@
 			</div>
 			<div class="col s12 m6 right-bx" id="intro_1" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out-sine">
 				<!-- Video BG Init -->
-				<div class="player" data-property="{videoURL:'https://youtu.be/e1y-NgKMsn8?vq=hd1080',containment:'#intro_1',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1, hd:1, quality:'large'}">
+				<div class="player" data-property="{videoURL:'https://youtu.be/e1y-NgKMsn8',containment:'#intro_1',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1}">
 				</div>
 				 <!-- End Video BG Init -->	
 			</div>
@@ -281,7 +281,7 @@
 		<!--<div class="full-bg-art"></div>-->
 		<div class="intro" id="intro_2">
 			<!-- Video BG Init -->
-			<div class="player" data-property="{videoURL:'https://youtu.be/JH42ae12Q_4?vq=hd1080',containment:'#section4',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1, hd:1, quality:'large'}">
+			<div class="player" data-property="{videoURL:'https://youtu.be/JH42ae12Q_4',containment:'#section4',autoPlay:true, showControls:false, showYTLogo: false, mute:true, startAt:0, opacity:1}">
 			</div>
 			<!-- End Video BG Init -->	
 			<div class="overall-img" style="margin-top: 162px;">

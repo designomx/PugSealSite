@@ -479,7 +479,7 @@ body{
 	text-align: center;
 	h1{
 		font-family: 'BaronNeueBold';
-		font-size: 27px;
+		font-size: 30px;
 		letter-spacing: 8px;
 		padding: 20px 10px 40px 10px;
 	}
@@ -1129,7 +1129,7 @@ nav{
 
 .overlay nav {
   position: relative;
-  height: 50%;
+  height: auto;
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
@@ -2166,6 +2166,26 @@ button:focus {
 	}
 }
 
+.container-xfade{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 8;
+	div{
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background: url('../images/section.jpg') no-repeat center top;
+		-webkit-background-size: cover;
+		  -moz-background-size: cover;
+		  -o-background-size: cover;
+		  background-size: cover;
+	}
+}
 
 /*- - - - - - - - */
 /*Last for strong effect*/
