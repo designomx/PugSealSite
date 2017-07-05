@@ -69,7 +69,7 @@ $(document).ready(function() {
 			
 			var useHamBook = 0;
 			
-			$('.boo-king-a').on('click', function(ev) {
+			$('.boo-king-a, .show-booking-nav').on('click', function(ev) {
 			
 				ev.preventDefault();
 				
