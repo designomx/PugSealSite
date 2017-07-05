@@ -40,7 +40,7 @@
 		<ul>
 			<li><a href="#!" class="passive-lang">ENG</a></li>
 			<li class="passive-lang">/</li>
-			<li><a href="#!">ESP</a></li>			
+			<li><a href="#!">ESP</a></li>
 			<li><span class="spacer-a"></span></li>
 			<li><a href="#!">EVENTOS</a></li>
 			<li>/</li>
@@ -54,14 +54,14 @@
 
 <div id="fullpage">
 	<div class="section" id="section0">
-	
+
 		<ul id="habita-cion-nav">
 			<li><a href="allanpoe-junior.html">Junior Suite</a></li>
 			<li><a href="#!" class="active">Suite</a></li>
 			<li><a href="allanpoe-exec.html">Executive Suite</a></li>
 			<li><a href="allanpoe-master.html">Master Suite</a></li>
 		</ul>
-	
+
 		<div class="video-bgbox habita-bg">
 			<!--<video id="myVideo" loop muted data-autoplay>
 				<source src="videos/v1.mp4" type="video/mp4">
@@ -88,20 +88,20 @@
 				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
 			</g>
 			</svg>
-			
+
 		</div>
 		<div class="clearfix"></div>
 		<div class="pug-seal-deco" style="background: white url('images/barrawho-rooms.jpg') no-repeat center center;"></div>
 		<div class="clearfix"></div>
 	</div>
-	
+
 	<div class="section parallax-bx" id="sectionrooms">
-	
+
 		<div class="row">
 			<div class="col s12 m4"><h2>Suite</h2></div>
 			<div class="col s12 m8"><p>Nuestras junior Suite se han vuelto las consentidas de todos,
-			cuentan con una agradable terraza o balcón hacia el exterior 
-			para que puedas disfrutar del día, compañía, o la experiencia 
+			cuentan con una agradable terraza o balcón hacia el exterior
+			para que puedas disfrutar del día, compañía, o la experiencia
 			que tengas planeada para ti mismo. Disfrutalo.
 			</p></div>
 			<div class="clearfix"></div>
@@ -115,7 +115,7 @@
 			<div class="col s12 m6 diponible-bx">
 				<div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-out-sine">
 					<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" target="_blank">VER DISPONIBILIDAD</a>
-					<p>REVISA EL CALENDARIO Y<br /> 
+					<p>REVISA EL CALENDARIO Y<br />
 					RESERVA CON NOSOTROS.
 					</p>
 				</div>
@@ -129,9 +129,9 @@
 				</ul>
 			</div>
 		</div>
-		
+
 	</div>
-	
+
 	<div class="section" id="section6">
 		<div class="footer-booking">
 			<!--<a href="#!">Book now</a>-->
@@ -168,7 +168,7 @@
 					</g>
 				</g>
 				</svg>
-				
+
 			</div>
 		</div>
 		<div class="row ubicaciones">
@@ -187,7 +187,7 @@
 			</div>
 			<div class="col s12 m4">
 				<h3><a href="allanpoe.html">A L L A N   P O E</a></h3>
-				<p>Edgar Allan Poe No.90 
+				<p>Edgar Allan Poe No.90
 				<br />
 				Col. Polanco Reforma
 				<br />
@@ -217,7 +217,7 @@
 			<li><a href="https://es.pinterest.com/source/pugseal.com/" class="pint"></a></li>
 		</ul>
 	</div>
-	
+
 </div>
 
 	<!-- Overlay Navigation Menu -->
@@ -251,6 +251,7 @@
 	  </nav>
 	</div>
 
+<<<<<<< Updated upstream
 	
 		<!-- Overlay Book Now Menu -->
 	
@@ -285,16 +286,19 @@
 	</div>
 
 	
+=======
+
+>>>>>>> Stashed changes
 		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 		<script src="js/materialize.min.js"></script>
 		<script type="text/javascript" src="fullpage/jquery.fullpage.min.js"></script>
 		<script type="text/javascript" src="js/aos.js"></script>
 		<script src="js/jquery.parallax.min.js"></script>
 		<script src="js/main.js"></script>
-		
+
 	<script>
 	    AOS.init();
-	</script>	
+	</script>
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
@@ -304,46 +308,46 @@
 			scrollingSpeed: 1000,
 			afterLoad: function(anchorLink, index){
 					var loadedSection = $(this);
-					
+
 					if(anchorLink == 'firstPage'){
 						$('.top-brand-bar').addClass('habita-in');
 						$('.close-ovrly').show();
 						$('#habita-cion-nav').removeClass('animated fadeIn show-me');
 						$('.btn-floating').fadeOut();
 					}
-						
+
 					if(anchorLink == '3rdPage'){
 						$('.allanpoe-bx').addClass('slideInLeft back-o');
 						$('.belisario-bx').addClass('slideInDown back-o');
 						$('.tennyson-bx').addClass('slideInUp back-o');
 					}
-					
+
 					if(anchorLink != '3rdPage'){
 						$('.allanpoe-bx').removeClass('slideInLeft back-o');
 						$('.belisario-bx').removeClass('slideInDown back-o');
 						$('.tennyson-bx').removeClass('slideInUp back-o');
-					}					
-			
+					}
+
 					if(anchorLink != 'firstPage'){
 						$('.top-brand-bar').removeClass('habita-in');
 						$('.close-ovrly').hide();
 						$('#habita-cion-nav').addClass('animated fadeIn show-me');
 						$('.btn-floating').fadeIn();
 					}
-					
+
 					if(anchorLink == 'footer'){
 						$('#habita-cion-nav').fadeOut('slow');
 					}
-					
+
 					if(anchorLink != 'footer' && anchorLink != 'firstPage'){
 						$('#habita-cion-nav').fadeIn();
 					}
-					
+
 				}
 			});
-
+			$('.roomBoxStyle').height(($(window).height()-$('.top-brand-bar').height())/2)
 		});
 	</script>
-	
+
 </body>
 </html>
