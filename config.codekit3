@@ -111,6 +111,45 @@
 		"oAP": "\/comentarios.html",
 		"oF": 0
 		},
+	"\/compare\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare\/index.html",
+		"oF": 0
+		},
+	"\/compare\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/compare\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/compare\/more\/index-.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare\/more\/index-.html",
+		"oF": 0
+		},
+	"\/compare\/more\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare\/more\/index.html",
+		"oF": 0
+		},
+	"\/compare\/more\/index.html.bak": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare\/more\/index.html.bak",
+		"oF": 0
+		},
+	"\/compare\/more\/index_.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/compare\/more\/index_.html",
+		"oF": 0
+		},
 	"\/css\/animate.min-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -253,12 +292,6 @@
 		"oAP": "\/css\/mainmobile-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/css\/mainmobile.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/mainmobile.css.map",
-		"oF": 0
 		},
 	"\/css\/materialize.min.css": {
 		"aP": 1,
@@ -1387,6 +1420,176 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/carr1a.jpg": {
+		"ft": 16384,
+		"iS": 885320,
+		"oA": 0,
+		"oAP": "\/images\/carr1a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/carr1b.jpg": {
+		"ft": 16384,
+		"iS": 710425,
+		"oA": 0,
+		"oAP": "\/images\/carr1b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr1c.jpg": {
+		"ft": 16384,
+		"iS": 808115,
+		"oA": 0,
+		"oAP": "\/images\/carr1c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr2a.jpg": {
+		"ft": 16384,
+		"iS": 756608,
+		"oA": 0,
+		"oAP": "\/images\/carr2a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr2b.jpg": {
+		"ft": 16384,
+		"iS": 674509,
+		"oA": 0,
+		"oAP": "\/images\/carr2b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr2c.jpg": {
+		"ft": 16384,
+		"iS": 1074917,
+		"oA": 0,
+		"oAP": "\/images\/carr2c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr3a.jpg": {
+		"ft": 16384,
+		"iS": 795511,
+		"oA": 0,
+		"oAP": "\/images\/carr3a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr3b.jpg": {
+		"ft": 16384,
+		"iS": 792862,
+		"oA": 0,
+		"oAP": "\/images\/carr3b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr4a.jpg": {
+		"ft": 16384,
+		"iS": 1086174,
+		"oA": 0,
+		"oAP": "\/images\/carr4a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr4b.jpg": {
+		"ft": 16384,
+		"iS": 844432,
+		"oA": 0,
+		"oAP": "\/images\/carr4b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr4c.jpg": {
+		"ft": 16384,
+		"iS": 1074917,
+		"oA": 0,
+		"oAP": "\/images\/carr4c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6a.jpg": {
+		"ft": 16384,
+		"iS": 1086743,
+		"oA": 0,
+		"oAP": "\/images\/carr6a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6b.jpg": {
+		"ft": 16384,
+		"iS": 1173991,
+		"oA": 0,
+		"oAP": "\/images\/carr6b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6c.jpg": {
+		"ft": 16384,
+		"iS": 955361,
+		"oA": 0,
+		"oAP": "\/images\/carr6c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr7a.jpg": {
+		"ft": 16384,
+		"iS": 969106,
+		"oA": 0,
+		"oAP": "\/images\/carr7a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr7b.jpg": {
+		"ft": 16384,
+		"iS": 872847,
+		"oA": 0,
+		"oAP": "\/images\/carr7b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr7c.jpg": {
+		"ft": 16384,
+		"iS": 832854,
+		"oA": 0,
+		"oAP": "\/images\/carr7c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/circulo1.png": {
 		"ft": 32768,
 		"iS": 479398,
@@ -2256,6 +2459,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/room_preview_b.png": {
+		"ft": 32768,
+		"iS": 837357,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_b.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_c.png": {
+		"ft": 32768,
+		"iS": 175287,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_c.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/sectionA-bg.jpg": {
 		"ft": 16384,
 		"iS": 78097,
@@ -3108,10 +3333,10 @@
 		"oAP": "\/m\/p.html",
 		"oF": 0
 		},
-	"\/m\/tenyson.html": {
+	"\/m\/tennyson.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/m\/tenyson.html",
+		"oAP": "\/m\/tennyson.html",
 		"oF": 0
 		},
 	"\/tennyson-exec.html": {
