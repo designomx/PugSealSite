@@ -78,17 +78,19 @@ $(document).ready(function() {
 			    setTimeout(function(){
 			        $('.container-xfade').fadeIn();
 			        var _tiempo=0;
+			        var zindex = 1;
 			        $.each( $('.container-xfade'), function(i, este) {
 			            var _tiempo1=5000;
 			            $('div', este).each(function() {
-			                $(this).delay(_tiempo).fadeIn(300).delay(_tiempo1).fadeOut(300);
-			                _tiempo+=5700;
+			                $(this).css('z-index',zindex).delay(_tiempo).fadeIn(600);
+			                _tiempo+=5000;
+			                zindex++;
 			            });
 			        });
 			        setTimeout(function(){
-			            $('.container-xfade').fadeOut();
-			            interSlide();
-			        },_tiempo);
+			            $('.container-xfade').fadeOut(600);
+			            setTimeout(function(){interSlide()},600);
+			        },_tiempo+600);
 			    },5000);
 			}
 			interSlide();
