@@ -13,11 +13,17 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/share-button.min.css">
+
 	
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-
+	<!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
+    </div>
+    <!-- End Page Loader -->
 <!--<ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
 	<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
@@ -99,18 +105,18 @@
 	</div>
 	<div class="section" id="section1">
 		<div class="allanpoe-bx parallax-bx animated">
-			<img class="allanpoe-img" src="images/allanpoe-bg.png" alt="" />
-			<img class="allanpoe-v layer" data-depth="0.10" src="images/allanpoe-v.png" alt="" />
+			<a href="allanpoe.html"><img class="allanpoe-img" src="images/allanpoe-bg.png" alt="" /></a>
+			<a href="allanpoe.html"><img class="allanpoe-v layer" data-depth="0.10" src="images/allanpoe-v.png" alt="" /></a>
 			<a href="allanpoe.html" class="allanpoe-a layer" data-depth="0.10"><img src="images/allanpoe-a.png" width="140" alt="" /><span>POLANCO / CDMX</span></a>
 		</div>
 		<div class="belisario-bx parallax-bx animated">
-			<img class="belisario-img" src="images/belisario-bg.png" alt="" />
-			<img class="belisario-v layer" data-depth="0.10" src="images/belisario-v.png" alt="" />
+			<a href="belisario.html"><img class="belisario-img" src="images/belisario-bg.png" alt="" /></a>
+			<a href="belisario.html"><img class="belisario-v layer" data-depth="0.10" src="images/belisario-v.png" alt="" /></a>
 			<a href="belisario.html" class="belisario-a layer" data-depth="0.10"><img src="images/belisario-a.png" width="140" alt="" /><span>COYOACÁN / CDMX</span></a>
 		</div>
 		<div class="tennyson-bx parallax-bx animated">
-			<img class="tennyson-img" src="images/tennyson-bg.png" alt="" />
-			<img class="tennyson-v layer" data-depth="0.10"  src="images/tennyson-v.png" alt="" />
+			<a href="tenyson.html"><img class="tennyson-img" src="images/tennyson-bg.png" alt="" /></a>
+			<a href="tenyson.html"><img class="tennyson-v layer" data-depth="0.10"  src="images/tennyson-v.png" alt="" /></a>
 			<a href="tenyson.html" class="tennyson-a layer" data-depth="0.10"><img src="images/tennyson-a.png" width="140" alt="" /><span>POLANCO / CDMX</span></a>
 		</div>
 		<div class="text-bx-1">
@@ -129,7 +135,8 @@
 					
 					Ten una experiencia fuera del clímax de la ciudad y relájate con quien quieras. Goza de nuestra hospitalidad fuera de la ciudad. Deja tus maletas y respira; la experiencia va a comenzar.
 					</p>
-					<a href="#!">Compartir</a>
+					<!--<a class='fork' href="http://www.pugseal.com/">Compartir</a>-->
+					<share-button>Compartir</share-button>
 				</div>
 			</div>
 			<div class="col s12 m6 right-bx" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out-sine">
@@ -330,6 +337,7 @@
 	      </a></li>
 	    </ul>
 	  </nav>
+
 	</div>
 	
 	<!-- Overlay Book Now Menu -->
@@ -337,13 +345,13 @@
 	<div class="overlay-book">
 		<div class="row">
 			<div class="col s12 m4">
-				<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect" target="_blank"><img src="images/allan-select.png" alt="" /></a>
+				<a href="#!"><img src="images/allan-select.png" alt="" /></a>
 			</div>
 			<div class="col s12 m4">
-				<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank"><img src="images/bell-select.png" alt="" /></a>
+				<a href="#!"><img src="images/bell-select.png" alt="" /></a>
 			</div>
 			<div class="col s12 m4">
-				<a href="https://app.thebookingbutton.com/properties/pugsealtennysondirect" target="_blank"><img src="images/tenn-select.png" alt="" /></a>
+				<a href="#!"><img src="images/tenn-select.png" alt="" /></a>
 			</div>
 		</div>
 		<a class="close-ovrly-book" href="#!">
@@ -362,6 +370,7 @@
 			c17.6,17.6,46.1,17.6,63.6,0s17.6-46.1,0-63.6l0,0C71.4,7.7,59.9,3,48,3z"/>
 		</svg>
 		</a>
+
 	</div>
 
 	
@@ -370,6 +379,8 @@
 		<script type="text/javascript" src="fullpage/jquery.fullpage.min.js"></script>
 		<script type="text/javascript" src="js/aos.js"></script>
 		<script src="js/jquery.parallax.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/share-button.min.js"></script>
 		<script src="js/main.js"></script>
 		
 	<script>
@@ -411,6 +422,27 @@
 			});
 
 		});
+	</script>
+	<script>
+		var shareButton = new ShareButton({
+			
+			url: 'http://www.pugseal.com/',
+			networks: {
+				//pinterest: { enabled: false },
+				reddit: { enabled: false },
+				linkedin: { enabled: false },
+				email: { enabled: false },
+				whatsapp: { enabled: false }
+			},
+			ui: {
+				collision: true,
+				buttonText: 'Compartir',
+				//icon_font:false,
+			}
+		});
+		//shareButton.socialIcon();
+    //window.setTimeout(function() { shareButton.toggle(); }, 500);
+    //window.setTimeout(function() { shareButton.toggleListen(); }, 500);
 	</script>
 	
 </body>
