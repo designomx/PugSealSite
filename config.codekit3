@@ -299,6 +299,12 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/css\/mainmobile.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/css\/mainmobile.css.map",
+		"oF": 0
+		},
 	"\/css\/materialize.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -966,6 +972,26 @@
 		"iS": 123563,
 		"oA": 0,
 		"oAP": "\/images\/Asset 1-80.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/background-portada-b.jpg": {
+		"ft": 16384,
+		"iS": 79156,
+		"oA": 0,
+		"oAP": "\/images\/background-portada-b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/background-portada-bell.jpg": {
+		"ft": 16384,
+		"iS": 107108,
+		"oA": 0,
+		"oAP": "\/images\/background-portada-bell.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2482,8 +2508,8 @@
 		"oA": 0,
 		"oAP": "\/images\/room_preview.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2493,8 +2519,8 @@
 		"oA": 0,
 		"oAP": "\/images\/room_preview_b.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2506,6 +2532,50 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_t1.png": {
+		"ft": 32768,
+		"iS": 199228,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_t1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_t2.png": {
+		"ft": 32768,
+		"iS": 347792,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_t2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_t3.png": {
+		"ft": 32768,
+		"iS": 328921,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_t3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_t4.png": {
+		"ft": 32768,
+		"iS": 312959,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_t4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3317,6 +3387,18 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/m\/allanpoe.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/allanpoe.html",
+		"oF": 0
+		},
+	"\/m\/belisario.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/belisario.html",
+		"oF": 0
+		},
 	"\/m\/dbklphmbjiblolmk.jpg": {
 		"ft": 16384,
 		"iS": 153077,
@@ -3400,24 +3482,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tenyson.html",
-		"oF": 0
-		},
-	"\/videos\/bacalar.mp4": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/videos\/bacalar.mp4",
-		"oF": 0
-		},
-	"\/videos\/bacalar.ogv": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/videos\/bacalar.ogv",
-		"oF": 0
-		},
-	"\/videos\/bacalar.webm": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/videos\/bacalar.webm",
 		"oF": 0
 		},
 	"\/videos\/v1-small.mp4": {
