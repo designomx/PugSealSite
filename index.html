@@ -13,8 +13,10 @@
 	<link rel="stylesheet" href="css/aos.css">
 	<link rel="stylesheet" href="css/animate.min.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/share-button.min.css">
+
 	
-<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<!-- Page Loader -->
@@ -133,7 +135,8 @@
 					
 					Ten una experiencia fuera del clímax de la ciudad y relájate con quien quieras. Goza de nuestra hospitalidad fuera de la ciudad. Deja tus maletas y respira; la experiencia va a comenzar.
 					</p>
-					<a href="#!">Compartir</a>
+					<!--<a class='fork' href="http://www.pugseal.com/">Compartir</a>-->
+					<share-button>Compartir</share-button>
 				</div>
 			</div>
 			<div class="col s12 m6 right-bx" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-out-sine">
@@ -377,6 +380,7 @@
 		<script type="text/javascript" src="js/aos.js"></script>
 		<script src="js/jquery.parallax.min.js"></script>
 		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/share-button.min.js"></script>
 		<script src="js/main.js"></script>
 		
 	<script>
@@ -418,6 +422,27 @@
 			});
 
 		});
+	</script>
+	<script>
+		var shareButton = new ShareButton({
+			
+			url: 'http://www.pugseal.com/',
+			networks: {
+				//pinterest: { enabled: false },
+				reddit: { enabled: false },
+				linkedin: { enabled: false },
+				email: { enabled: false },
+				whatsapp: { enabled: false }
+			},
+			ui: {
+				collision: true,
+				buttonText: 'Compartir',
+				//icon_font:false,
+			}
+		});
+		//shareButton.socialIcon();
+    //window.setTimeout(function() { shareButton.toggle(); }, 500);
+    //window.setTimeout(function() { shareButton.toggleListen(); }, 500);
 	</script>
 	
 </body>
