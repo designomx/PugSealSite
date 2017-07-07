@@ -325,6 +325,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/share-button.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/share-button.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/css\/style-responsive.css": {
 		"aP": 1,
 		"bl": 0,
@@ -3335,6 +3345,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/share-button.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/share-button.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/SmoothScroll.js": {
 		"ft": 64,
 		"mi": 1,
@@ -3353,6 +3372,16 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/less\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/less\/main-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/less\/main.less": {
 		"aP": 0,
 		"bl": 0,
@@ -3369,6 +3398,16 @@
 		"sI": 0,
 		"sM": 0,
 		"sU": 0
+		},
+	"\/less\/mainmobile.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/less\/mainmobile-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/less\/mainmobile.less": {
 		"aP": 0,
@@ -3482,6 +3521,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tenyson.html",
+		"oF": 0
+		},
+	"\/videos\/bacalar.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar.mp4",
+		"oF": 0
+		},
+	"\/videos\/bacalar.ogv": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar.ogv",
+		"oF": 0
+		},
+	"\/videos\/bacalar.webm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/videos\/bacalar.webm",
 		"oF": 0
 		},
 	"\/videos\/v1-small.mp4": {
