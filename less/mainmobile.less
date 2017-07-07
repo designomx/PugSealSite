@@ -2701,5 +2701,24 @@ nav{
 			color:#fff;
 			margin-top: 30px;
 		}
+		.slider .slides {
+			background: none;
+			li img {
+				height: 100%;
+			    width: 100%;
+			    background-position: center;
+			    background-size:100% auto;
+			    background-repeat: no-repeat;
+			}
+		}
+		@media (max-width: 600px) {
+		  	.slider{
+		  		height: 300px !important;
+		  		.slides{
+		  			height: 300px !important;
+		  		}
+		  	}
+		}
+
 	}
 }
