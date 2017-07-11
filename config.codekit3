@@ -39,12 +39,6 @@
 		"oAP": "\/allanpoe-suite.html",
 		"oF": 0
 		},
-	"\/allanpoe-suite_.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/allanpoe-suite_.html",
-		"oF": 0
-		},
 	"\/allanpoe.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -1486,17 +1480,17 @@
 		},
 	"\/images\/carr1a.jpg": {
 		"ft": 16384,
-		"iS": 885320,
+		"iS": 197022,
 		"oA": 0,
 		"oAP": "\/images\/carr1a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/carr1b.jpg": {
 		"ft": 16384,
-		"iS": 710425,
+		"iS": 218972,
 		"oA": 0,
 		"oAP": "\/images\/carr1b.jpg",
 		"oF": 0,
@@ -1571,7 +1565,7 @@
 		"oAP": "\/images\/carr4a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/carr4b.jpg": {
@@ -1581,14 +1575,24 @@
 		"oAP": "\/images\/carr4b.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/carr4c.jpg": {
 		"ft": 16384,
-		"iS": 1074917,
+		"iS": 710425,
 		"oA": 0,
 		"oAP": "\/images\/carr4c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/carr4c_.jpg": {
+		"ft": 16384,
+		"iS": 1074917,
+		"oA": 0,
+		"oAP": "\/images\/carr4c_.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3479,6 +3483,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index_.html",
+		"oF": 0
+		},
+	"\/m\/index_old.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/index_old.html",
 		"oF": 0
 		},
 	"\/m\/mobile.html": {
