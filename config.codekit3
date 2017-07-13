@@ -1061,6 +1061,286 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bel-2013\/A.jpg": {
+		"ft": 16384,
+		"iS": 11742299,
+		"oA": 0,
+		"oAP": "\/images\/bel-2013\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-2013\/B.jpg": {
+		"ft": 16384,
+		"iS": 9135736,
+		"oA": 0,
+		"oAP": "\/images\/bel-2013\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-2013\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 10534287,
+		"oA": 0,
+		"oAP": "\/images\/bel-2013\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-2013\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 6457644,
+		"oA": 0,
+		"oAP": "\/images\/bel-2013\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-7oct\/A.jpg": {
+		"ft": 16384,
+		"iS": 10356539,
+		"oA": 0,
+		"oAP": "\/images\/bel-7oct\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-7oct\/B.jpg": {
+		"ft": 16384,
+		"iS": 7270544,
+		"oA": 0,
+		"oAP": "\/images\/bel-7oct\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-7oct\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 6455071,
+		"oA": 0,
+		"oAP": "\/images\/bel-7oct\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-7oct\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 3424256,
+		"oA": 0,
+		"oAP": "\/images\/bel-7oct\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-BelisarioDominguez\/A.jpg": {
+		"ft": 16384,
+		"iS": 10357863,
+		"oA": 0,
+		"oAP": "\/images\/bel-BelisarioDominguez\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-BelisarioDominguez\/B.jpg": {
+		"ft": 16384,
+		"iS": 6219738,
+		"oA": 0,
+		"oAP": "\/images\/bel-BelisarioDominguez\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-BelisarioDominguez\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 8797142,
+		"oA": 0,
+		"oAP": "\/images\/bel-BelisarioDominguez\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-BelisarioDominguez\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 9749449,
+		"oA": 0,
+		"oAP": "\/images\/bel-BelisarioDominguez\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-CarlosFuentes\/A.jpg": {
+		"ft": 16384,
+		"iS": 8020034,
+		"oA": 0,
+		"oAP": "\/images\/bel-CarlosFuentes\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-CarlosFuentes\/B.jpg": {
+		"ft": 16384,
+		"iS": 7623216,
+		"oA": 0,
+		"oAP": "\/images\/bel-CarlosFuentes\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-CarlosFuentes\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 245760,
+		"oA": 0,
+		"oAP": "\/images\/bel-CarlosFuentes\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-CarlosFuentes\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 454399,
+		"oA": 0,
+		"oAP": "\/images\/bel-CarlosFuentes\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-DrAtl\/A.jpg": {
+		"ft": 16384,
+		"iS": 11359554,
+		"oA": 0,
+		"oAP": "\/images\/bel-DrAtl\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-DrAtl\/B.jpg": {
+		"ft": 16384,
+		"iS": 7968487,
+		"oA": 0,
+		"oAP": "\/images\/bel-DrAtl\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-DrAtl\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 5189170,
+		"oA": 0,
+		"oAP": "\/images\/bel-DrAtl\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-DrAtl\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 7943573,
+		"oA": 0,
+		"oAP": "\/images\/bel-DrAtl\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-JaimeSabines\/A.jpg": {
+		"ft": 16384,
+		"iS": 7375641,
+		"oA": 0,
+		"oAP": "\/images\/bel-JaimeSabines\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-JaimeSabines\/B.jpg": {
+		"ft": 16384,
+		"iS": 8273094,
+		"oA": 0,
+		"oAP": "\/images\/bel-JaimeSabines\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-JaimeSabines\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 6979636,
+		"oA": 0,
+		"oAP": "\/images\/bel-JaimeSabines\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-JaimeSabines\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 5750784,
+		"oA": 0,
+		"oAP": "\/images\/bel-JaimeSabines\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/bel-RufinoTamayo\/A.jpg": {
+		"ft": 16384,
+		"iS": 8539682,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/A.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-RufinoTamayo\/B.jpg": {
+		"ft": 16384,
+		"iS": 8262458,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/B.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-RufinoTamayo\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 5973568,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-RufinoTamayo\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 8871899,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/belisario-a.png": {
 		"ft": 32768,
 		"iS": 15145,
