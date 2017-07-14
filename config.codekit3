@@ -947,7 +947,7 @@
 		"oAP": "\/images\/art-bgb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/art-bgc.jpg": {
@@ -957,7 +957,7 @@
 		"oAP": "\/images\/art-bgc.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/art.png": {
@@ -1081,6 +1081,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bel-2013\/B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-2013\/B.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bel-2013\/Carrusel1.jpg": {
 		"ft": 16384,
 		"iS": 10534287,
@@ -1108,7 +1119,7 @@
 		"oAP": "\/images\/bel-7oct\/A.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/bel-7oct\/B.jpg": {
@@ -1119,6 +1130,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-7oct\/B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-7oct\/B.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bel-7oct\/Carrusel1.jpg": {
@@ -1161,6 +1183,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bel-BelisarioDominguez\/B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-BelisarioDominguez\/B.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bel-BelisarioDominguez\/Carrusel1.jpg": {
 		"ft": 16384,
 		"iS": 8797142,
@@ -1168,12 +1201,12 @@
 		"oAP": "\/images\/bel-BelisarioDominguez\/Carrusel1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/bel-BelisarioDominguez\/Carrusel2.jpg": {
 		"ft": 16384,
-		"iS": 9749449,
+		"iS": 219382,
 		"oA": 0,
 		"oAP": "\/images\/bel-BelisarioDominguez\/Carrusel2.jpg",
 		"oF": 0,
@@ -1191,14 +1224,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/bel-CarlosFuentes\/B.jpg": {
-		"ft": 16384,
-		"iS": 7623216,
+	"\/images\/bel-CarlosFuentes\/B.png": {
+		"ft": 32768,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/bel-CarlosFuentes\/B.jpg",
+		"oAP": "\/images\/bel-CarlosFuentes\/B.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bel-CarlosFuentes\/Carrusel1.jpg": {
@@ -1218,7 +1252,7 @@
 		"oAP": "\/images\/bel-CarlosFuentes\/Carrusel2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/bel-DrAtl\/A.jpg": {
@@ -1241,6 +1275,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bel-DrAtl\/B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-DrAtl\/B.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bel-DrAtl\/Carrusel1.jpg": {
 		"ft": 16384,
 		"iS": 5189170,
@@ -1258,7 +1303,7 @@
 		"oAP": "\/images\/bel-DrAtl\/Carrusel2.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/bel-JaimeSabines\/A.jpg": {
@@ -1271,14 +1316,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/bel-JaimeSabines\/B.jpg": {
-		"ft": 16384,
-		"iS": 8273094,
+	"\/images\/bel-JaimeSabines\/B.png": {
+		"ft": 32768,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/bel-JaimeSabines\/B.jpg",
+		"oAP": "\/images\/bel-JaimeSabines\/B.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/bel-JaimeSabines\/Carrusel1.jpg": {
@@ -1321,6 +1367,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/bel-RufinoTamayo\/B.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/B.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bel-RufinoTamayo\/Carrusel1.jpg": {
 		"ft": 16384,
 		"iS": 5973568,
@@ -1339,6 +1396,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/bel-RufinoTamayo\/Carrusel2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/bel-RufinoTamayo\/Carrusel2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/belisario-a.png": {
@@ -1878,11 +1946,71 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/carr5a.jpg": {
+		"ft": 16384,
+		"iS": 163493,
+		"oA": 0,
+		"oAP": "\/images\/carr5a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr5b.jpg": {
+		"ft": 16384,
+		"iS": 182758,
+		"oA": 0,
+		"oAP": "\/images\/carr5b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/carr5c.jpg": {
+		"ft": 16384,
+		"iS": 135643,
+		"oA": 0,
+		"oAP": "\/images\/carr5c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/carr5d.jpg": {
+		"ft": 16384,
+		"iS": 689612,
+		"oA": 0,
+		"oAP": "\/images\/carr5d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr5e.jpg": {
+		"ft": 16384,
+		"iS": 324372,
+		"oA": 0,
+		"oAP": "\/images\/carr5e.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/carr6a.jpg": {
 		"ft": 16384,
 		"iS": 1086743,
 		"oA": 0,
 		"oAP": "\/images\/carr6a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6ax.jpg": {
+		"ft": 16384,
+		"iS": 273411,
+		"oA": 0,
+		"oAP": "\/images\/carr6ax.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1898,11 +2026,51 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/carr6bx.jpg": {
+		"ft": 16384,
+		"iS": 361261,
+		"oA": 0,
+		"oAP": "\/images\/carr6bx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/carr6c.jpg": {
 		"ft": 16384,
 		"iS": 955361,
 		"oA": 0,
 		"oAP": "\/images\/carr6c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6cx.jpg": {
+		"ft": 16384,
+		"iS": 329760,
+		"oA": 0,
+		"oAP": "\/images\/carr6cx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6dx.jpg": {
+		"ft": 16384,
+		"iS": 373905,
+		"oA": 0,
+		"oAP": "\/images\/carr6dx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr6ex.jpg": {
+		"ft": 16384,
+		"iS": 306687,
+		"oA": 0,
+		"oAP": "\/images\/carr6ex.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1915,7 +2083,7 @@
 		"oAP": "\/images\/carr7a.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/carr7b.jpg": {
@@ -1925,7 +2093,7 @@
 		"oAP": "\/images\/carr7b.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/carr7c.jpg": {
@@ -1933,6 +2101,86 @@
 		"iS": 832854,
 		"oA": 0,
 		"oAP": "\/images\/carr7c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/carr7d.jpg": {
+		"ft": 16384,
+		"iS": 872847,
+		"oA": 0,
+		"oAP": "\/images\/carr7d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8a.jpg": {
+		"ft": 16384,
+		"iS": 344729,
+		"oA": 0,
+		"oAP": "\/images\/carr8a.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8b.jpg": {
+		"ft": 16384,
+		"iS": 384721,
+		"oA": 0,
+		"oAP": "\/images\/carr8b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8c.jpg": {
+		"ft": 16384,
+		"iS": 305488,
+		"oA": 0,
+		"oAP": "\/images\/carr8c.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8d.jpg": {
+		"ft": 16384,
+		"iS": 338087,
+		"oA": 0,
+		"oAP": "\/images\/carr8d.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8e.jpg": {
+		"ft": 16384,
+		"iS": 396378,
+		"oA": 0,
+		"oAP": "\/images\/carr8e.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carr8f.jpg": {
+		"ft": 16384,
+		"iS": 374115,
+		"oA": 0,
+		"oAP": "\/images\/carr8f.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/carrex.jpg": {
+		"ft": 16384,
+		"iS": 306687,
+		"oA": 0,
+		"oAP": "\/images\/carrex.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2457,6 +2705,27 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-mex.jpg": {
+		"ft": 16384,
+		"iS": 237949,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-mex.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/junior-img-mex.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/junior-img-mex.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/junior-img-ta.jpg": {
@@ -3211,6 +3480,26 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/images\/tennsuitexx.jpg": {
+		"ft": 16384,
+		"iS": 101493,
+		"oA": 0,
+		"oAP": "\/images\/tennsuitexx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/tennsuitexxx.jpg": {
+		"ft": 16384,
+		"iS": 101084,
+		"oA": 0,
+		"oAP": "\/images\/tennsuitexxx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/tennyson-a.png": {
 		"ft": 32768,
 		"iS": 15092,
@@ -3753,16 +4042,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/m\/index-.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m\/index-.html",
+		"oF": 0
+		},
 	"\/m\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index.html",
-		"oF": 0
-		},
-	"\/m\/index_.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m\/index_.html",
 		"oF": 0
 		},
 	"\/m\/index_old.html": {
@@ -3799,6 +4088,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tennyson-master.html",
+		"oF": 0
+		},
+	"\/tennyson-mexec.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tennyson-mexec.html",
 		"oF": 0
 		},
 	"\/tennyson-suite.html": {

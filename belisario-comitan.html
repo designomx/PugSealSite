@@ -30,6 +30,8 @@
 	<li data-menuanchor="6thpage"><a href="#6thpage">Sixth slide</a></li>
 </ul>-->
 
+<a href="#firstPage" class="btn-floating floating-br btn-large waves-effect waves-light grey darken-3" style="display: none;"><i class="material-icons">keyboard_arrow_up</i></a>
+
 <div class="top-brand-bar habita-in">
 
 	<div class="main-nav-head" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-sine">
@@ -55,6 +57,17 @@
 
 <div id="fullpage">
 	<div class="section" id="section0">
+	<ul id="habita-cion-nav" class="bellsec">
+		<li style="margin-bottom: 1px;"><a href="belisario-octubre.html"><small>07 DE OCT</small></a></li>
+		<li><a href="belisario-2013.html"><small>2013</small></a></li>
+		<li><a href="belisario-atl.html"><small>DR. ATL</small></a></li>
+		<li><a href="belisario-belisario.html"><small>B. DOMINGUEZ</small></a></li>
+		<li><a href="belisario-fuentes.html"><small>C. FUENTES</small></a></li>
+		<li><a href="#!" class="active"><small>COMITÁN</small></a></li>
+		<li><a href="belisario-sabines.html"><small>J. SABINES</small></a></li>
+		<li><a href="belisario-rufino.html"><small>R. TAMAYO</small></a></li>
+	</ul>
+	
 		<div class="video-bgbox habita-bg">
 			<!--<video id="myVideo" loop muted data-autoplay>
 				<source src="videos/v1.mp4" type="video/mp4">
@@ -299,6 +312,8 @@
 					if(anchorLink == 'firstPage'){
 						$('.top-brand-bar').addClass('habita-in');
 						$('.close-ovrly').show();
+						$('#habita-cion-nav').removeClass('animated fadeIn show-me');
+						$('.btn-floating').fadeOut();
 					}
 					
 					if(anchorLink == '3rdPage'){
@@ -316,6 +331,16 @@
 					if(anchorLink != 'firstPage'){
 						$('.top-brand-bar').removeClass('habita-in');
 						$('.close-ovrly').hide();
+					$('#habita-cion-nav').addClass('animated fadeIn show-me');
+						$('.btn-floating').fadeIn();
+					}
+					
+					if(anchorLink == 'footer'){
+						$('#habita-cion-nav').fadeOut('slow');
+					}
+					
+					if(anchorLink != 'footer' && anchorLink != 'firstPage'){
+						$('#habita-cion-nav').fadeIn();
 					}
 					
 				}

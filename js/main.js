@@ -103,10 +103,10 @@ $(document).ready(function() {
 			        var _tiempo=0;
 			        var zindex = 1;
 			        $.each( $('.container-xfade'), function(i, este) {
-			            var _tiempo1=1500;
+			            var _tiempo1=2000;
 			            $('div', este).each(function() {
 			                $(this).css('z-index',zindex).delay(_tiempo).fadeIn(600);
-			                _tiempo+=1500;
+			                _tiempo+=2000;
 			                zindex++;
 			            });
 			        });
@@ -114,7 +114,7 @@ $(document).ready(function() {
 			            $('.container-xfade').fadeOut(600);
 			            setTimeout(function(){interSlide()},600);
 			        },_tiempo+600);
-			    },1500);
+			    },2000);
 			}
 			interSlide();
 			
