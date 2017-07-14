@@ -3246,6 +3246,196 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/ten-ExecutiveSuite\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 1578527,
+		"oA": 0,
+		"oAP": "\/images\/ten-ExecutiveSuite\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-ExecutiveSuite\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 1911067,
+		"oA": 0,
+		"oAP": "\/images\/ten-ExecutiveSuite\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-ExecutiveSuite\/Carrusel3.jpg": {
+		"ft": 16384,
+		"iS": 2801132,
+		"oA": 0,
+		"oAP": "\/images\/ten-ExecutiveSuite\/Carrusel3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-ExecutiveSuite\/Carrusel4.jpg": {
+		"ft": 16384,
+		"iS": 4309966,
+		"oA": 0,
+		"oAP": "\/images\/ten-ExecutiveSuite\/Carrusel4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-ExecutiveSuite\/Carrusel5.jpg": {
+		"ft": 16384,
+		"iS": 3868965,
+		"oA": 0,
+		"oAP": "\/images\/ten-ExecutiveSuite\/Carrusel5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuite\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 1430750,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuite\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuite\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 1587419,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuite\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuite\/Carrusel3.jpg": {
+		"ft": 16384,
+		"iS": 1550685,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuite\/Carrusel3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuite\/Carrusel4.jpg": {
+		"ft": 16384,
+		"iS": 3585383,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuite\/Carrusel4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuite\/Carrusel5.jpg": {
+		"ft": 16384,
+		"iS": 4023160,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuite\/Carrusel5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 1594988,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 1310451,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel3.jpg": {
+		"ft": 16384,
+		"iS": 1580816,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel4 .jpg": {
+		"ft": 16384,
+		"iS": 4713859,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel4 .jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel5.jpg": {
+		"ft": 16384,
+		"iS": 4317933,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/Carrusel6.jpg": {
+		"ft": 16384,
+		"iS": 4560012,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/Carrusel6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-Suite\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 1390360,
+		"oA": 0,
+		"oAP": "\/images\/ten-Suite\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-Suite\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 1496440,
+		"oA": 0,
+		"oAP": "\/images\/ten-Suite\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-Suite\/Carrusel3.jpg": {
+		"ft": 16384,
+		"iS": 1584561,
+		"oA": 0,
+		"oAP": "\/images\/ten-Suite\/Carrusel3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/tenn-1B.jpg": {
 		"ft": 16384,
 		"iS": 93455,
