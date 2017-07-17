@@ -52,25 +52,25 @@ $(document).ready(function() {
 	var useHam = 0;
 
 	$('.hamburgermobile').on('click', function() {
-		$('.overlay').height(Wheight);
+		$('.overlay-hamburgermobile').height(Wheight);
 
 		if (useHam==0) {
-			$('.overlay').addClass('open');
+			$('.overlay-hamburgermobile').addClass('open');
 			useHam=1;
 		}else {
-			$('.overlay').removeClass('open');
+			$('.overlay-hamburgermobile').removeClass('open');
 			useHam=0;
 		}
 
 	});
 	$('.hamburgermobilenav').on('click', function() {
-		$('.overlay').height(Wheight);
+		$('.overlay-hamburgermobile').height(Wheight);
 
 		if (useHam==0) {
-			$('.overlay').addClass('open');
+			$('.overlay-hamburgermobile').addClass('open');
 			useHam=1;
 		}else {
-			$('.overlay').removeClass('open');
+			$('.overlay-hamburgermobile').removeClass('open');
 			useHam=0;
 		}
 
@@ -86,7 +86,18 @@ $(document).ready(function() {
 		useHam=0;
 	});
 
+	$('.booknowmodal').on('click', function() {
+		$('.overlay-book').height(Wheight);
 
+		if (useHam==0) {
+			$('.overlay-book').addClass('open');
+			useHam=1;
+		}else {
+			$('.overlay-book').removeClass('open');
+			useHam=0;
+		}
+
+	});
 
 
 

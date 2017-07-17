@@ -16,11 +16,15 @@
 	<link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
 </head>
 <body class="bodyNoX">
+	<!-- Page Loader -->
+    <div class="page-loader">
+        <div class="loader">Loading...</div>
+    </div>
 	<div class="navbar-fixed" >
 		<nav>
 			<div class="nav-wrapper">
 				<span class="mobile-regresar"><a href="index.html"><</a></span>
-				<span class="brand-logo book-now">b o o k &nbsp; n o w</span>
+				<a target="_blank" href="https://app.thebookingbutton.com/properties/pugsealtennysondirect"><span class="brand-logo book-now">b o o k &nbsp; n o w</span></a>
 				<ul class="right">
 					<li>
 						<button class="hamburgermobilenav hamburger--squeeze" type="button">
@@ -318,6 +322,7 @@
 	<script type="text/javascript" src="../fullpage/jquery.fullpage.min.js"></script>
 	<script type="text/javascript" src="../js/aos.js"></script>
 	<script src="../js/jquery.parallax.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
 	<script src="../js/mainmobile.js"></script>
 	<script src="../js/individuales-mobile.js"></script>
 
@@ -325,6 +330,13 @@
 	    AOS.init();
 	</script>
 	<script type="text/javascript">
+		$(window).load(function(){
+	        // Page loader
+	        $("body").imagesLoaded(function(){
+	            $(".page-loader div").fadeOut();
+	            $(".page-loader").delay(200).fadeOut("slow");
+	        });
+	    });
 		$(document).ready(function() {
 			$('#modal1').modal();
 			$('#modal2').modal();
