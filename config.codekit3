@@ -787,8 +787,8 @@
 		"oA": 0,
 		"oAP": "\/images\/allan-select.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1427,7 +1427,7 @@
 		"oAP": "\/images\/belisario-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/belisario-bg.png": {
@@ -1469,8 +1469,8 @@
 		"oA": 0,
 		"oAP": "\/images\/bell-select.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -2989,6 +2989,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/private-txt-w.png": {
+		"ft": 32768,
+		"iS": 3643,
+		"oA": 0,
+		"oAP": "\/images\/private-txt-w.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/private-txt.png": {
 		"ft": 32768,
 		"iS": 3786,
@@ -3462,8 +3473,8 @@
 		"oA": 0,
 		"oAP": "\/images\/tenn-select.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
