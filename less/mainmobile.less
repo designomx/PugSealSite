@@ -1245,12 +1245,14 @@ button:focus {
 
 .open-menu,
 .close-ovrly,
+.close-ovrly2,
 .button {
   cursor: pointer;
   transition: transform 0.30s;
 }
 .open-menu:hover,
 .close-ovrly:hover,
+.close-ovrly2:hover,
 .button:hover {
   transform: scale(1.1);
 }
@@ -1276,6 +1278,18 @@ button:focus {
 }
 
 .overlay ul li a.close-ovrly:after {
+  display: none;
+}
+
+.close-ovrly2{
+	padding-top: 20px;
+	svg{
+		width: 24px;
+		height: 24px;
+	}
+}
+
+.overlay ul li a.close-ovrly2:after {
   display: none;
 }
 
