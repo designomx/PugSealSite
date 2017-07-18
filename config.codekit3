@@ -988,7 +988,7 @@
 		"oAP": "\/images\/background-portada-b.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/background-portada-bell.jpg": {
@@ -2989,6 +2989,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/playbtn.png": {
+		"ft": 32768,
+		"iS": 7504,
+		"oA": 0,
+		"oAP": "\/images\/playbtn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/postermobileblackrectangle.png": {
+		"ft": 32768,
+		"iS": 1510657,
+		"oA": 0,
+		"oAP": "\/images\/postermobileblackrectangle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/private-txt-w.png": {
 		"ft": 32768,
 		"iS": 3643,
@@ -3098,6 +3120,94 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/room_preview_bel1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel2.png": {
+		"ft": 32768,
+		"iS": 395368,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel3.png": {
+		"ft": 32768,
+		"iS": 500052,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel4.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel4.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel5.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel6.png": {
+		"ft": 32768,
+		"iS": 416047,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel7.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/room_preview_bel8.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/room_preview_bel8.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/room_preview_c.png": {
 		"ft": 32768,
 		"iS": 175287,
@@ -3115,8 +3225,8 @@
 		"oA": 0,
 		"oAP": "\/images\/room_preview_t1.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3126,8 +3236,8 @@
 		"oA": 0,
 		"oAP": "\/images\/room_preview_t2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

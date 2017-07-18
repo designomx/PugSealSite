@@ -2178,7 +2178,7 @@ button:focus {
 
 /*secciones sedes general*/
 .nombre-ubicacion-box{
-	margin-top: 15%;
+	margin-top: 5%;
 	font-family: BaronNeue;
 	padding-bottom: 15px !important;
 }
@@ -2197,6 +2197,9 @@ button:focus {
 
 
 /*sectiontennyson*/
+.sectiontennyson{
+	padding-top: 60px;
+}
 #circle {
 	/*width: 90%;*/
 	height: 50%;
@@ -2212,6 +2215,7 @@ button:focus {
 	display: block;
 	margin-top: 4.15%;
     margin-left: 4.15% !important;
+    padding: 5% !important;
 }
 .box-enlacevermas-tennyson{
 	position: relative;
@@ -2233,8 +2237,12 @@ button:focus {
 }
 
 /*allanpoe*/
+.sectionallanpoe{
+	padding-top: 60px;
+}
 #rectangleallanpoe{
 	height: 50%;
+	min-height: 130px;
 	background: #e5e5e5;
 	margin: 0 auto;
 	position: absolute;
@@ -2266,6 +2274,9 @@ button:focus {
 	color: black;
 }
 /*belisario*/
+.sectionbelisario{
+	padding-top: 60px;
+}
 #rectanglebelisario{
 	height: 50%;
 	width: 32%;
@@ -2333,6 +2344,10 @@ button:focus {
 		top: 43%;
 		left: 43%;
 	}
+}
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
 }
 .texto-feel{
 	font-size: 15px;
@@ -2404,18 +2419,23 @@ nav{
 }
 
 .logoindividuales{
-	position: relative;
+	position: absolute;
 	display: block;
 	/*margin: 0 auto;*/
-	width: 30%;
-	top: 70%;
-	left:5%;
+	width: 38%;
+	top: 95px!important;
+	left: 50%;
+	margin-left: -18%;
 }
 
 .footportadaindividuales{
 	font-family: BaronNeue;
 	color: #000;
 	font-size: 19px;
+	span{
+		margin-top: 20px;
+		display: block;
+	}
 }
 
 /*section-rooms*/
@@ -2461,7 +2481,7 @@ nav{
 			position: relative;
 			background-color: #fff;
 			color:#000;
-			left: -50%;
+			left: -55%;
 			letter-spacing: 4px;
 			padding-left: 5px;
 			font-family: 'OratorStd';
@@ -2735,6 +2755,14 @@ nav{
 	}
 }
 
+.home-run-mob{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9;
+}
 
 /******Loader*********/
 .page-loader{
