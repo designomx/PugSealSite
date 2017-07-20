@@ -390,7 +390,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   z-index: 1;
   background: no-repeat center top;
   -webkit-background-size: cover;
@@ -459,8 +459,39 @@ body {
   left: 0;
   bottom: 20px;
   z-index: 89;
+  z-index: 9;
 }
 .down-scroll svg {
+  display: block;
+  margin: 5px auto;
+}
+.down-scroll-x {
+  width: 35px;
+  height: 5%;
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  z-index: 89;
+  z-index: 9;
+  background: none !important;
+  margin-left: -17px;
+}
+.down-scroll-x svg {
+  display: block;
+  margin: 5px auto;
+}
+.down-scroll-y {
+  width: 35px;
+  height: 5%;
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  z-index: 89;
+  z-index: 9;
+  background: none !important;
+  margin-left: -17px;
+}
+.down-scroll-y svg {
   display: block;
   margin: 5px auto;
 }
@@ -513,11 +544,11 @@ body {
 }
 #section1 .allanpoe-bx span {
   font-family: 'OratorStdSlanted';
-  font-size: 12px;
+  font-size: 13px;
   color: #B2B2B2;
   position: absolute;
   right: 0;
-  bottom: 7px;
+  bottom: 4px;
 }
 #section1 .belisario-bx {
   position: absolute;
@@ -575,7 +606,7 @@ body {
 #section1 .tennyson-bx .tennyson-a {
   position: absolute;
   left: auto !important;
-  right: 70px !important;
+  right: 40px !important;
   top: 30px !important;
   background: red;
 }
@@ -588,9 +619,9 @@ body {
   bottom: 0;
 }
 #section1 .tennyson-bx span {
-  width: 100px;
+  width: 117px;
   font-family: 'OratorStdSlanted';
-  font-size: 10px;
+  font-size: 12px;
   color: #B2B2B2;
   position: absolute;
   right: -155px;
@@ -614,6 +645,7 @@ body {
 #section1 .text-bx-1 h1 em {
   font-style: normal;
   font-size: 24px;
+  margin-right: 8px;
 }
 #section1 .text-bx-1 p {
   font-family: 'OratorStdSlanted';
@@ -658,7 +690,7 @@ body {
   font-family: 'BaronNeue';
   font-size: 33px;
   padding: 25px;
-  line-height: 35px;
+  line-height: 40px;
   letter-spacing: 3px;
 }
 #section2 .top-one .left-bx .copy-bx p b {
@@ -944,7 +976,7 @@ body {
   margin: 20px auto;
 }
 #section5 .right-bx iframe {
-  height: 100% !important;
+  height: 80% !important;
   max-height: 500px;
   overflow: hidden;
 }
@@ -1916,9 +1948,28 @@ button:focus {
   -o-background-size: cover;
   background-size: cover;
 }
-#sectionRoomsE .junior {
+#sectionRoomsE .suite h2 {
+  font-size: 40px;
+  color: #83272d;
+}
+#sectionRoomsE .exec {
   height: 480px;
   background: url('../images/tennb.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sectionRoomsE .exec:before {
+  display: none;
+}
+#sectionRoomsE .exec h2 {
+  font-size: 40px;
+  color: #38387f;
+}
+#sectionRoomsE .junior {
+  height: 480px;
+  background: url('../images/tennc.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1927,8 +1978,20 @@ button:focus {
 #sectionRoomsE .junior:before {
   display: none;
 }
-#sectionRoomsE .junior h2.jrhd {
-  color: #83272d;
+#sectionRoomsE .junior h2 {
+  font-size: 40px;
+  color: #1a3404;
+}
+#sectionRoomsE .master {
+  height: 480px;
+  background: url('../images/tennd.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sectionRoomsE .master h2 {
+  font-size: 40px;
 }
 #sectionRoomsE h3 {
   bottom: auto;
@@ -1950,15 +2013,25 @@ button:focus {
   width: 420px;
   height: 190px;
   position: absolute;
-  left: 45%;
-  top: 45%;
+  left: 33%;
+  top: -4%;
   transform: translate(-50%, 0%);
 }
 #sectionRoomsE .suite-actns h2 {
-  margin-top: 100px;
+  margin-top: 25px;
 }
 #sectionRoomsE .suite-actns .actns-bx {
-  top: 70%;
+  top: 100%;
+  left: 10%;
+}
+#sectionRoomsE .suite-actns .actns-bx a:first-child {
+  color: black;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.25);
+}
+#sectionRoomsE .suite-actns .actns-bx a:first-child:hover {
+  color: white;
+  background: black;
 }
 #sectionRoomsE .suite-actns.tennmove {
   left: 50%;
@@ -2269,6 +2342,12 @@ button:focus {
 #habita-cion-nav.show-me li {
   width: 12%;
 }
+#habita-cion-nav.bellsec li {
+  width: 8%;
+}
+#habita-cion-nav.bellsec li a small {
+  color: white;
+}
 .btn-floating {
   z-index: 9999;
   position: fixed;
@@ -2328,6 +2407,7 @@ button:focus {
   position: fixed;
   left: 50%;
   bottom: 40px;
+  margin-left: -12px;
 }
 .overlay-book .close-ovrly-book svg {
   width: 24px;
