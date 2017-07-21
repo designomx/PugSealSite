@@ -1783,11 +1783,11 @@ button:focus {
   padding: 0;
 }
 #sectionRoomsC .row .col {
-  height: 273px;
+  height: 220px;
   position: relative;
 }
 #sectionRoomsC .row .col img {
-  height: 500px;
+  height: 460px;
   width: auto;
   position: absolute;
   left: 0;
@@ -1820,7 +1820,7 @@ button:focus {
 }
 #sectionRoomsC .row .col.junior {
   background: none;
-  height: 263px;
+  height: 220px;
   margin-top: -50px;
 }
 #sectionRoomsC .row .col.junior .actns-bx {
@@ -1835,7 +1835,7 @@ button:focus {
   letter-spacing: 5px;
 }
 #sectionRoomsC .row .col.junior img {
-  height: 500px;
+  height: 460px;
   width: auto;
   position: absolute;
   left: auto;
@@ -1872,11 +1872,11 @@ button:focus {
   padding: 0;
 }
 #sectionRoomsD .row .col {
-  height: 273px;
+  height: 220px;
   position: relative;
 }
 #sectionRoomsD .row .col img {
-  height: 500px;
+  height: 460px;
   width: auto;
   position: absolute;
   left: 0;
@@ -1923,7 +1923,7 @@ button:focus {
   letter-spacing: 5px;
 }
 #sectionRoomsD .row .col.junior img {
-  height: 500px;
+  height: 460px;
   width: auto;
   position: absolute;
   left: auto;
@@ -1936,6 +1936,12 @@ button:focus {
   top: -100px !important;
   left: auto !important;
   right: -80px !important;
+}
+#sectionRoomsD .row .col.junior img.overlyclr2 {
+  top: -100px !important;
+  left: auto !important;
+  right: -80px !important;
+  position: absolute !important;
 }
 #sectionRoomsD .row .col.junior:before {
   display: none;
@@ -2257,6 +2263,7 @@ button:focus {
   position: relative;
   top: 30px;
   z-index: 99;
+  left: 75px;
 }
 #sectionrooms .row .diponible-bx div p {
   position: absolute;
