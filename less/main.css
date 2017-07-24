@@ -1045,7 +1045,7 @@ body {
   width: 100%;
   position: absolute;
   left: 0;
-  top: 32%;
+  top: 30%;
   padding: 0 80px;
 }
 #section6 .ubicaciones .col h3 {
@@ -1073,7 +1073,7 @@ body {
   background: url('../images/footer-seal.png') no-repeat center center;
   position: absolute;
   left: 0;
-  bottom: 100px;
+  bottom: 65px;
   z-index: 9;
 }
 #section6 ul.pug-social {
@@ -1292,8 +1292,9 @@ button:focus {
   -webkit-text-stroke: 1px #117E90;
 }
 .quetza h1.bellih2 {
+  font-family: 'Abadi';
   color: #38387f !important;
-  -webkit-text-stroke: 1px #38387f;
+  -webkit-text-stroke: 0px #38387f;
 }
 #section-mid {
   position: relative;
@@ -1768,10 +1769,10 @@ button:focus {
   left: auto;
   bottom: auto;
   right: 0;
-  top: 30px;
+  top: 5px;
   color: #545454;
   text-align: right;
-  padding-right: 100px;
+  padding-right: 40px;
 }
 #sectionRoomsC .fp-tableCell {
   display: block;
@@ -1946,6 +1947,9 @@ button:focus {
 #sectionRoomsD .row .col.junior:before {
   display: none;
 }
+#sectionRoomsD.newSizeSectionRoomD {
+  height: 230px !important;
+}
 #sectionRoomsE .suite {
   height: 480px;
   background: url('../images/tenna.jpg') no-repeat center center;
@@ -1975,7 +1979,7 @@ button:focus {
 }
 #sectionRoomsE .junior {
   height: 480px;
-  background: url('../images/tennc.jpg') no-repeat center center;
+  background: url('../images/tennd.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1990,7 +1994,7 @@ button:focus {
 }
 #sectionRoomsE .master {
   height: 480px;
-  background: url('../images/tennd.jpg') no-repeat center center;
+  background: url('../images/tennc.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
