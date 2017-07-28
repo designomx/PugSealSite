@@ -1000,6 +1000,7 @@ body {
 }
 #section6 .fp-tableCell {
   display: block;
+  min-height: 630px !important;
 }
 #section6 .footer-booking {
   width: 100%;
@@ -2227,6 +2228,7 @@ button:focus {
   position: relative;
   top: 100px;
   left: -300px;
+  color: #808080;
 }
 #sectionrooms .row h2 {
   width: 100%;
