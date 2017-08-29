@@ -74,7 +74,7 @@ $(document).ready(function() {
 			
 			$('.boo-king-a, .show-booking-nav').on('click', function(ev) {
 			
-				ev.preventDefault();
+//				ev.preventDefault();
 				
 				 if (useHam==0) {
 				 	$('.overlay-book').addClass('opened');
