@@ -105,10 +105,16 @@
 		"oAP": "\/belisario.html",
 		"oF": 0
 		},
-	"\/careyes.html": {
+	"\/careyes\/index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/careyes.html",
+		"oAP": "\/careyes\/index.html",
+		"oF": 0
+		},
+	"\/careyes\/phpmailform.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/careyes\/phpmailform.php",
 		"oF": 0
 		},
 	"\/comentarios.html": {
@@ -1993,6 +1999,146 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/careyes\/gall1.jpg": {
+		"ft": 16384,
+		"iS": 253377,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall10.jpg": {
+		"ft": 16384,
+		"iS": 305927,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall11.jpg": {
+		"ft": 16384,
+		"iS": 257473,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall12.jpg": {
+		"ft": 16384,
+		"iS": 143290,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall13.jpg": {
+		"ft": 16384,
+		"iS": 154299,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall14.jpg": {
+		"ft": 16384,
+		"iS": 99160,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall2.jpg": {
+		"ft": 16384,
+		"iS": 167767,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall3.jpg": {
+		"ft": 16384,
+		"iS": 313723,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall4.jpg": {
+		"ft": 16384,
+		"iS": 137638,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall5.jpg": {
+		"ft": 16384,
+		"iS": 69678,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall6.jpg": {
+		"ft": 16384,
+		"iS": 86466,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall7.jpg": {
+		"ft": 16384,
+		"iS": 140164,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall8.jpg": {
+		"ft": 16384,
+		"iS": 129289,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/careyes\/gall9.jpg": {
+		"ft": 16384,
+		"iS": 150718,
+		"oA": 0,
+		"oAP": "\/images\/careyes\/gall9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/careyes\/home_bg.jpg": {
@@ -4807,11 +4953,35 @@
 		"oAP": "\/m\/tennyson.html",
 		"oF": 0
 		},
-	"\/phpmailform.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/phpmailform.php",
-		"oF": 0
+	"\/simplelbx\/simple-lightbox.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/simplelbx\/simple-lightbox.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/simplelbx\/simplelightbox.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/simplelbx\/simplelightbox.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/simplelbx\/simplelightbox.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/simplelbx\/simplelightbox.min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/tennyson-exec.html": {
 		"ft": 8192,
