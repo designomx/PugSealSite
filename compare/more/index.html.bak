@@ -160,7 +160,7 @@
 			<li><a href="#footer">CONTACTO</a></li>
 		</ul>
 	</div>
-	<a href="https://app.thebookingbutton.com/properties/pugsealtennysondirect" class="boo-king-a" target="_blank">Book Now</a>
+	<a href="https://app.thebookingbutton.com/properties/pugsealtennysondirect" class="boo-king-a" target="_blank">Reservar</a>
 	<img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo"/>
 	<a href="#firstPage" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo"/></a>
 </div>
@@ -332,7 +332,7 @@
 	</div>
 	<div class="section" id="section6">
 		<div class="footer-booking">
-			<!--<a href="#!">Book now</a>-->
+			<!--<a href="#!">Reservar</a>-->
 			<ul>
 				<li><a href="#!">B&B</a></li>
 				<li>/</li>
@@ -447,7 +447,7 @@
 	</div>
 
 	
-		<!-- Overlay Book Now Menu -->
+		<!-- Overlay Reservar Menu -->
 	
 	<div class="overlay-book">
 		<div class="row">
