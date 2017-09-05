@@ -43,7 +43,7 @@ $(document).ready(function() {
     // I only want to redirect iPhones, Android phones and a handful of 7" devices
     if (isMobile.any && $(window).width() < 1024) {
 
-        document.location = MOBILE_SITE;
+        //document.location = MOBILE_SITE;
     }
 
     $('.hamburger').click(function() {
