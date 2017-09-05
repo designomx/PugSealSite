@@ -1597,9 +1597,13 @@ button:focus {
 ---- Responsive
 */
 
-@media (max-width: 1024px) {
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1980px) 
+and (orientation : landscape) {
+	 /*landscape*/ 
 
-	#sectionrooms .row .txtin-b ul {
+	 #sectionrooms .row .txtin-b ul {
 		width: 210px!important;
 		display: block;
 		font-family: 'OratorStdSlanted';
@@ -1635,104 +1639,94 @@ button:focus {
 		width: 45%;
 		height: auto;
 	}
-  }
-
-@media (max-width: 670px) {
-  .overlay nav {
-    font-size: 30px;
-  }
-  .video-bgbox .prinhead {
-    border: 0;
-    width: 85%;
-    height: auto;
-}
-
-.white-logo-bx{
-display: none;
-
-}
-
-.boo-king-a{
-	visibility: hidden!important;
-	
-}
-.text-bx-0carey h1 {
-    font-family: 'Abadi';
-    font-size: 38px;
-    letter-spacing: 18px;
-    padding: 75px 10px 0px 10px;
-    text-transform: uppercase;
-    color: #7F050E;
-}
-.text-bx-0carey p {
-    font-family: 'BaronNeue';
-    letter-spacing: 6px;
-    padding: 0px 20px 20px 20px;
-    max-width: 100%;
-    margin: 0 auto;
-    font-size: 15px;
-    line-height: 20px;
-}
-.ama-brdr p {
-    font-size: 0.7rem;
-}
-.red-brdr p {
-   
-    font-size: 0.7rem;
-}
-
-}
 
 
-@media (max-width: 320px) {
+}
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 670px)   {
+	 /*iPhone 6 in landscape*/ 
+	 .video-bgbox #myVideo {
+		display:none;
+	}
 	.overlay nav {
-	  font-size: 20px;
+		font-size: 20px;
+	  }
+	  .video-bgbox .prinhead {
+		  border: 0;
+		  width: 85%;
+		  height: auto;
+	  }
+	  
+	  .white-logo-bx{
+	  display: block;
+	  
+	  }
+	  
+	  .boo-king-a{
+		  visibility: hidden!important;
+		  display: none;
+	  }
+	  .boo-king-awt{
+		visibility: visible!important;
 	}
-	.video-bgbox .prinhead {
-		border: 0;
-		width: 85%;
-		height: auto;
-	}
-	
-	.white-logo-bx{
-	display: none;
-	
-	}
-	
-	.boo-king-a{
-		visibility: hidden!important;
-		
-	}
-	.text-bx-0carey h1 {
-		font-family: 'Abadi';
-		font-size: 25px;
-		letter-spacing: 18px;
-		padding: 75px 10px 0px 10px;
-		text-transform: uppercase;
-		color: #7F050E;
-	}
-	.text-bx-0carey p {
-		font-family: 'BaronNeue';
-		letter-spacing: 6px;
-		padding: 0px 20px 20px 20px;
-		max-width: 100%;
+	  img.puglogobwt {
+		display: block;
 		margin: 0 auto;
-		font-size: 12px;
-		line-height: 20px;
+		opacity: 1;
+		position: absolute;
+		z-index: 1;
+		-webkit-transition: all 1s linear;
+		-moz-transition: all 1s linear;
+		-o-transition: all 1s linear;
+		transition: all 1s linear;
 	}
-	.ama-brdr p {
-		font-size: 0.5rem;
+	  .main-nav-head{ display: none;}
+	  .top-brand-bar .white-logo-bx {
+		position: relative;
+		/* left: 20%; */
+		margin: 0px auto;
+		top: -70px;
+		width: 175px;
+		visibility: visible;
+		opacity: 1;
+		-webkit-transition: all 1s linear;
+		-moz-transition: all 1s linear;
+		-o-transition: all 1s linear;
+		transition: all 1s linear;
 	}
-	.red-brdr p {
-	   
-		font-size: 0.5rem;
-	}
-  }
-@media (max-width: 550px) {
-  .overlay nav {
-    font-size: 20px;
-  }
+	  
+	  .text-bx-0carey h1 {
+		  font-family: 'Abadi';
+		  font-size: 25px;
+		  letter-spacing: 18px;
+		  padding: 75px 10px 0px 10px;
+		  text-transform: uppercase;
+		  color: #7F050E;
+	  }
+	  .text-bx-0carey p {
+		  font-family: 'BaronNeue';
+		  letter-spacing: 6px;
+		  padding: 0px 20px 20px 20px;
+		  max-width: 100%;
+		  margin: 0 auto;
+		  font-size: 12px;
+		  line-height: 20px;
+	  }
+	  .ama-brdr p {
+		  display:none;
+	  }
+	  .red-brdr p {
+		 
+		display:none;
+	  }
 }
+
+
+
+
+
+
 
 /*- - - - - - - - */
 /*INTERNAL PAGES*/
