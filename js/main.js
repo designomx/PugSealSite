@@ -62,6 +62,8 @@ $(document).ready(function() {
         $('div #blocktel').addClass("s12");
         $('div #blockcorreo').removeClass("s6");
         $('div #blockcorreo').addClass("s12");
+        $('.right-txt-slide').find('br').remove();
+        $('#todoinc').remove();
 
 
 
