@@ -1,0 +1,53 @@
+@media only screen 
+and (min-device-width : 480px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	 /*iPhone 6 in landscape*/ 
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : landscape)  {
+	 /*iPhone 6 in landscape*/ 
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape)   {
+	 /*iPhone 6 in landscape*/ 
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 760px) 
+and (orientation : portrait) {
+	 /*iPhone 6 in portrait*/ 
+
+}
+
+@media only screen 
+and (min-device-width : 480px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	 /*iPhone 6 in landscape*/ 
+
+}
+
+@media only screen 
+and (min-device-width : 1025px) 
+and (max-device-width : 1980px) 
+and (orientation : landscape) {
+	 /*iPhone 6 in landscape*/ 
+
+}
+
+
+ Quitar Video por Imagen Movil landscape y portrait
+ Quitar EXPERIENCIAS PUGSEAL apartir de Iphone 6 plus
+ Ocultar menu y mostrar logo centrado en Vista Gris
+
