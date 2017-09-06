@@ -45,7 +45,7 @@ $(document).ready(function() {
 
         //document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
-        $('#myVideo').remove();
+//        $('#myVideo').remove();
         $('#slidebxa').remove();
         $('#slidebxb').remove();
         $('#slidebxc').remove();
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
     } else if (isMobile.any && $(window).width() < 1024) {
 
-        $('#myVideo').remove();
+//        $('#myVideo').remove();
         $('#slidebxa').remove();
         $('div #slidechange1').removeClass("s6");
         $('div #slidechange1').addClass("s12");
