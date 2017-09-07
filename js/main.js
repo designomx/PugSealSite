@@ -41,11 +41,11 @@ $(document).ready(function() {
     var MOBILE_SITE = 'm/index.html'; // site to redirect to
 
     // I only want to redirect iPhones, Android phones and a handful of 7" devices
-    if (isMobile.any && $(window).width() < 1023) {
+    if (isMobile.any && $(window).width() < 599) {
 
         //document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
-        $('#myVideo').remove();
+        // $('#myVideo').remove();
         $('#slidebxa').remove();
         $('#slidebxb').remove();
         $('#slidebxc').remove();
@@ -67,13 +67,39 @@ $(document).ready(function() {
 
 
 
+    } else if (isMobile.any && $(window).width() < 1023) {
+
+        //document.location = MOBILE_SITE;
+        $('.ubicaciones').remove();
+        // $('#myVideo').remove();
+        $('#slidebxa').remove();
+        $('#slidebxb').remove();
+        $('#slidebxc').remove();
+        $('#downcontact').remove();
+        $('div .contacarey').removeClass("m7");
+        $('div .contacarey').addClass("s12");
+        $('div .right-txt-slide').removeClass("s6");
+        $('div .right-txt-slide').addClass("s12");
+        $('div .right-txt-slide').removeClass("s6");
+        $('div .right-txt-slide').addClass("s12");
+        $('div #blocktel').removeClass("s6");
+        $('div #blocktel').addClass("s12");
+        $('div #blockcorreo').removeClass("s6");
+        $('div #blockcorreo').addClass("s12");
+        $('.slidesrow .right-txt-slide h2').remove();
+
     } else if (isMobile.any && $(window).width() < 1024) {
 
-        $('#myVideo').remove();
+        // $('#myVideo').remove();
         $('#slidebxa').remove();
         $('div #slidechange1').removeClass("s6");
         $('div #slidechange1').addClass("s12");
     }
+
+
+
+
+
 
     $('.hamburger').click(function() {
         $(this).toggleClass('is-active');
