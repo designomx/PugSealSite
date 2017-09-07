@@ -45,6 +45,12 @@
 		"oAP": "\/allanpoe.html",
 		"oF": 0
 		},
+	"\/allanpoe_.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/allanpoe_.html",
+		"oF": 0
+		},
 	"\/belisario-2013.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -2739,6 +2745,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/gmndncjlcfhjeneh.jpg": {
+		"ft": 16384,
+		"iS": 384852,
+		"oA": 0,
+		"oAP": "\/images\/gmndncjlcfhjeneh.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/habita-poe-bg-2.jpg": {
 		"ft": 16384,
 		"iS": 232604,
@@ -2925,6 +2941,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/images\/igoacopmejihedde.jpg": {
+		"ft": 16384,
+		"iS": 651906,
+		"oA": 0,
+		"oAP": "\/images\/igoacopmejihedde.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/instatxt.png": {
@@ -5027,6 +5053,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tenyson.html",
+		"oF": 0
+		},
+	"\/tenyson_.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tenyson_.html",
 		"oF": 0
 		},
 	"\/util.txt": {
