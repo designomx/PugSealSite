@@ -38,7 +38,7 @@ $(document).ready(function() {
 
     if (isMobile.any && $(window).width() < 375) {
 
-        //document.location = MOBILE_SITE;
+        document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
         // $('#myVideo').remove();
         $('#slidebxa').remove();
@@ -66,7 +66,7 @@ $(document).ready(function() {
 
     } else if (isMobile.any && $(window).width() == 375) {
 
-        //document.location = MOBILE_SITE;
+        document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
         // $('#myVideo').remove();
         $('#slidebxa').remove();
@@ -118,7 +118,7 @@ $(document).ready(function() {
 
     } else if (isMobile.any && $(window).width() < 1023) {
 
-        //document.location = MOBILE_SITE;
+        document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
         // $('#myVideo').remove();
         $('#slidebxa').remove();
@@ -142,7 +142,7 @@ $(document).ready(function() {
 
 
     } else if (isMobile.any && $(window).width() < 1024) {
-
+        document.location = MOBILE_SITE;
         // $('#myVideo').remove();
         $('#slidebxa').remove();
         $('div #slidechange1').removeClass("s6");
