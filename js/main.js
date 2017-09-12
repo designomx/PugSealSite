@@ -92,7 +92,7 @@ $(document).ready(function() {
 
     } else if (isMobile.any && $(window).width() < 599) {
 
-        //document.location = MOBILE_SITE;
+        document.location = MOBILE_SITE;
         $('.ubicaciones').remove();
         // $('#myVideo').remove();
         $('#slidebxa').remove();
