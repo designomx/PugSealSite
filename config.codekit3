@@ -2746,6 +2746,36 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/gall\/b1.jpg": {
+		"ft": 16384,
+		"iS": 177923,
+		"oA": 0,
+		"oAP": "\/images\/gall\/b1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gall\/b2.jpg": {
+		"ft": 16384,
+		"iS": 213490,
+		"oA": 0,
+		"oAP": "\/images\/gall\/b2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/gall\/b3.jpg": {
+		"ft": 16384,
+		"iS": 268514,
+		"oA": 0,
+		"oAP": "\/images\/gall\/b3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/gmndncjlcfhjeneh.jpg": {
 		"ft": 16384,
 		"iS": 384852,
@@ -5153,7 +5183,7 @@
 	"creationDate": 517252955,
 	"displayValue": "PugSealSite",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_magenta"
+	"iconImageName": "meme-wonka"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

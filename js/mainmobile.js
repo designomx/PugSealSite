@@ -2,8 +2,6 @@
 
 $(document).ready(function() {
 
-
-
 	var DESKTOP_SITE = '/index.html'; // site to redirect to
 
 	// I only want to redirect iPhones, Android phones and a handful of 7" devices
