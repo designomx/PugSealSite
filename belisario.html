@@ -1,583 +1,708 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Pug Seal Boutique Bed & Breakfast</title>
+		<link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="fullpage/jquery.fullpage.min.css">
+		<link rel="stylesheet" href="css/aos.css">
+		<link rel="stylesheet" href="css/animate.min.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" href="../simplelbx/simplelightbox.min.css">
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<!-- Page Loader -->
+		<div class="page-loader">
+			<div class="loader">Loading...</div>
+		</div>
+		<!--<ul id="menu">
 
-<head>
-	<meta http-equiv="cache-control" content="max-age=0" />
-	<meta http-equiv="cache-control" content="no-cache" />
-	<meta http-equiv="expires" content="0" />
-	<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
-	<meta http-equiv="pragma" content="no-cache" />
-	
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Pug Seal Boutique Bed & Breakfast</title>
-
-    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="fullpage/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="../simplelbx/simplelightbox.min.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-    <!-- Page Loader -->
-    <div class="page-loader">
-        <div class="loader">Loading...</div>
-    </div>
-    <!--<ul id="menu">
 	<li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
+
 	<li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+
 	<li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+
 	<li data-menuanchor="4thpage"><a href="#4thpage">Fourth slide</a></li>
+
 	<li data-menuanchor="5thPage"><a href="#5thPage">Fifth slide</a></li>
+
 	<li data-menuanchor="6thpage"><a href="#6thpage">Sixth slide</a></li>
+
 </ul>-->
+		<a href="#firstPage" class="btn-floating floating-br btn-large waves-effect waves-light grey darken-3" style="display: none;"><i class="material-icons">keyboard_arrow_up</i></a>
+		<div class="top-brand-bar">
+			<div class="main-nav-head" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-sine">
+				<button class="hamburger hamburger--squeeze" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+				<ul>
+					<li>
+						<a href="#!" class="passive-lang">ENG</a>
+					</li>
+					<li class="passive-lang">/</li>
+					<li>
+						<a href="#!">ESP</a>
+					</li>
+					<li>/</li>
+					<li>
+						<a href="#footer">CONTACTO</a>
+					</li>
+				</ul>
+			</div>
+			<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank" class="boo-king-a-sinaccion">Reservar</a>
+			<img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo" />
+			<a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo" /></a>
+		</div>
+		<div class="left-nav-bx">
+			<span>
+				<a href="allanpoe.html">
+			<img src="images/left-house.png" height="30" alt="" />
+			<p><em><</em> ALLAN POE</p>
+		</a>
+			</span>
+		</div>
+		<div class="right-nav-bx">
+			<span>
+				<a href="tenyson.html">
+			<img src="images/right-house.png" height="30" alt="" />
+			<p>TENNYSON <em>></em></p>
+		</a>
+			</span>
+		</div>
+		<div id="fullpage">
+			<div class="section" id="section0">
+				<div class="video-bgbox">
+					<!--<video id="myVideo" loop muted data-autoplay>
 
-    <div class="top-brand-bar">
-
-        <div class="main-nav-head" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000" data-aos-easing="ease-out-sine">
-            <button class="hamburger hamburger--squeeze" type="button">
-		  <span class="hamburger-box">
-		    <span class="hamburger-inner"></span>
-		  </span>
-		</button>
-            <ul>
-                <li><a href="#!" class="passive-lang">ENG</a></li>
-                <li class="passive-lang">/</li>
-                <li><a href="#!">ESP</a></li>
-                <li>/</li>
-                <li><a href="#footer">CONTACTO</a></li>
-            </ul>
-        </div>
-        <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank" class="boo-king-a-sinaccion">Reservar</a>
-        <img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo" />
-        <a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo" /></a>
-    </div>
-
-    <div id="fullpage">
-        <div class="section" id="section0">
-            <div class="video-bgbox">
-                <!--<video id="myVideo" loop muted data-autoplay>
 				<source src="videos/v1.mp4" type="video/mp4">
+
 				<source src="videos/v1.webm" type="video/webm">
+
 				 <source src="videos/v1.ogv" type="video/ogg" />
+
 			</video>-->
-                <div class="oflw" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/belisario-bg.jpg');"></div>
-                <a href="#!" class="internal-heabng" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-sine">Suites<br>
+					<div class="oflw" style="background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/belisario-bg.jpg');"></div>
+					<a href="#!" class="internal-heabng" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-sine">Suites<br>
+
 				B·e·l·i·s·a·r·i·o<span>Coyoacán / CDMX</span>
+
 			</a>
-                <div class="left-nav-bx">
-                    <span>
-					<a href="allanpoe.html">
-						<img src="images/left-house.png" height="30" alt="" />
-						<p>ALLAN POE</p>
-					</a>
-				</span>
-                </div>
-                <div class="right-nav-bx">
-                    <span>
-					<a href="tenyson.html">
-						<img src="images/right-house.png" height="30" alt="" />
-						<p>TENNYSON</p>
-					</a>
-				</span>
-                </div>
-            </div>
-            <a href="#secondPage" class="down-scroll">
-                <div class="tagnav"></div>
-                <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                <svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
+				</div>
+				<a href="#secondPage" class="down-scroll">
+
+				<div class="tagnav"></div>
+
+				<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
+
+				<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
+
 			<defs>
+
 			</defs>
+
 			<g>
+
 				<rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
+
 				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
+
 			</g>
+
 			</svg>
 
-            </a>
-            <div class="clearfix"></div>
-            <div class="pug-seal-deco" style="background: white url('images/barrawho.png') no-repeat center center;"></div>
-            <div class="clearfix"></div>
-        </div>
-        <div class="section" id="section-mid" style="background: none;">
-            <div class="text-bx-0 parallax-bx quetza">
-                <br /><br />
-                <h1 class="layer bellih2" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-back">BELISARIO<br /><small style="font-size: 12px; font-weight: normal;">héroe nacional</small></h1>
-                <p data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">El lugar hace homenaje a la expresión en todos sus sentidos. Se encuentra ubicado en la calle de Belisario Domínguez en el centro de Coyoacan. Belisario fue el héroe nacional que contribuyó al nacimiento de la libre expresión del país.<br
-                    /><br /> La unión de esta historia contada con nuestra libre expresión, dan vida al primer PUGSEAL de la ciudad. </p>
 
-            </div>
-            <a href="#3rdPage" class="down-scroll">
-                <div class="tagnav">Suites</div>
-                <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                <svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
+
+			</a>
+				<div class="clearfix"></div>
+				<div class="pug-seal-deco" style="background: white url('images/barrawho.png') no-repeat center center;"></div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="section" id="section-mid" style="background: none;">
+				<div class="text-bx-0 parallax-bx quetza">
+					<br />
+					<br />
+					<h1 class="layer bellih2" data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-out-back">BELISARIO
+						<br />
+						<small style="font-size: 12px; font-weight: normal;">héroe nacional</small>
+					</h1>
+					<p data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-out-back">El lugar hace homenaje a la expresión en todos sus sentidos. Se encuentra ubicado en la calle de Belisario Domínguez en el centro de Coyoacan. Belisario fue el héroe nacional que contribuyó al nacimiento de la libre expresión del país.
+						<br />
+						<br />La unión de esta historia contada con nuestra libre expresión, dan vida al primer PUGSEAL de la ciudad.</p>
+				</div>
+				<a href="#3rdPage" class="down-scroll">
+
+				<div class="tagnav">Suites</div>
+
+				<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
+
+				<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
+
 			<defs>
+
 			</defs>
+
 			<g>
+
 				<rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
+
 				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
+
 			</g>
+
 			</svg>
 
-            </a>
-            <div class="quetzaL">
-                <div class="vectrL parallax-bx">
-                    <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                    <!--<svg class="layer" data-depth="0.40" version="1.1"
-					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-					 x="0px" y="0px" width="110px" height="95.3px" viewBox="0 0 110 95.3" style="enable-background:new 0 0 110 95.3;"
-					 xml:space="preserve">
+
+
+			</a>
+				<div class="quetzaL">
+					<div class="vectrL parallax-bx">
+						<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In -->
+						<!--<svg class="layer" data-depth="0.40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="110px" height="95.3px" viewBox="0 0 110 95.3" style="enable-background:new 0 0 110 95.3;" xml:space="preserve">
+
 				<style type="text/css">
+
 					.stx{fill:#F294F9 !important;}
+
 				</style>
+
 				<defs>
+
 				</defs>
+
 				<g>
+
 					<polygon class="stx" points="55,95.3 110,0 0,0 	"/>
+
 				</g>
+
 				</svg>-->
-                    <img class="layer" data-depth=".80" src="images/quetzalR2.png" width="180" alt="" />
-                </div>
-            </div>
-            <div class="quetzaR">
-                <div class="vactrR parallax-bx">
-                    <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                    <!--<svg class="layer" data-depth="0.40" version="1.1"
-					 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-					 x="0px" y="0px" width="110px" height="95.3px" viewBox="0 0 110 95.3" style="enable-background:new 0 0 110 95.3;"
-					 xml:space="preserve">
+						<img class="layer" data-depth=".80" src="images/quetzalR2.png" width="180" alt="" />
+					</div>
+				</div>
+				<div class="quetzaR">
+					<div class="vactrR parallax-bx">
+						<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In -->
+						<!--<svg class="layer" data-depth="0.40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="110px" height="95.3px" viewBox="0 0 110 95.3" style="enable-background:new 0 0 110 95.3;" xml:space="preserve">
+
 				<style type="text/css">
+
 					.sty{fill:#95FAD6;}
+
 				</style>
+
 				<defs>
+
 				</defs>
+
 				<g>
+
 					<polygon class="sty" points="55,95.3 110,0 0,0 	"/>
+
 				</g>
+
 				</svg>-->
-                    <img class="layer" data-depth=".80" src="images/quetzalL2.png" width="180" alt="" />
-                </div>
-            </div>
-        </div>
-        <div class="section fp-auto-height parallax-bx" id="sectionRoomsC">
-
-            <div class="row">
-                <h3>Habitaciones<br><span id="tagcity">Coyoacán / CDMX</span></h3>
-                <div class="col s12 suite">
-                    <img src="images/bell7.jpg" alt="" />
-                    <img src="images/bell7t.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2>07 DE<br />OCTUBRE</h2>
-                        <div class="actns-bx">
-                            <a href="belisario-octubre.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 junior">
-                    <img src="images/bell2013.jpg" alt="" />
-                    <img src="images/bell7tt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2 class="jrhd">2013</h2>
-                        <div class="actns-bx">
-                            <a href="belisario-2013.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 suite">
-                    <img src="images/bellatl.jpg" alt="" />
-                    <img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2>DR.<br />ATL</h2>
-                        <div class="actns-bx">
-                            <a href="belisario-atl.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-        </div>
-
-        <div class="section fp-auto-height parallax-bx" id="sectionRoomsD">
-
-            <div class="row">
-                <div class="clearfix"></div>
-                <div class="col s12 junior">
-                    <img src="images/bellbell.jpg" alt="" />
-                    <img src="images/bell7tt.png" alt="" class="overlyclr2 layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2 class="jrhd">BELISARIO<br /> DOMÍNGUEZ
-                        </h2>
-                        <div class="actns-bx">
-                            <a href="belisario-belisario.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 suite">
-                    <img src="images/bellfuentes.jpg" alt="" />
-                    <img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2>CARLOS<br />FUENTES</h2>
-                        <div class="actns-bx">
-                            <a href="belisario-fuentes.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <!--
-			<div class="col s12 junior">
-				<img src="images/bell2013.jpg" alt="" />
-				<img src="images/bell7tttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-				<div class="suite-actns">
-					<h2 class="jrhd">COMITÁN</h2>
-					<div class="actns-bx">
-						<a href="belisario-comitan.html">VER HABITACIÓN</a>
-						<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+						<img class="layer" data-depth=".80" src="images/quetzalL2.png" width="180" alt="" />
 					</div>
 				</div>
 			</div>
-			-->
-                <div class="col s12 junior">
-                    <img src="images/bellsabines.jpg" alt="" />
-                    <img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2 class="jrhd">JAIME<br />SABINES</h2>
-                        <div class="actns-bx">
-                            <a href="belisario-sabines.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+			<div class="section fp-auto-height parallax-bx" id="sectionRoomsC">
+				<div class="row">
+					<h3>Habitaciones
+						<br>
+						<span id="tagcity">Coyoacán / CDMX</span>
+					</h3>
+					<div class="col s12 suite">
+						<img src="images/bell7.jpg" alt="" />
+						<img src="images/bell7t.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2>07 DE
+								<br />OCTUBRE</h2>
+							<div class="actns-bx">
+								<a href="belisario-octubre.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 junior">
+						<img src="images/bell2013.jpg" alt="" />
+						<img src="images/bell7tt.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2 class="jrhd">2013</h2>
+							<div class="actns-bx">
+								<a href="belisario-2013.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 suite">
+						<img src="images/bellatl.jpg" alt="" />
+						<img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2>DR.
+								<br />ATL</h2>
+							<div class="actns-bx">
+								<a href="belisario-atl.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section fp-auto-height parallax-bx" id="sectionRoomsD">
+				<div class="row" style="overflow: hidden;">
+					<div class="clearfix"></div>
+					<div class="col s12 junior">
+						<img src="images/bellbell.jpg" alt="" />
+						<img src="images/bell7tt.png" alt="" class="overlyclr2 layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2 class="jrhd">BELISARIO
+								<br />DOMÍNGUEZ</h2>
+							<div class="actns-bx">
+								<a href="belisario-belisario.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 suite">
+						<img src="images/bellfuentes.jpg" alt="" />
+						<img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2>CARLOS
+								<br />FUENTES</h2>
+							<div class="actns-bx">
+								<a href="belisario-fuentes.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+					<div class="col s12 junior">
+						<img src="images/bellsabines.jpg" alt="" />
+						<img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2 class="jrhd">JAIME
+								<br />SABINES</h2>
+							<div class="actns-bx">
+								<a href="belisario-sabines.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section fp-auto-height parallax-bx newSizeSectionRoomD" id="sectionRoomsD">
+				<div class="row">
+					<div class="col s12 suite">
+						<img src="images/bellrufino.jpg" alt="" />
+						<img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
+						<div class="suite-actns">
+							<h2 class="jrhd">RUFINO
+								<br />TAMAYO</h2>
+							<div class="actns-bx">
+								<a href="belisario-rufino.html">VER HABITACIÓN</a>
+								<a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
+							</div>
+						</div>
+					</div>
+					<a href="#3rdPage" class="down-scroll">
 
-        </div>
+					<div class="tagnav">La Casa</div>
+
+					<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
+
+					<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
+
+						<defs>
+
+						</defs>
+
+						<g>
+
+							<rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
+
+							<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
+
+						</g>
+
+						</svg>
 
 
-        <div class="section fp-auto-height parallax-bx newSizeSectionRoomD" id="sectionRoomsD">
 
-            <div class="row">
-                <div class="col s12 suite">
-                    <img src="images/bellrufino.jpg" alt="" />
-                    <img src="images/bell7ttt.png" alt="" class="overlyclr layer" data-depth="0.50" />
-                    <div class="suite-actns">
-                        <h2 class="jrhd">RUFINO<br /> TAMAYO
-                        </h2>
-                        <div class="actns-bx">
-                            <a href="belisario-rufino.html">VER HABITACIÓN</a>
-                            <a href="https://www.thebookingbutton.co.uk/properties/pugsealdirect" target="_blank">RESERVA AHORA</a>
-                        </div>
-                    </div>
-                </div>
-                <a href="#3rdPage" class="down-scroll">
-                    <div class="tagnav">La Casa</div>
-                    <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                    <svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;" xml:space="preserve">
-                        <defs>
-                        </defs>
-                        <g>
-                            <rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
-                            <rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
-                        </g>
-                        </svg>
+				</a>
+				</div>
+			</div>
+			<!-- <div class="section fp-auto-height inter-po-bx bellhome" id="section2">
 
-                </a>
-            </div>
-
-        </div>
-
-        <!--
-	<div class="section fp-auto-height inter-po-bx bellhome" id="section2">
 		<p>PLEASE,<br />
+
 		FEEL AT HOME</p>
+
 	</div>
+
 	-->
+			<div class="section" id="section4">
+				<div class="iconfull">
+					<i class="material-icons">&#xE8FF;</i>
+				</div>
+				<div class="slide slidesrow">
+					<div class="row">
+						<div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b1.jpg');position: relative;"></div>
+					</div>
+				</div>
+				<div class="slide slidesrow">
+					<div class="row">
+						<div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b2.jpg');position: relative;"></div>
+					</div>
+				</div>
+				<div class="slide slidesrow">
+					<div class="row">
+						<div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b3.jpg');position: relative;"></div>
+					</div>
+				</div>
+				<div class="slide slidesrow">
+					<div class="row">
+						<div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b4.jpg');position: relative;"></div>
+					</div>
+				</div>
+				<a href="#!" style="position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, .3);z-index: 9;display: block;"></a>
+				<a href="#4thpage" class="down-scroll rescarey" style="bottom: 0px;">
+							<p class="upper-scroll"></p>
+							<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
+							<svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;fill: white;" xml:space="preserve">
+						<defs>
+						</defs>
+						<g>
+							<rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
+							<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
+						</g>
+						</svg>
+			
+						</a>
+				<div class="col s12 namelisario">
+					<p>b · e · l · i · s · a · r · i · o
+						<span></span>
+						<em>c o y o a c á n / c d m x</em>
+					</p>
+				</div>
+				<div class="col s12 left-img-bg boxiboxi">
+					<a href="../../images/gall/bel1.jpg" style="width: 100%;height: 100%;display: block;position: absolute;left: 0;top: 0;"></a>
+					<a href="../../images/gall/bel2.jpg"></a>
+					<a href="../../images/gall/bel3.jpg"></a>
+					<a href="../../images/gall/bel4.jpg"></a>
+					<a href="../../images/gall/bel5.jpg"></a>
+					<a href="../../images/gall/bel6.jpg"></a>
+					<a href="../../images/gall/bel7.jpg"></a>
+					<a href="../../images/gall/bel8.jpg"></a>
+					<a href="../../images/gall/bel9.jpg"></a>
+				</div>
+			</div>
+			<div class="section" id="section6">
+				<div class="footer-booking">
+					<!--<a href="#!">Reservar</a>-->
+					<ul>
+						<li>
+							<a href="index.html#3rdPage">Suites</a>
+						</li>
+						<li>/</li>
+						<li>
+							<a href="index.html#4thpage">EXPERIENCIAS</a>
+						</li>
+						<li>/</li>
+						<li>
+							<a href="index.html#6thpage">ARTE</a>
+						</li>
+						<li>/</li>
+						<li>
+							<a href="#!">GALERÍA</a>
+						</li>
+						<div class="bottomlinesvg">
+							<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In -->
+							<svg x="0px" y="0px" width="415px" height="1px" viewBox="0 0 415 1" style="enable-background:new 0 0 415 1;" xml:space="preserve">
+								<style type="text/css">
+									.st0{fill:none;stroke:#666666;stroke-miterlimit:10;}
+									.st1{fill:none;stroke:#666666;stroke-miterlimit:10;stroke-dasharray:3.0073,3.0073;}
+								</style>
+								<defs></defs>
+								<g>
+									<g>
+										<line class="st0" x1="0" y1="0.5" x2="1.5" y2="0.5" />
+										<line class="st1" x1="4.5" y1="0.5" x2="412" y2="0.5" />
+										<line class="st0" x1="413.5" y1="0.5" x2="415" y2="0.5" />
+									</g>
+								</g>
+							</svg>
+						</div>
+				</div>
+				<div class="row ubicaciones hide-on-med-and-down">
+					<div class="col s12 m4">
+						<h3>
+							<a href="belisario.html">B E L I S A R I O</a>
+						</h3>
+						<p>1er. Cda. B. Domínguez
+							<br />Col. Del Carmen
+							<br />Delegación CoyoacÁn México,
+							<br />CDMX C.P. 04100
+							<br />
+							<a href="mailto:coyoacan@pugseal.com">coyoacan@pugseal.com</a>
+							<br />
+							<a href="tel:+5263637176">+52 (55) 63.63.71.76</a>
+						</p>
+						</p>
+					</div>
+					<div class="col s12 m4">
+						<h3>
+							<a href="allanpoe.html">A L L A N  &nbsp; P O E</a>
+						</h3>
+						<p>Edgar Allan Poe No.90
+							<br />Col. Polanco
+							<br />Delegación Miguel Hidalgo México,
+							<br />CDMX C.P. 11550
+							<br />
+							<a href="mailto:polanco@pugseal.com">polanco@pugseal.com</a>
+							<br />
+							<a href="tel:+525575721142">+52 (55) 75.72.11.42</a>
+							<br>
+							<a href="https://goo.gl/maps/hyy5qUVa3Ak" target="_blank">Ver mapa</a>
+						</p>
+					</div>
+					<div class="col s12 m4">
+						<h3>
+							<a href="tenyson.html">T E N N Y S O N</a>
+						</h3>
+						<p>Tennyson No.86
+							<br />Col. Polanco
+							<br />Delegación Miguel Hidalgo México,
+							<br />CDMX C.P. 11550
+							<br />
+							<a href="mailto:tennyson@pugseal.com">tennyson@pugseal.com</a>
+							<br />
+							<a href="tel:+525576783801">+52 (55) 7678.38.01</a>
+							<br>
+							<a href="https://goo.gl/maps/dzjTB7dsLb82" target="_blank">Ver mapa</a>
+						</p>
+					</div>
+				</div>
+				<div class="row s12 ubicasponsive hide-on-large-only">
+					<div class="col s6 center">
+						<h3><a href="belisario.html">B E L I S A R I O</a></h3>
+						<a href="tel:+5263637176" class="rounded-a"><i class="material-icons">&#xE0CD;</i></a>
+						<a href="mailto:coyoacan@pugseal.com" class="rounded-a"><i class="material-icons">&#xE158;</i></a>
+						</p>
+						<div class="deco-x"></div>
+					</div>
+					<div class="col s6 center">
+						<h3><a href="allanpoe.html">A L L A N  &nbsp; P O E</a></h3>
+						<a href="tel:+525575721142" class="rounded-a"><i class="material-icons">&#xE0CD;</i></a>
+						<a href="mailto:polanco@pugseal.com" class="rounded-a"><i class="material-icons">&#xE158;</i></a>
+						<a href="https://goo.gl/maps/hyy5qUVa3Ak" target="_blank" class="rounded-a"><i class="material-icons">&#xE55F;</i></a></p>
+						<div class="deco-y"></div>
+					</div>
+					<div class="col s12 center move-top">
+						<h3><a href="belisario.html">B E L I S A R I O</a></h3>
+						<a href="tel:+525576783801" class="rounded-a"><i class="material-icons">&#xE0CD;</i></a>
+						<a href="mailto:tennyson@pugseal.com" class="rounded-a"><i class="material-icons">&#xE158;</i></a>
+						<a href="https://goo.gl/maps/dzjTB7dsLb82" target="_blank" class="rounded-a"><i class="material-icons">&#xE55F;</i></a></p>
+						<div class="deco-z"></div>
+					</div>
+				</div>
+				<div class="footerseal"></div>
+				<ul class="pug-social">
+					<li>
+						<a href="https://www.facebook.com/pugseal?fref=ts" class="face"></a>
+					</li>
+					<li>
+						<a href="https://www.instagram.com/pugseal/" class="insta"></a>
+					</li>
+					<li>
+						<a href="https://twitter.com/pugseal" class="tweet"></a>
+					</li>
+					<li>
+						<a href="https://es.pinterest.com/source/pugseal.com/" class="pint"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- Overlay Navigation Menu -->
+		<div class="overlay">
+			<nav class="overlay-menu">
+				<ul>
+					<li>
+						<a href="index.html#3rdPage">Suites</a>
+						<ul>
+							<li>
+								<a href="allanpoe.html"><small class="grey-text">ALLANPOE</small></a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="belisario.html"><small class="grey-text">BELISARIO</small></a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="tenyson.html"><small class="grey-text">TENNYSON</small></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="index.html#4thpage">Experiencias</a>
+					</li>
+					<li>
+						<a href="index.html#6thPage">Gáleria</a>
+					</li>
+					<li>
+						<a class="close-ovrly" href="#!">
 
-        <div class="section" id="section4">
-            <div class="slide slidesrow">
-                            <div class="row">
-                                <div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b1.jpg');position: relative;"></div>
-                            </div>
-                        </div>
-                        <div class="slide slidesrow">
-                            <div class="row">
-                                <div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b2.jpg');position: relative;"></div>
-                            </div>
-                        </div>
-                        <div class="slide slidesrow">
-                            <div class="row">
-                                <div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b3.jpg');position: relative;"></div>
-                            </div>
-                        </div>
-                        <div class="slide slidesrow">
-                            <div class="row">
-                                <div class="col s12 left-img-bg" style="background-image: url('../../images/gall/b4.jpg');position: relative;"></div>
-                            </div>
-                        </div>
-                        <a href="#!" style="position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0, 0, 0, .3);z-index: 9;display: block;"></a>
-                       
-                        <a href="#4thpage" class="down-scroll rescarey" style="bottom: 0px;">
-                            <p class="upper-scroll"></p>
-                            <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                            <svg x="0px" y="0px" width="21.2px" height="11.3px" viewBox="0 0 21.2 11.3" style="enable-background:new 0 0 21.2 11.3;fill: white;" xml:space="preserve">
-            			<defs>
-            			</defs>
-            			<g>
-            				<rect x="5.2" y="-1.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -2.3431 5.6569)" width="1" height="15"/>
-            				<rect x="8.1" y="5.2" transform="matrix(0.7071 -0.7071 0.7071 0.7071 0.5563 12.6569)" width="15" height="1"/>
-            			</g>
-            			</svg>
-            
-                        </a>
-            <div class="col s12 namelisario">
-            	<p>
-            		b · e · l · i · s · a · r · i · o
-            		<span></span>
-            		<em>c o y o a c á n / c d m x</em>
-            	</p>
-            </div>
-            <div class="col s12 left-img-bg boxiboxi">
-                <a href="../../images/gall/bel1.jpg" style="width: 100%;height: 100%;display: block;position: absolute;left: 0;top: 0;"></a>
-                <a href="../../images/gall/bel2.jpg"></a>
-                <a href="../../images/gall/bel3.jpg"></a>
-                <a href="../../images/gall/bel4.jpg"></a>
-                <a href="../../images/gall/bel5.jpg"></a>
-                <a href="../../images/gall/bel6.jpg"></a>
-                <a href="../../images/gall/bel7.jpg"></a>
-                <a href="../../images/gall/bel8.jpg"></a>
-                <a href="../../images/gall/bel9.jpg"></a>
-            </div>
-        </div>
-        <div class="section" id="section6">
-            <div class="footer-booking">
-                <!--<a href="#!">Reservar</a>-->
-                <ul>
-                    <li><a href="index.html#3rdPage">Suites</a></li>
-                    <li>/</li>
-                    <li><a href="index.html#4thpage">EXPERIENCIAS</a></li>
-                    <li>/</li>
-                    <li><a href="index.html#6thpage">ARTE</a></li>
-                    <li>/</li>
-                    <li><a href="#!">GALERÍA</a></li>
-                    <div class="bottomlinesvg">
-                        <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                        <svg x="0px" y="0px" width="415px" height="1px" viewBox="0 0 415 1" style="enable-background:new 0 0 415 1;" xml:space="preserve">
-				<style type="text/css">
-					.st0{fill:none;stroke:#666666;stroke-miterlimit:10;}
-					.st1{fill:none;stroke:#666666;stroke-miterlimit:10;stroke-dasharray:3.0073,3.0073;}
-				</style>
-				<defs>
-				</defs>
-				<g>
-					<g>
-						<line class="st0" x1="0" y1="0.5" x2="1.5" y2="0.5"/>
-						<line class="st1" x1="4.5" y1="0.5" x2="412" y2="0.5"/>
-						<line class="st0" x1="413.5" y1="0.5" x2="415" y2="0.5"/>
-					</g>
-				</g>
-				</svg>
+						<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
 
-                    </div>
-            </div>
-            <div class="row ubicaciones">
-                <div class="col s12 m4">
-                    <h3><a href="belisario.html">B E L I S A R I O</a></h3>
-                    <p>1er. Cerrada Belisario Dominguez
-                        <br /> Col. Del Carmen
-                        <br /> Delegación CoyoacÁn México,
-                        <br />CDMX C.P. 04100
-                        <br />
-                        <a href="mail:coyoacan@pugseal.com">coyoacan@pugseal.com</a>
-                        <br /><a href="tel:+5263637176">+52 (55) 63.63.71.76</a></p>
-                    </p>
-                </div>
-                <div class="col s12 m4">
-                    <h3><a href="allanpoe.html">A L L A N  &nbsp; P O E</a></h3>
-                    <p>Edgar Allan Poe No.90
-                        <br /> Col. Polanco
-                        <br /> Delegación Miguel Hidalgo México,
-                        <br />CDMX C.P. 11550
-                        <br />
-                        <a href="mail:polanco@pugseal.com">polanco@pugseal.com</a>
-                        <br /><a href="tel:+525575721142">+52 (55) 75.72.11.42</a>
-                        <br><a href="https://goo.gl/maps/hyy5qUVa3Ak" target="_blank">Ver mapa</a></p>
-                </div>
-                <div class="col s12 m4">
-                    <h3><a href="tenyson.html">T E N N Y S O N</a></h3>
-                    <p>Tennyson No.86
-                        <br /> Col. Polanco<br /> Delegación Miguel Hidalgo México,
-                        <br />CDMX C.P. 11550
-                        <br />
-                        <a href="mail:tennyson@pugseal.com">tennyson@pugseal.com</a>
-                        <br /><a href="tel:+525576783801">+52 (55) 7678.38.01</a>
-                        <br><a href="https://goo.gl/maps/dzjTB7dsLb82" target="_blank">Ver mapa</a></p>
-                </div>
-            </div>
-            <div class="footerseal"></div>
-            <ul class="pug-social">
-                <li>
-                    <a href="https://www.facebook.com/pugseal?fref=ts" class="face"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/pugseal/" class="insta"></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/pugseal" class="tweet"></a>
-                </li>
-                <li>
-                    <a href="https://es.pinterest.com/source/pugseal.com/" class="pint"></a>
-                </li>
-            </ul>
-        </div>
+						<svg x="0px" y="0px" width="96px" height="96px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
 
-    </div>
+		  <style type="text/css">
 
-    <!-- Overlay Navigation Menu -->
-    <div class="overlay">
-        <nav class="overlay-menu">
-            <ul>
-                <li><a href="index.html#3rdPage">Suites</a>
-                    <ul>
-                        <li><a href="allanpoe.html"><small class="grey-text">ALLANPOE</small></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="belisario.html"><small class="grey-text">BELISARIO</small></a></li>
-                    </ul>
-                    <ul>
-                        <li><a href="tenyson.html"><small class="grey-text">TENNYSON</small></a></li>
-                    </ul>
-                </li>
-                <li><a href="index.html#4thpage">Experiencias</a></li>
-                <li><a href="index.html#6thPage">Gáleria</a></li>
-                <li>
-                    <a class="close-ovrly" href="#!">
-                        <!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In  -->
-                        <svg x="0px" y="0px" width="96px" height="96px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
-	      <style type="text/css">
-	      	.st0{fill:#FFFFFF;}
-	      </style>
-	      <defs>
-	      </defs>
-	      <path class="st0" d="M67.1,68.6c-0.4,0-0.8-0.2-1.1-0.4L27.8,30c-0.6-0.6-0.6-1.6,0-2.1s1.6-0.6,2.1,0L68.1,66
-	      	c0.6,0.6,0.6,1.5,0.1,2.1C67.9,68.4,67.5,68.6,67.1,68.6z"/>
-	      <path class="st0" d="M28.9,68.6c-0.8,0-1.5-0.6-1.5-1.5c0-0.4,0.2-0.8,0.5-1.1L66,27.9c0.6-0.6,1.6-0.6,2.2,0c0.6,0.6,0.6,1.6,0,2.2
-	      	l0,0L30,68.2C29.7,68.4,29.3,68.6,28.9,68.6z"/>
-	      <path class="st0" d="M48,96L48,96C21.5,96,0,74.5,0,48c0-12.7,5.1-24.9,14.1-33.9C23,5,35.3,0,48,0l0,0c12.7,0,25,5,33.9,14.1l0,0
-	      	c18.7,18.7,18.7,49.1,0,67.9C72.9,90.9,60.7,96,48,96z M48,3C23.1,3,3,23.1,3,48c0,11.9,4.7,23.4,13.2,31.8
-	      	c17.6,17.6,46.1,17.6,63.6,0s17.6-46.1,0-63.6l0,0C71.4,7.7,59.9,3,48,3z"/>
-	      </svg>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+		  	.st0{fill:#FFFFFF;}
 
+		  </style>
 
+		  <defs>
 
-    <!-- Overlay Reservar Menu -->
+		  </defs>
 
-    <div class="overlay-book">
-        <div class="row">
-            <div class="col s12 m4">
-                <a href="allanpoe.html"><img src="images/allan-select.png" alt="" /></a>
-            </div>
-            <div class="col s12 m4">
-                <a href="belisario.html"><img src="images/bell-select.png" alt="" /></a>
-            </div>
-            <div class="col s12 m4">
-                <a href="tenyson.html"><img src="images/tenn-select.png" alt="" /></a>
-            </div>
-        </div>
-        <a class="close-ovrly-book" href="#!">
-            <svg x="0px" y="0px" width="96px" height="96px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+		  <path class="st0" d="M67.1,68.6c-0.4,0-0.8-0.2-1.1-0.4L27.8,30c-0.6-0.6-0.6-1.6,0-2.1s1.6-0.6,2.1,0L68.1,66
+
+		  	c0.6,0.6,0.6,1.5,0.1,2.1C67.9,68.4,67.5,68.6,67.1,68.6z"/>
+
+		  <path class="st0" d="M28.9,68.6c-0.8,0-1.5-0.6-1.5-1.5c0-0.4,0.2-0.8,0.5-1.1L66,27.9c0.6-0.6,1.6-0.6,2.2,0c0.6,0.6,0.6,1.6,0,2.2
+
+		  	l0,0L30,68.2C29.7,68.4,29.3,68.6,28.9,68.6z"/>
+
+		  <path class="st0" d="M48,96L48,96C21.5,96,0,74.5,0,48c0-12.7,5.1-24.9,14.1-33.9C23,5,35.3,0,48,0l0,0c12.7,0,25,5,33.9,14.1l0,0
+
+		  	c18.7,18.7,18.7,49.1,0,67.9C72.9,90.9,60.7,96,48,96z M48,3C23.1,3,3,23.1,3,48c0,11.9,4.7,23.4,13.2,31.8
+
+		  	c17.6,17.6,46.1,17.6,63.6,0s17.6-46.1,0-63.6l0,0C71.4,7.7,59.9,3,48,3z"/>
+
+		  </svg>
+
+					</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<!-- Overlay Reservar Menu -->
+		<div class="overlay-book">
+			<div class="row">
+				<div class="col s12 m4">
+					<a href="allanpoe.html"><img src="images/allan-select.png" alt="" /></a>
+				</div>
+				<div class="col s12 m4">
+					<a href="belisario.html"><img src="images/bell-select.png" alt="" /></a>
+				</div>
+				<div class="col s12 m4">
+					<a href="tenyson.html"><img src="images/tenn-select.png" alt="" /></a>
+				</div>
+			</div>
+			<a class="close-ovrly-book" href="#!">
+
+			<svg x="0px" y="0px" width="96px" height="96px" viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+
 		<style type="text/css">
+
 			.st0mm{fill:#FFFFFF;}
+
 		</style>
+
 		<defs>
+
 		</defs>
+
 		<path class="st0mm" d="M67.1,68.6c-0.4,0-0.8-0.2-1.1-0.4L27.8,30c-0.6-0.6-0.6-1.6,0-2.1s1.6-0.6,2.1,0L68.1,66
+
 			c0.6,0.6,0.6,1.5,0.1,2.1C67.9,68.4,67.5,68.6,67.1,68.6z"/>
+
 		<path class="st0mm" d="M28.9,68.6c-0.8,0-1.5-0.6-1.5-1.5c0-0.4,0.2-0.8,0.5-1.1L66,27.9c0.6-0.6,1.6-0.6,2.2,0c0.6,0.6,0.6,1.6,0,2.2
+
 			l0,0L30,68.2C29.7,68.4,29.3,68.6,28.9,68.6z"/>
+
 		<path class="st0mm" d="M48,96L48,96C21.5,96,0,74.5,0,48c0-12.7,5.1-24.9,14.1-33.9C23,5,35.3,0,48,0l0,0c12.7,0,25,5,33.9,14.1l0,0
+
 			c18.7,18.7,18.7,49.1,0,67.9C72.9,90.9,60.7,96,48,96z M48,3C23.1,3,3,23.1,3,48c0,11.9,4.7,23.4,13.2,31.8
+
 			c17.6,17.6,46.1,17.6,63.6,0s17.6-46.1,0-63.6l0,0C71.4,7.7,59.9,3,48,3z"/>
+
 		</svg>
-        </a>
 
-    </div>
-
-
-    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="fullpage/jquery.fullpage.min.js"></script>
-    <script type="text/javascript" src="js/aos.js"></script>
-    <script src="js/jquery.parallax.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="simplelbx/simple-lightbox.min.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-        AOS.init();
-    </script>
-    <script type="text/javascript">
-    
-    	$(function() {
-    	
-            var $gallery = $('.boxiboxi a').simpleLightbox();
-
-            $gallery.click('show.simplelightbox', function() {});
-
-        });
-    
-        $(document).ready(function() {
-            $('#fullpage').fullpage({
-                anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', '6thPage', '7thPage', '8thPage', 'footer'],
-                menu: '#menu',
-                scrollBar: true,
-                scrollingSpeed: 1000,
-                //			autoScrolling: false,
-                afterLoad: function(anchorLink, index) {
-                    var loadedSection = $(this);
-
-                    if (anchorLink == 'firstPage') {
-                        $('.close-ovrly').show();
-                    }
-
-                    if (anchorLink == '3rdPage') {
-                        $('.allanpoe-bx').addClass('slideInLeft back-o');
-                        $('.belisario-bx').addClass('slideInDown back-o');
-                        $('.tennyson-bx').addClass('slideInUp back-o');
-                    }
-
-                    if (anchorLink != '3rdPage') {
-                        $('.allanpoe-bx').removeClass('slideInLeft back-o');
-                        $('.belisario-bx').removeClass('slideInDown back-o');
-                        $('.tennyson-bx').removeClass('slideInUp back-o');
-                    }
-
-                    if (anchorLink != 'firstPage') {
-                        $('.close-ovrly').hide();
-                    }
-
-                }
-            });
-
-        });
-    </script>
-
-</body>
+		</a>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="fullpage/jquery.fullpage.min.js"></script>
+		<script type="text/javascript" src="js/aos.js"></script>
+		<script src="js/jquery.parallax.min.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="simplelbx/simple-lightbox.min.js"></script>
+		<script src="js/main.js"></script>
+		<script>
+			AOS.init();
+		</script>
+		<script type="text/javascript">
+			$(function() {
+				
+					var $gallery = $('.boxiboxi a').simpleLightbox();
+		
+					$gallery.click('show.simplelightbox', function() {});
+		
+				});
+			
+				$(document).ready(function() {
+					$('#fullpage').fullpage({
+						anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thPage', '6thPage', '7thPage', '8thPage', 'footer'],
+						menu: '#menu',
+						scrollBar: true,
+						scrollingSpeed: 1000,
+						//			autoScrolling: false,
+						afterLoad: function(anchorLink, index) {
+							var loadedSection = $(this);
+		
+							if (anchorLink == 'firstPage') {
+								$('.close-ovrly').show();
+								$('.btn-floating').fadeOut();
+								$('.left-nav-bx, .right-nav-bx').removeClass('nav-o-drama');
+							}
+		
+							if (anchorLink == '3rdPage') {
+								$('.allanpoe-bx').addClass('slideInLeft back-o');
+								$('.belisario-bx').addClass('slideInDown back-o');
+								$('.tennyson-bx').addClass('slideInUp back-o');
+							}
+		
+							if (anchorLink != '3rdPage') {
+								$('.allanpoe-bx').removeClass('slideInLeft back-o');
+								$('.belisario-bx').removeClass('slideInDown back-o');
+								$('.tennyson-bx').removeClass('slideInUp back-o');
+							}
+		
+							if (anchorLink != 'firstPage') {
+								$('.close-ovrly').hide();
+								$('.btn-floating').fadeIn();
+								$('.left-nav-bx, .right-nav-bx').addClass('nav-o-drama');
+							}
+		
+						}
+					});
+		
+				});
+		</script>
+	</body>
 
 </html>
