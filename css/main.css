@@ -874,39 +874,14 @@ body {
   font-size: 15px;
 }
 #section1 .down-button {
-  position: relative;
-  text-align: center;
-  margin: auto;
   width: 200px;
-  height: 190px;
-  bottom: 0;
-  top: 690px;
-}
-#section1 .eventos {
-  color: rgba(0, 0, 0, 0.3);
-  font-family: 'OratorStd';
-  font-size: 12px;
-  letter-spacing: 3px;
-}
-#section1 .experiencia {
+  top: 600px;
   margin: auto;
-  color: rgba(0, 0, 0, 0.3);
-  width: 150px;
-  height: 43px;
-  line-height: 3.5;
-  text-align: center;
-  font-family: 'OratorStd';
-  font-size: 12px;
-  letter-spacing: 3px;
-  background-image: url(../images/flecha-experiencia.svg);
-  background-size: 90%;
-  background-repeat: no-repeat;
-  background-position: center center;
+  z-index: 99;
 }
 #section1 .text-bx-1 {
   position: absolute;
   width: 100%;
-  left: 0%;
   top: 20%;
   display: block;
   text-align: center;
@@ -970,6 +945,35 @@ body {
   font-size: 16px;
   font-weight: 100;
 }
+#section1 .int-bottom {
+  position: relative;
+  width: 150px;
+  height: 140px;
+  margin: auto;
+  bottom: 100px;
+}
+#section1 .int-bottom .eventos {
+  color: rgba(0, 0, 0, 0.3);
+  font-family: 'OratorStd';
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+#section1 .int-bottom .experiencia {
+  margin: auto;
+  color: rgba(0, 0, 0, 0.3);
+  width: 150px;
+  height: 43px;
+  line-height: 3.5;
+  text-align: center;
+  font-family: 'OratorStd';
+  font-size: 12px;
+  letter-spacing: 3px;
+  background-image: url(../images/flecha-experiencia.svg);
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 @media only screen and (max-height: 700px) {
   #section1 .down-scroll-x {
     bottom: -40px;
@@ -989,8 +993,11 @@ body {
   background-color: #f3f2f2;
   height: 100%;
   transition: 300ms ease all;
+  /*block central*/
+
 }
 #section1 .middle-left .block-central-right {
+  position: relative;
   width: 110px;
   float: right;
 }
@@ -1029,9 +1036,30 @@ body {
   color: black;
   font-weight: bold;
 }
-#section1 .middle-left .circle-allan-1 {
-  position: absolute;
-  margin: 13% 12%;
+#section1 .middle-left .block-central {
+  position: relative;
+}
+#section1 .middle-left .block-central .circles-left {
+  position: relative;
+  top: -170px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  height: 420px;
+}
+#section1 .middle-left .block-central .suites-no-left {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #000000;
+  font-family: 'OratorStd';
+  font-size: 17px;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+#section1 .middle-left .block-central .circle-allan-1 {
+  position: relative;
   z-index: 2;
   width: 420px;
   height: 420px;
@@ -1043,9 +1071,10 @@ body {
   transform-origin: 50% 50%;
   transition: 300ms ease all;
 }
-#section1 .middle-left .circle-allan-2 {
-  position: absolute;
-  margin: 13% 12%;
+#section1 .middle-left .block-central .circle-allan-2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 3;
   width: 420px;
   height: 420px;
@@ -1053,13 +1082,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate(45deg);
+  transform: rotate(90deg);
   transform-origin: 50% 50%;
   transition: 300ms ease all;
 }
-#section1 .middle-left .circle-allan-3 {
-  position: absolute;
-  margin: 13% 12%;
+#section1 .middle-left .block-central .circle-allan-3 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 6;
   width: 420px;
   height: 420px;
@@ -1067,23 +1097,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate(-45deg);
+  transform: rotate(-90deg);
   transform-origin: 50% 50%;
   transition: 300ms ease all;
-}
-#section1 .middle-left .suites-no-left {
-  position: absolute;
-  width: 420px;
-  top: 540px;
-  margin: 13% 12%;
-  text-align: center;
-  letter-spacing: 3px;
-  color: #000000;
-  font-family: 'OratorStd';
-  font-size: 17px;
-  filter: alpha(opacity=0);
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
 #section1 .middle-left:hover {
   background-image: url(../images/bg-tennyson.png);
@@ -1102,11 +1118,6 @@ body {
   filter: alpha(opacity=100);
   opacity: 1.0;
 }
-#section1 .middle-left:hover .suites-no-left {
-  zoom: 1;
-  filter: alpha(opacity=100);
-  opacity: 1.0;
-}
 #section1 .middle-left:hover .circle-allan-1 {
   transform: rotate(0deg);
   transform-origin: 50% 50%;
@@ -1118,6 +1129,11 @@ body {
 #section1 .middle-left:hover .circle-allan-3 {
   transform: rotate(0deg);
   transform-origin: 50% 50%;
+}
+#section1 .middle-left:hover .suites-no-left {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  opacity: 1.0;
 }
 #section1 .middle-right {
   position: relative;
@@ -1165,10 +1181,29 @@ body {
   color: black;
   font-weight: bold;
 }
-#section1 .middle-right .circle-tennyson-1 {
-  position: absolute;
-  margin: 13%;
-  right: 1%;
+#section1 .middle-right .block-central {
+  position: relative;
+}
+#section1 .middle-right .block-central .circles-right {
+  position: relative;
+  top: -170px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 420px;
+  height: 420px;
+}
+#section1 .middle-right .block-central .suites-no-right {
+  margin-top: 20px;
+  text-align: center;
+  letter-spacing: 3px;
+  color: #000000;
+  font-family: 'OratorStd';
+  font-size: 17px;
+  filter: alpha(opacity=0);
+  opacity: .0;
+  transition: opacity 0.5s ease-in-out;
+}
+#section1 .middle-right .block-central .circle-tennyson-1 {
   z-index: 2;
   width: 420px;
   height: 420px;
@@ -1176,14 +1211,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   transform-origin: 50% 50%;
   transition: 300ms ease all;
 }
-#section1 .middle-right .circle-tennyson-2 {
-  position: absolute;
-  margin: 13%;
-  right: 1%;
+#section1 .middle-right .block-central .circle-tennyson-2 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 3;
   width: 420px;
   height: 420px;
@@ -1191,14 +1226,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate(45deg);
+  transform: rotate(-90deg);
   transform-origin: 50% 50%;
   transition: 300ms ease all;
 }
-#section1 .middle-right .circle-tennyson-3 {
-  position: absolute;
-  margin: 13%;
-  right: 1%;
+#section1 .middle-right .block-central .circle-tennyson-3 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 6;
   width: 420px;
   height: 420px;
@@ -1206,34 +1241,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  transform: rotate(-45deg);
+  transform: rotate(90deg);
   transform-origin: 50% 50%;
   transition: 300ms ease all;
 }
-#section1 .middle-right .suites-no-right {
-  /*position: absolute;
-      z-index: 8;
-      left: 250px;
-      top: 615px;
-      text-align: center;
-      letter-spacing: 3px;
-      color: rgba(0, 0, 0, 1);
-      font-family: 'OratorStd';
-      font-size: 17px;*/
-
-  position: absolute;
-  z-index: 8;
-  width: 420px;
-  top: 540px;
-  margin: 13% 20%;
-  text-align: center;
-  letter-spacing: 3px;
-  color: #000000;
-  font-family: 'OratorStd';
-  font-size: 17px;
-  filter: alpha(opacity=0);
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+#section1 .middle-right:hover .suites-no-right {
+  zoom: 1;
+  filter: alpha(opacity=100);
+  opacity: 1.0;
 }
 #section1 .middle-right:hover {
   background-image: url(../images/bg-tennyson.png);
@@ -1248,11 +1263,6 @@ body {
   margin-top: 0;
 }
 #section1 .middle-right:hover .s-tennyson-ver {
-  zoom: 1;
-  filter: alpha(opacity=100);
-  opacity: 1.0;
-}
-#section1 .middle-right:hover .suites-no-right {
   zoom: 1;
   filter: alpha(opacity=100);
   opacity: 1.0;
