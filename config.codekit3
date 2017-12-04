@@ -7,129 +7,150 @@
 		"uuidString": "908F78E3-5B3E-448E-85FD-E6D9A28BFC52"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/allanpoe-exec.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe-exec.html",
 		"oF": 0
 		},
 	"\/allanpoe-junior.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe-junior.html",
 		"oF": 0
 		},
 	"\/allanpoe-master.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe-master.html",
 		"oF": 0
 		},
 	"\/allanpoe-suite.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe-suite.html",
 		"oF": 0
 		},
 	"\/allanpoe.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe.html",
 		"oF": 0
 		},
 	"\/allanpoe_.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/allanpoe_.html",
 		"oF": 0
 		},
 	"\/belisario-2013.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-2013.html",
 		"oF": 0
 		},
 	"\/belisario-atl.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-atl.html",
 		"oF": 0
 		},
 	"\/belisario-belisario.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-belisario.html",
 		"oF": 0
 		},
 	"\/belisario-comitan.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-comitan.html",
 		"oF": 0
 		},
 	"\/belisario-fuentes.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-fuentes.html",
 		"oF": 0
 		},
 	"\/belisario-octubre.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-octubre.html",
 		"oF": 0
 		},
 	"\/belisario-rufino.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-rufino.html",
 		"oF": 0
 		},
 	"\/belisario-sabines.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-sabines.html",
 		"oF": 0
 		},
 	"\/belisario-suite.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario-suite.html",
 		"oF": 0
 		},
 	"\/belisario.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/belisario.html",
 		"oF": 0
 		},
 	"\/careyes\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careyes\/index.html",
 		"oF": 0
 		},
 	"\/careyes\/phpmailform.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/careyes\/phpmailform.php",
 		"oF": 0
 		},
 	"\/comentarios.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/comentarios.html",
 		"oF": 0
 		},
 	"\/compare\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/compare\/index.html",
@@ -146,24 +167,28 @@
 		"tS": 0
 		},
 	"\/compare\/more\/index-.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/compare\/more\/index-.html",
 		"oF": 0
 		},
 	"\/compare\/more\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/compare\/more\/index.html",
 		"oF": 0
 		},
 	"\/compare\/more\/index.html.bak": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/compare\/more\/index.html.bak",
 		"oF": 0
 		},
 	"\/compare\/more\/index_.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/compare\/more\/index_.html",
@@ -230,12 +255,14 @@
 		"oS": 0
 		},
 	"\/css\/font\/ytp-regular.eot.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/font\/ytp-regular.eot.html",
 		"oF": 0
 		},
 	"\/css\/font\/ytp-regular.ttf.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/font\/ytp-regular.ttf.html",
@@ -253,24 +280,28 @@
 		"q": 100
 		},
 	"\/css\/images\/raster.png.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/images\/raster.png.html",
 		"oF": 0
 		},
 	"\/css\/images\/raster@2x.png.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/images\/raster@2x.png.html",
 		"oF": 0
 		},
 	"\/css\/images\/raster_dot.png.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/images\/raster_dot.png.html",
 		"oF": 0
 		},
 	"\/css\/images\/raster_dot@2x.png.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/images\/raster_dot@2x.png.html",
@@ -297,6 +328,7 @@
 		"oS": 3
 		},
 	"\/css\/main.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/css\/main.css.map",
@@ -311,12 +343,6 @@
 		"oAP": "\/css\/mainmobile-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/css\/mainmobile.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/css\/mainmobile.css.map",
-		"oF": 0
 		},
 	"\/css\/materialize.min.css": {
 		"aP": 1,
@@ -389,24 +415,28 @@
 		"oS": 0
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/fonts\/Baron Neue.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/Baron Neue.otf",
 		"oF": 0
 		},
 	"\/fonts\/et-line-.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/et-line-.eot",
 		"oF": 0
 		},
 	"\/fonts\/et-line.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/et-line.eot",
@@ -423,24 +453,28 @@
 		"prP": 0
 		},
 	"\/fonts\/et-line.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/et-line.ttf",
 		"oF": 0
 		},
 	"\/fonts\/et-line.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/et-line.woff",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont-.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont-.eot",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont-v=4.2.0.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont-v=4.2.0.eot",
@@ -457,96 +491,112 @@
 		"prP": 0
 		},
 	"\/fonts\/fontawesome-webfont-v=4.2.0.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont-v=4.2.0.ttf",
 		"oF": 0
 		},
 	"\/fonts\/fontawesome-webfont-v=4.2.0.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/fontawesome-webfont-v=4.2.0.woff",
 		"oF": 0
 		},
 	"\/fonts\/OratorStd-Slanted.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OratorStd-Slanted.otf",
 		"oF": 0
 		},
 	"\/fonts\/OratorStd.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/OratorStd.otf",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Bold.woff",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Bold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Bold.woff2",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Light.woff",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Light.woff2",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Medium.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Medium.woff",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Medium.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Medium.woff2",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Regular.woff",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Regular.woff2",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Thin.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff",
 		"oF": 0
 		},
 	"\/fonts\/roboto\/Roboto-Thin.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/roboto\/Roboto-Thin.woff2",
 		"oF": 0
 		},
 	"\/fonts\/ufonts.com_abadimtstd-opentype.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts\/ufonts.com_abadimtstd-opentype.otf",
 		"oF": 0
 		},
 	"\/fonts2\/abadi.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/abadi.eot",
@@ -563,18 +613,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/abadi.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/abadi.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/abadi.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/abadi.woff",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue-webfont.eot",
@@ -591,18 +644,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/baron_neue-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue_black-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_black-webfont.eot",
@@ -619,18 +675,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/baron_neue_black-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_black-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue_black-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_black-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue_bold-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_bold-webfont.eot",
@@ -647,18 +706,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/baron_neue_bold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_bold-webfont.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/baron_neue_bold-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/baron_neue_bold-webfont.woff",
 		"oF": 0
 		},
 	"\/fonts2\/Nexa Bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Bold.eot",
@@ -675,18 +737,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/Nexa Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Bold.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/Nexa Bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Bold.woff",
 		"oF": 0
 		},
 	"\/fonts2\/Nexa Light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Light.eot",
@@ -703,18 +768,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/Nexa Light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Light.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/Nexa Light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/Nexa Light.woff",
 		"oF": 0
 		},
 	"\/fonts2\/OratorStd-Slanted.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd-Slanted.eot",
@@ -731,18 +799,21 @@
 		"prP": 0
 		},
 	"\/fonts2\/OratorStd-Slanted.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd-Slanted.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/OratorStd-Slanted.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd-Slanted.woff",
 		"oF": 0
 		},
 	"\/fonts2\/OratorStd.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd.eot",
@@ -759,12 +830,14 @@
 		"prP": 0
 		},
 	"\/fonts2\/OratorStd.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd.ttf",
 		"oF": 0
 		},
 	"\/fonts2\/OratorStd.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/fonts2\/OratorStd.woff",
@@ -795,6 +868,39 @@
 		"iS": 140049,
 		"oA": 0,
 		"oAP": "\/images\/akumal-bg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/allan-circle-1.png": {
+		"ft": 32768,
+		"iS": 332962,
+		"oA": 0,
+		"oAP": "\/images\/allan-circle-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/allan-circle-2.png": {
+		"ft": 32768,
+		"iS": 240124,
+		"oA": 0,
+		"oAP": "\/images\/allan-circle-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/allan-circle-3.png": {
+		"ft": 32768,
+		"iS": 134626,
+		"oA": 0,
+		"oAP": "\/images\/allan-circle-3.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1965,6 +2071,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/bg-tennyson.png": {
+		"ft": 32768,
+		"iS": 1424058,
+		"oA": 0,
+		"oAP": "\/images\/bg-tennyson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/book.jpg": {
 		"ft": 16384,
 		"iS": 2988,
@@ -2864,6 +2981,16 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/images\/flecha-experiencia.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/flecha-experiencia.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/footer-seal.png": {
 		"ft": 32768,
@@ -3951,6 +4078,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/rombo-suites.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/rombo-suites.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/room_preview.png": {
 		"ft": 32768,
 		"iS": 660473,
@@ -4889,6 +5026,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/tennyson-circle-1.png": {
+		"ft": 32768,
+		"iS": 397044,
+		"oA": 0,
+		"oAP": "\/images\/tennyson-circle-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tennyson-circle-2.png": {
+		"ft": 32768,
+		"iS": 262218,
+		"oA": 0,
+		"oAP": "\/images\/tennyson-circle-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/tennyson-circle-3.png": {
+		"ft": 32768,
+		"iS": 133704,
+		"oA": 0,
+		"oAP": "\/images\/tennyson-circle-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/tennyson-v.png": {
 		"ft": 32768,
 		"iS": 4221,
@@ -4966,12 +5136,14 @@
 		"q": 100
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/index_.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index_.html",
@@ -5392,12 +5564,14 @@
 		"sU": 0
 		},
 	"\/m\/allanpoe.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/allanpoe.html",
 		"oF": 0
 		},
 	"\/m\/belisario.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/belisario.html",
@@ -5435,42 +5609,49 @@
 		"q": 100
 		},
 	"\/m\/index-.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index-.html",
 		"oF": 0
 		},
 	"\/m\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index.html",
 		"oF": 0
 		},
 	"\/m\/index_old.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index_old.html",
 		"oF": 0
 		},
 	"\/m\/mobile.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/mobile.html",
 		"oF": 0
 		},
 	"\/m\/p.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/p.html",
 		"oF": 0
 		},
 	"\/m\/tennyson.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/tennyson.html",
 		"oF": 0
 		},
 	"\/prepros-6.config": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/prepros-6.config",
@@ -5507,108 +5688,126 @@
 		"oS": 3
 		},
 	"\/tennyson-exec.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tennyson-exec.html",
 		"oF": 0
 		},
 	"\/tennyson-master.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tennyson-master.html",
 		"oF": 0
 		},
 	"\/tennyson-mexec.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tennyson-mexec.html",
 		"oF": 0
 		},
 	"\/tennyson-suite.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tennyson-suite.html",
 		"oF": 0
 		},
 	"\/tenyson.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tenyson.html",
 		"oF": 0
 		},
 	"\/tenyson_.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/tenyson_.html",
 		"oF": 0
 		},
 	"\/util.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/util.txt",
 		"oF": 0
 		},
 	"\/videos\/bacalar.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/bacalar.mp4",
 		"oF": 0
 		},
 	"\/videos\/bacalar.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/bacalar.ogv",
 		"oF": 0
 		},
 	"\/videos\/bacalar.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/bacalar.webm",
 		"oF": 0
 		},
 	"\/videos\/v1-small.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v1-small.mp4",
 		"oF": 0
 		},
 	"\/videos\/v1.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v1.mp4",
 		"oF": 0
 		},
 	"\/videos\/v1.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v1.ogv",
 		"oF": 0
 		},
 	"\/videos\/v1.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v1.webm",
 		"oF": 0
 		},
 	"\/videos\/v2-small.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v2-small.mp4",
 		"oF": 0
 		},
 	"\/videos\/v2.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v2.mp4",
 		"oF": 0
 		},
 	"\/videos\/v2.ogv": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v2.ogv",
 		"oF": 0
 		},
 	"\/videos\/v2.webm": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/videos\/v2.webm",
@@ -6159,6 +6358,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -6223,9 +6426,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -6255,6 +6458,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -6264,14 +6471,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -7375,7 +7574,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -7408,6 +7608,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -7449,7 +7650,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -7481,13 +7683,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -7496,7 +7698,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -7516,7 +7719,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -7544,7 +7748,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
