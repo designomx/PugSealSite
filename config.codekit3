@@ -2103,6 +2103,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/careyes-01.png": {
+		"ft": 32768,
+		"iS": 488423,
+		"oA": 0,
+		"oAP": "\/images\/careyes-01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/careyes-02.png": {
+		"ft": 32768,
+		"iS": 270644,
+		"oA": 0,
+		"oAP": "\/images\/careyes-02.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/careyes-azul.png": {
+		"ft": 32768,
+		"iS": 614542,
+		"oA": 0,
+		"oAP": "\/images\/careyes-azul.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/careyes-bg.png": {
 		"ft": 32768,
 		"iS": 141016,
@@ -2113,6 +2146,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/careyes-ceremonia.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/careyes-ceremonia.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/careyes\/alberca.jpg": {
 		"ft": 16384,
@@ -2846,6 +2889,61 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/casas1.png": {
+		"ft": 32768,
+		"iS": 357223,
+		"oA": 0,
+		"oAP": "\/images\/casas1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/circle-casas.png": {
+		"ft": 32768,
+		"iS": 933186,
+		"oA": 0,
+		"oAP": "\/images\/circle-casas.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/circle-sky.png": {
+		"ft": 32768,
+		"iS": 667840,
+		"oA": 0,
+		"oAP": "\/images\/circle-sky.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/circulo-azul-ceremonia.png": {
+		"ft": 32768,
+		"iS": 346021,
+		"oA": 0,
+		"oAP": "\/images\/circulo-azul-ceremonia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/circulo-lugares.png": {
+		"ft": 32768,
+		"iS": 189740,
+		"oA": 0,
+		"oAP": "\/images\/circulo-lugares.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/circulo1.png": {
 		"ft": 32768,
 		"iS": 479398,
@@ -2873,6 +2971,17 @@
 		"iS": 470488,
 		"oA": 0,
 		"oAP": "\/images\/circulo3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cuadro-ceremonia.png": {
+		"ft": 32768,
+		"iS": 692400,
+		"oA": 0,
+		"oAP": "\/images\/cuadro-ceremonia.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -3002,6 +3111,26 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/images\/full-house-a.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/full-house-a.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/full-house-b.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/full-house-b.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/images\/gall\/b1.jpg": {
 		"ft": 16384,
@@ -3501,6 +3630,27 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/img-video.png": {
+		"ft": 32768,
+		"iS": 459586,
+		"oA": 0,
+		"oAP": "\/images\/img-video.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/incluye.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/incluye.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/instatxt.png": {
 		"ft": 32768,
 		"iS": 3133,
@@ -3864,6 +4014,26 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/line-point.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/line-point.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/linea-paquetes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/linea-paquetes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/loader.gif": {
 		"ft": 4194304,
 		"iS": 1665,
@@ -3913,6 +4083,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/lugares.png": {
+		"ft": 32768,
+		"iS": 422446,
+		"oA": 0,
+		"oAP": "\/images\/lugares.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/master-bg.jpg": {
@@ -4078,6 +4259,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/rombo-sky.png": {
+		"ft": 32768,
+		"iS": 466411,
+		"oA": 0,
+		"oAP": "\/images\/rombo-sky.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/rombo-suites.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -4087,6 +4279,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/rombo-white.png": {
+		"ft": 32768,
+		"iS": 16134,
+		"oA": 0,
+		"oAP": "\/images\/rombo-white.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/room_preview.png": {
 		"ft": 32768,
