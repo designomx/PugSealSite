@@ -149,51 +149,6 @@
 		"oAP": "\/comentarios.html",
 		"oF": 0
 		},
-	"\/compare\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/compare\/index.html",
-		"oF": 0
-		},
-	"\/compare\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/compare\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/compare\/more\/index-.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/compare\/more\/index-.html",
-		"oF": 0
-		},
-	"\/compare\/more\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/compare\/more\/index.html",
-		"oF": 0
-		},
-	"\/compare\/more\/index.html.bak": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/compare\/more\/index.html.bak",
-		"oF": 0
-		},
-	"\/compare\/more\/index_.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/compare\/more\/index_.html",
-		"oF": 0
-		},
 	"\/css\/animate.min-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1051,6 +1006,36 @@
 		"iS": 126782,
 		"oA": 0,
 		"oAP": "\/images\/allanZ.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/allenMEm\/1.jpg": {
+		"ft": 16384,
+		"iS": 29103,
+		"oA": 0,
+		"oAP": "\/images\/allenMEm\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/allenMEm\/2.jpg": {
+		"ft": 16384,
+		"iS": 128819,
+		"oA": 0,
+		"oAP": "\/images\/allenMEm\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/allenMEm\/3.jpg": {
+		"ft": 16384,
+		"iS": 127928,
+		"oA": 0,
+		"oAP": "\/images\/allenMEm\/3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4882,6 +4867,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel1.jpg": {
+		"ft": 16384,
+		"iS": 137343,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel2.jpg": {
+		"ft": 16384,
+		"iS": 120994,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel3.jpg": {
+		"ft": 16384,
+		"iS": 134426,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel4 .jpg": {
+		"ft": 16384,
+		"iS": 116014,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel4 .jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel5.jpg": {
+		"ft": 16384,
+		"iS": 115674,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/ten-MasterSuiteJr\/m\/Carrusel6.jpg": {
+		"ft": 16384,
+		"iS": 115147,
+		"oA": 0,
+		"oAP": "\/images\/ten-MasterSuiteJr\/m\/Carrusel6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/ten-Suite\/Carrusel1-M.jpg": {
 		"ft": 16384,
 		"iS": 1390360,
@@ -5418,6 +5463,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/index-mobile-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/individuales-mobile-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/individuales-mobile-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
