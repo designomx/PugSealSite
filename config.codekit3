@@ -798,6 +798,16 @@
 		"oAP": "\/fonts2\/OratorStd.woff",
 		"oF": 0
 		},
+	"\/fullpage\/fullpage.resetSliders.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fullpage\/fullpage.resetSliders.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/fullpage\/jquery.fullpage.min.css": {
 		"aP": 1,
 		"bl": 0,
