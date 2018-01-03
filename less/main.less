@@ -1166,6 +1166,12 @@ body{
       background-size:     cover;
       background-repeat:   no-repeat;
       background-position: center center;
+      a{
+      		display: block;
+      		position: absolute;
+      		width: 100%;
+      		height: 100%;
+      }
 
     }
     }/*block central*/
@@ -1345,6 +1351,12 @@ body{
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
+    a{
+  		display: block;
+  		position: absolute;
+  		width: 100%;
+  		height: 100%;
+  }
 
   }
   } /*middle right*/
@@ -3933,6 +3945,7 @@ and (max-device-width : 768px)   {
 	left: 0;
 	top: 0;
 	z-index: 99;
+	display: none;
 }
 
 @media only screen
@@ -4528,7 +4541,7 @@ and (max-device-width : 599px)   {
 
 /*- - - - - - - - */
 
-#sectionRooms, #sectionRoomsB, #sectionRoomsC, #sectionRoomsD, #sectionRoomsE, #sectionRoomsF, #sectionRoomsAll, #sectionRoomsTen{
+#sectionRooms, #sectionRoomsB, #sectionRoomsC, #sectionRoomsD, #sectionRoomsE, #sectionRoomsF, #sectionRoomsTen{
 	height: 580px !important;
 	overflow: auto;
 	overflow-x: hidden;
@@ -4773,12 +4786,9 @@ and (max-device-width : 599px)   {
 }
 
 #sectionRoomsTen{
-	height: 445px !important;
-	background: url('../images/igoacopmejihedde.jpg') no-repeat center center fixed;
-	-webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	/*height: 445px !important;*/
+	background: url('../images/newT/backline.png') no-repeat center center;
+	  background-size: 95% auto;
 	  padding-top: 100px;
 	  overflow: hidden;
 	  h3{
@@ -4791,92 +4801,67 @@ and (max-device-width : 599px)   {
 	  	padding-right: 40px;
 	  }
 	.fp-tableCell{display: block;}
-	.row{
-		position: relative;
-		top: 0px;
-		margin: 0;
-		padding: 0;
+	.casa {
+		position: absolute;
+		left: 50%;
+		top: 150px;
+		transform: translateX(-51%);
+	}
+	.incluido {
+		position: absolute;
+		left: 5%;
+		top: 150px;
+	}
+	.interior {
+		position: absolute;
+		bottom: 13%;
+		left: 50%;
+		transform: translateX(-51%);
+	}
+	.vertenn {
+		position: absolute;
+		bottom: 15%;
+		left: 3%;
+	}
+	.tenonec {
+		width: 100%;
+		height: auto;
+		position: absolute !important;
+		top: 50% !important;
+		transform: translateY(-36%);
+		display: block !important;
 		.col{
-			height: 220px;
-			position: relative;
-			img{
-				height: 460px;
-				width: auto;
-				position: absolute;
-				left: 0;
-				top: -120px;
-				-webkit-clip-path: polygon(0 25%, 0 75%, 100% 50%);
-				clip-path: polygon(0 25%, 0 75%, 100% 50%);
-				&.overlyclr{
-					top: -100px !important;
-					left: -80px !important;
-				}
-			}
-			&.suite{
-				background: none;
-				.suite-actns{
-					left: 0;
-					top: 50%;
-					transform: translate(0%,-50%);
-				}
-				.actns-bx{
-					left: 5%;
-					top: 40%;
-				}
-				h2{
-					font-size: 25px;
-				    left: 65%;
-				    top: 40%;
-				    color: #10f11b;
-				    letter-spacing: 5px;
-				}
-			}
-			&.junior{
-				background: none;
-				height: 220px;
-				margin-top: -50px;
-				.actns-bx{
-					left: 50%;
-					top: 40%;
-				}
-				h2{
-					font-size: 25px;
-				    left: 110%;
-				    top: 40%;
-				    color: yellow;
-				    letter-spacing: 5px;
-				}
-				img{
-					height: 460px;
-					width: auto;
-					position: absolute;
-					left: auto;
-					right: 0;
-					top: -120px;
-					-webkit-clip-path: polygon(100% 25%, 0 50%, 250% 100%);
-					clip-path: polygon(100% 25%, 0 50%, 250% 100%);
-					&.overlyclr{
-						top: -100px !important;
-						left: auto !important;
-						right: -80px !important;
+			display: block !important;
+			a{
+				display: block !important;
+				width: 100%;
+				height: 100%;
+				span{
+					display: table-cell;
+					  text-align: center;
+					  vertical-align: middle;
+					
+					img {
+						width: 80% !important;
+						height: auto !important;
+						clip-path: none !important;
 					}
-				}
-				&:before{
-					display: none;
 				}
 			}
 		}
 	}
+	
+	
 }
 
 #sectionRoomsAll{
-	height: 445px !important;
-	background: url('../images/gmndncjlcfhjeneh.jpg') no-repeat center center fixed;
+	/*height: 445px !important;*/
+	/*background: url('../images/gmndncjlcfhjeneh.jpg') no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	  padding-top: 100px;
+	  /*padding-top: 100px;*/
 	  overflow: hidden;
 	  h3{
 	  	left: auto;
@@ -4888,11 +4873,60 @@ and (max-device-width : 599px)   {
 	  	padding-right: 40px;
 	  }
 	.fp-tableCell{display: block;}
+	.casa {
+		position: absolute;
+		left: 15%;
+		top: 150px;
+	}
+	.incluido {
+		position: absolute;
+		left: 20%;
+		bottom: 5%;
+	}
+	.interior {
+		position: absolute;
+		top: 30%;
+		left: 3%;
+	}
+	.vertenn {
+		position: absolute;
+		bottom: 4%;
+		right: 7%;
+	}
+	.jrsuite {
+		position: absolute;
+		left: 16%;
+		top: 53%;
+		margin-top: -100px;
+	}
+	.executivesuite {
+		position: absolute;
+		left: 50%;
+		bottom: 5%;
+		margin-left: -80px;
+	}
+	.masters {
+		position: absolute;
+		display: none;
+	}
+	.suitex {
+		position: absolute;
+		left: 52%;
+		top: 18%;
+	}
+	.mstrs {
+		position: absolute;
+		right: 4%;
+		top: 35%;
+	}
 	.row{
 		position: relative;
 		top: 0px;
 		margin: 0;
 		padding: 0;
+		
+		
+		
 		.col{
 			height: 220px;
 			position: relative;
