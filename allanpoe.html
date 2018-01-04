@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../simplelbx/simplelightbox.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
@@ -56,7 +58,7 @@
                 <li><a href="#footer">CONTACTO</a></li>
             </ul>
         </div>
-        <a href="#!" class="boo-king-a-sinaccion">reservar</a>
+        <a href="#!" class="boo-king-a">reservar</a>
 
         <img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo" />
         <a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo" /></a>
@@ -170,17 +172,17 @@
         </div>
         <div class="section" id="sectionRoomsAll">
         	
-        	<img class="casa" src="images/newA/casa.png" alt="" width="350" />
-        	<img class="interior" src="images/newA/interior.png" alt="" width="83" />
-        	<img class="incluido" src="images/newA/inlucido.png" alt="" width="230" />
-        	<a href="tenyson.html#3rdPage"><img class="vertenn" src="images/newA/vertenn.png" alt="" width="275" /></a>
+        	<img class="casa" src="images/newA/casa.png" alt="" width="300" />
+        	<img class="interior" src="images/newA/interior.png" alt="" width="63" />
+        	<img class="incluido" src="images/newA/inlucido.png" alt="" width="180" />
+        	<a href="tenyson.html#3rdPage"><img class="vertenn" src="images/newA/vertenn.png" alt="" width="225" /></a>
         	
         	
         	
-        	<a href="allanpoe-junior.html"><img class="jrsuite" src="images/newA/jrsuite.png" alt="" width="350" /></a>
-        	<a href="allanpoe-suite.html"><img class="suitex" src="images/newA/suite.png" alt="" width="320" /></a>
-        	<a href="allanpoe-exec.html"><img class="executivesuite" src="images/newA/executivesuite.png" width="300" alt="" /></a>
-        	<div class="mstrs"><a href="allanpoe-master.html"><img src="images/newA/masters.png" alt="" width="280" /></a></div>
+        	<a href="allanpoe-junior.html" class="jrsuite animated infinite"><img class="" src="images/newA/jrsuite.png" alt="" width="300" /></a>
+        	<a href="allanpoe-suite.html" class="suitex animated infinite"><img class="" src="images/newA/suite.png" alt="" width="300" /></a>
+        	<a href="allanpoe-exec.html" class="executivesuite animated infinite"><img class="" src="images/newA/executivesuite.png" width="260" alt="" /></a>
+        	<div class="mstrs animated infinite"><a href="allanpoe-master.html"><img src="images/newA/masters.png" alt="" width="260" /></a></div>
 
             <!--<div class="row">
                 <!--<h3>Habitaciones <br><span id="tagcity">Polanco / CDMX</span></h3>--*>
@@ -531,6 +533,12 @@
             if ($('.suite-bg').height() > $('.roomBoxStyle').height()) {
                 $('.suite-bg').css('zoom', 0.8);
             }
+            $('.animated').on('mouseover', function() {
+            	$(this).toggleClass('pulse');
+            });
+            $('.animated').on('mouseout', function() {
+            	$(this).toggleClass('pulse');
+            });
         });
     </script>
 

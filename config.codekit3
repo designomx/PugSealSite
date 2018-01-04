@@ -4217,8 +4217,8 @@
 		"oA": 0,
 		"oAP": "\/images\/newT\/backline.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -4228,8 +4228,8 @@
 		"oA": 0,
 		"oAP": "\/images\/newT\/casa.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

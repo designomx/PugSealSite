@@ -56,7 +56,7 @@
                 <li><a href="#footer">CONTACTO</a></li>
             </ul>
         </div>
-        <a href="#!" class="boo-king-a-sinaccion">reservar</a>
+        <a href="#!" class="boo-king-a">reservar</a>
         <img class="puglogob" src="images/logo2x.png" height="70" alt="PugSeal-Logo" />
         <a href="index.html" class="white-logo-bx"><img src="images/logo2xw.png" height="70" alt="PugSeal-Logo" /></a>
     </div>
@@ -167,18 +167,18 @@
                 </div>
             </div>
         </div>
-        <div class="section parallax-bx" id="sectionRoomsTen">
+        <div class="section" id="sectionRoomsTen">
         	
-        	<img class="casa" src="images/newT/casa.png" alt="" width="350" />
-        	<img class="interior" src="images/newT/interior.png" alt="" width="440" />
-        	<img class="incluido" src="images/newT/inlucido.png" alt="" width="230" />
-        	<a href="allanpoe.html#3rdPage"><img class="vertenn" src="images/newT/verallan.png" alt="" width="275" /></a>
+        	<img class="casa" src="images/newT/casa.png" alt="" width="300" />
+        	<img class="interior" src="images/newT/interior.png" alt="" width="400" />
+        	<img class="incluido" src="images/newT/inlucido.png" alt="" width="180" />
+        	<a href="allanpoe.html#3rdPage"><img class="vertenn" src="images/newT/verallan.png" alt="" width="225" /></a>
         	
         	<div class="row tenonec">
-        		<div class="col s3"><a href="tennyson-suite.html"><span><img src="images/newT/suite.png" alt="" /></span></a></div>
-        		<div class="col s3"><a href="tennyson-exec.html"><span><img src="images/newT/executivesuite.png" alt="" /></span></a></div>
-        		<div class="col s3"><a href="tennyson-mexec.html"><span><img src="images/newT/mastersuite.png" alt="" /></span></a></div>
-        		<div class="col s3"><a href="tennyson-master.html"><span><img src="images/newT/masterexec.png" alt="" /></span></a></div>
+        		<div class="col s3"><a href="tennyson-suite.html" class="animated infinite"><span><img src="images/newT/suite.png" alt="" /></span></a></div>
+        		<div class="col s3"><a href="tennyson-exec.html" class="animated infinite"><span><img src="images/newT/executivesuite.png" alt="" /></span></a></div>
+        		<div class="col s3"><a href="tennyson-mexec.html" class="animated infinite"><span><img src="images/newT/mastersuite.png" alt="" /></span></a></div>
+        		<div class="col s3"><a href="tennyson-master.html" class="animated infinite"><span><img src="images/newT/masterexec.png" alt="" /></span></a></div>
         	</div>
 
             <!--<div class="row">
@@ -524,6 +524,14 @@
                 }
             });
             $('.roomTenn').height(($(window).height() - $('.top-brand-bar').height()) / 2);
+            
+            $('.animated').on('mouseover', function() {
+            	$(this).toggleClass('pulse');
+            });
+            $('.animated').on('mouseout', function() {
+            	$(this).toggleClass('pulse');
+            });
+            
         });
     </script>
 
