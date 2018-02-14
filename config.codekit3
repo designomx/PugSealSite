@@ -7,7 +7,7 @@
 		"uuidString": "908F78E3-5B3E-448E-85FD-E6D9A28BFC52"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -1171,6 +1171,17 @@
 		"iS": 18813,
 		"oA": 0,
 		"oAP": "\/images\/barrawho-home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/barrawho-rooms-c.png": {
+		"ft": 32768,
+		"iS": 11437,
+		"oA": 0,
+		"oAP": "\/images\/barrawho-rooms-c.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7522,6 +7533,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
