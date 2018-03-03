@@ -3017,11 +3017,53 @@ body{
 #section5{
 	/*height: 650px !important;*/
 	.fp-tableCell{display: block;}
+	.int-bottom{
+	    position: absolute;
+	    z-index: 40;
+	    width: auto;
+	    height: 140px;
+	    margin: auto;
+	    bottom: -40px;
+	    left: 50%;
+		transform: translateX(-50%);
+	
+	
+	  .eventos{
+	
+	    /*color:rgba(0,0,0,0.3);*/
+	    color:rgba(0,0,0,0.0);
+	    font-family: 'OratorStd';
+	    font-size: 12px;
+	    letter-spacing: 3px;
+	    text-align: center;
+	
+	  }
+	  .experiencia{
+	
+	    margin: auto;
+	    color:rgba(0,0,0,0.3);
+	    width: auto;
+	    height:43px;
+	    line-height: 3.5;
+	    text-align: center;
+	    font-family: 'OratorStd';
+	    font-size: 12px;
+	    letter-spacing: 3px;
+	    background-size:     90%;
+	    background-repeat:   no-repeat;
+	    background-position: center center;
+	    text-align: left;
+	    padding-left: 8px;
+	  }
+	  .experiencia:hover{
+	    color:rgba(0,0,0,1);
+	  }
+	  }
 	.left-bx{
 		position: relative;
 		top: 140px;
 		height: 550px;
-		background: #faf6e1;
+		background: white;
 		border: 20px solid white;
 		border-top: none;
 		img{
@@ -4869,7 +4911,8 @@ and (max-device-width : 599px)   {
 	.vertenn {
 		position: absolute;
 		bottom: 5%;
-		left: 3%;
+		right: 3%;
+		z-index: 999;
 	}
 	.tenonec {
 		width: 100%;
@@ -4967,7 +5010,8 @@ and (max-device-width : 599px)   {
 	.vertenn {
 		position: absolute;
 		bottom: 7%;
-		left: 7%;
+		right: 3%;
+		z-index: 999;
 	}
 	.jrsuite {
 		position: absolute;

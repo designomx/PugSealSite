@@ -3656,8 +3656,8 @@
 		"oA": 0,
 		"oAP": "\/images\/huespedes.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6443,351 +6443,549 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/m\/allanpoe.html": {
+	"\/m-old\/allanpoe.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/m\/allanpoe.html",
+		"oAP": "\/m-old\/allanpoe.html",
 		"oF": 0
 		},
-	"\/m\/belisario.html": {
+	"\/m-old\/belisario.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/m\/belisario.html",
+		"oAP": "\/m-old\/belisario.html",
 		"oF": 0
 		},
-	"\/m\/dbklphmbjiblolmk.jpg": {
+	"\/m-old\/dbklphmbjiblolmk.jpg": {
 		"ft": 16384,
 		"iS": 153077,
 		"oA": 0,
-		"oAP": "\/m\/dbklphmbjiblolmk.jpg",
+		"oAP": "\/m-old\/dbklphmbjiblolmk.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/m\/gpdiemdjfjndiioo.png": {
+	"\/m-old\/gpdiemdjfjndiioo.png": {
 		"ft": 32768,
 		"iS": 217802,
 		"oA": 0,
-		"oAP": "\/m\/gpdiemdjfjndiioo.png",
+		"oAP": "\/m-old\/gpdiemdjfjndiioo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/m\/imklhnpaphfngccg.jpg": {
+	"\/m-old\/imklhnpaphfngccg.jpg": {
 		"ft": 16384,
 		"iS": 206782,
 		"oA": 0,
-		"oAP": "\/m\/imklhnpaphfngccg.jpg",
+		"oAP": "\/m-old\/imklhnpaphfngccg.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/m\/index-.html": {
+	"\/m-old\/index-.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/m\/index-.html",
+		"oAP": "\/m-old\/index-.html",
 		"oF": 0
+		},
+	"\/m-old\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m-old\/index.html",
+		"oF": 0
+		},
+	"\/m-old\/index_old.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m-old\/index_old.html",
+		"oF": 0
+		},
+	"\/m-old\/mobile.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m-old\/mobile.html",
+		"oF": 0
+		},
+	"\/m-old\/p.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m-old\/p.html",
+		"oF": 0
+		},
+	"\/m-old\/tennyson.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/m-old\/tennyson.html",
+		"oF": 0
+		},
+	"\/m\/images\/allanpoe.png": {
+		"ft": 32768,
+		"iS": 2840,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoe.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoedown.png": {
+		"ft": 32768,
+		"iS": 1332,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoedown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall1.png": {
+		"ft": 32768,
+		"iS": 395930,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall2.png": {
+		"ft": 32768,
+		"iS": 89676,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall3.png": {
+		"ft": 32768,
+		"iS": 331867,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall3.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall4.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall5.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoesection.png": {
+		"ft": 32768,
+		"iS": 61937,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoesection.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/arte.png": {
+		"ft": 32768,
+		"iS": 2220,
+		"oA": 0,
+		"oAP": "\/m\/images\/arte.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/book-cls.png": {
+		"ft": 32768,
+		"iS": 1674,
+		"oA": 0,
+		"oAP": "\/m\/images\/book-cls.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/book.png": {
+		"ft": 32768,
+		"iS": 2324,
+		"oA": 0,
+		"oAP": "\/m\/images\/book.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/booknw.png": {
+		"ft": 32768,
+		"iS": 169182,
+		"oA": 0,
+		"oAP": "\/m\/images\/booknw.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/careyes.png": {
+		"ft": 32768,
+		"iS": 2819,
+		"oA": 0,
+		"oAP": "\/m\/images\/careyes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/careyesb.png": {
+		"ft": 32768,
+		"iS": 196735,
+		"oA": 0,
+		"oAP": "\/m\/images\/careyesb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/casapug.png": {
+		"ft": 32768,
+		"iS": 3253,
+		"oA": 0,
+		"oAP": "\/m\/images\/casapug.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/contacto.png": {
+		"ft": 32768,
+		"iS": 2961,
+		"oA": 0,
+		"oAP": "\/m\/images\/contacto.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/downarrow.png": {
+		"ft": 32768,
+		"iS": 580,
+		"oA": 0,
+		"oAP": "\/m\/images\/downarrow.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/homebg.png": {
+		"ft": 32768,
+		"iS": 326688,
+		"oA": 0,
+		"oAP": "\/m\/images\/homebg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/hospedajeboutique.png": {
+		"ft": 32768,
+		"iS": 9155,
+		"oA": 0,
+		"oAP": "\/m\/images\/hospedajeboutique.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/huespedes.png": {
+		"ft": 32768,
+		"iS": 22944,
+		"oA": 0,
+		"oAP": "\/m\/images\/huespedes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/leftgall.png": {
+		"ft": 32768,
+		"iS": 283,
+		"oA": 0,
+		"oAP": "\/m\/images\/leftgall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/menu.png": {
+		"ft": 32768,
+		"iS": 2264,
+		"oA": 0,
+		"oAP": "\/m\/images\/menu.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/menuline.png": {
+		"ft": 32768,
+		"iS": 129,
+		"oA": 0,
+		"oAP": "\/m\/images\/menuline.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/next.png": {
+		"ft": 32768,
+		"iS": 165302,
+		"oA": 0,
+		"oAP": "\/m\/images\/next.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/palenque.png": {
+		"ft": 32768,
+		"iS": 2655,
+		"oA": 0,
+		"oAP": "\/m\/images\/palenque.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/pug_logo.png": {
+		"ft": 32768,
+		"iS": 34291,
+		"oA": 0,
+		"oAP": "\/m\/images\/pug_logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/rightgall.png": {
+		"ft": 32768,
+		"iS": 262,
+		"oA": 0,
+		"oAP": "\/m\/images\/rightgall.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall10.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall10.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall11.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall11.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall2.png": {
+		"ft": 32768,
+		"iS": 471647,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall3.png": {
+		"ft": 32768,
+		"iS": 365421,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall4.png": {
+		"ft": 32768,
+		"iS": 244504,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall5.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall6.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall7.png": {
+		"ft": 32768,
+		"iS": 270172,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall8.png": {
+		"ft": 32768,
+		"iS": 232464,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tenngall9.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/tenngall9.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tennyson.png": {
+		"ft": 32768,
+		"iS": 2720,
+		"oA": 0,
+		"oAP": "\/m\/images\/tennyson.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tennysonsection.png": {
+		"ft": 32768,
+		"iS": 61620,
+		"oA": 0,
+		"oAP": "\/m\/images\/tennysonsection.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/unknown.png": {
+		"ft": 32768,
+		"iS": 2144,
+		"oA": 0,
+		"oAP": "\/m\/images\/unknown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/m\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/m\/index.html",
-		"oF": 0
-		},
-	"\/m\/index_old.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m\/index_old.html",
-		"oF": 0
-		},
-	"\/m\/mobile.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m\/mobile.html",
-		"oF": 0
-		},
-	"\/m\/p.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m\/p.html",
-		"oF": 0
-		},
-	"\/m\/tennyson.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m\/tennyson.html",
-		"oF": 0
-		},
-	"\/m_\/images\/allanpoe.png": {
-		"ft": 32768,
-		"iS": 2840,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoe.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/allanpoedown.png": {
-		"ft": 32768,
-		"iS": 1332,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoedown.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/allanpoegall1.png": {
-		"ft": 32768,
-		"iS": 395930,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoegall1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/allanpoegall2.png": {
-		"ft": 32768,
-		"iS": 346176,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoegall2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/allanpoegall3.png": {
-		"ft": 32768,
-		"iS": 331867,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoegall3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/allanpoesection.png": {
-		"ft": 32768,
-		"iS": 224815,
-		"oA": 0,
-		"oAP": "\/m_\/images\/allanpoesection.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/arte.png": {
-		"ft": 32768,
-		"iS": 2220,
-		"oA": 0,
-		"oAP": "\/m_\/images\/arte.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/book.png": {
-		"ft": 32768,
-		"iS": 2324,
-		"oA": 0,
-		"oAP": "\/m_\/images\/book.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/careyes.png": {
-		"ft": 32768,
-		"iS": 2819,
-		"oA": 0,
-		"oAP": "\/m_\/images\/careyes.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/careyesb.png": {
-		"ft": 32768,
-		"iS": 196735,
-		"oA": 0,
-		"oAP": "\/m_\/images\/careyesb.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/downarrow.png": {
-		"ft": 32768,
-		"iS": 580,
-		"oA": 0,
-		"oAP": "\/m_\/images\/downarrow.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/homebg.png": {
-		"ft": 32768,
-		"iS": 326688,
-		"oA": 0,
-		"oAP": "\/m_\/images\/homebg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/hospedajeboutique.png": {
-		"ft": 32768,
-		"iS": 9155,
-		"oA": 0,
-		"oAP": "\/m_\/images\/hospedajeboutique.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/leftgall.png": {
-		"ft": 32768,
-		"iS": 283,
-		"oA": 0,
-		"oAP": "\/m_\/images\/leftgall.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/menu.png": {
-		"ft": 32768,
-		"iS": 2264,
-		"oA": 0,
-		"oAP": "\/m_\/images\/menu.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/menuline.png": {
-		"ft": 32768,
-		"iS": 129,
-		"oA": 0,
-		"oAP": "\/m_\/images\/menuline.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/next.png": {
-		"ft": 32768,
-		"iS": 165302,
-		"oA": 0,
-		"oAP": "\/m_\/images\/next.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/palenque.png": {
-		"ft": 32768,
-		"iS": 2655,
-		"oA": 0,
-		"oAP": "\/m_\/images\/palenque.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/pug_logo.png": {
-		"ft": 32768,
-		"iS": 34291,
-		"oA": 0,
-		"oAP": "\/m_\/images\/pug_logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/rightgall.png": {
-		"ft": 32768,
-		"iS": 262,
-		"oA": 0,
-		"oAP": "\/m_\/images\/rightgall.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/tennyson.png": {
-		"ft": 32768,
-		"iS": 2720,
-		"oA": 0,
-		"oAP": "\/m_\/images\/tennyson.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/tennysonsection.png": {
-		"ft": 32768,
-		"iS": 61620,
-		"oA": 0,
-		"oAP": "\/m_\/images\/tennysonsection.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/images\/unknown.png": {
-		"ft": 32768,
-		"iS": 2144,
-		"oA": 0,
-		"oAP": "\/m_\/images\/unknown.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/m_\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/m_\/index.html",
 		"oF": 0
 		},
 	"\/prepros-6.config": {
