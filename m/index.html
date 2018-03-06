@@ -30,9 +30,9 @@
 	
 	<div class="booknw">
 		<img src="images/booknw.png" alt="" />
-		<a href="#!" class="bookallan"></a>
-		<a href="#!" class="booktenn"></a>
-		<a href="#!" class="bookpug"></a>
+		<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect?check_in_date=06-03-2018&check_out_date=07-03-2018&number_adults=2" class="bookallan" target="_blank"></a>
+		<a href="https://www.thebookingbutton.co.uk/properties/pugsealtennysondirect?check_in_date=06-03-2018&check_out_date=07-03-2018&number_adults=2" class="booktenn" target="_blank"></a>
+		<a href="#!" class="bookpug" onclick="alert('¡Proximamente!')"></a>
 	</div>
 	
     <div id="fullpage">
@@ -43,7 +43,7 @@
 			
 			<img class="uno" src="images/book.png" width="" alt="" />
 			<img class="dos" src="images/pug_logo.png" width="" alt="" />
-			<img class="tres" src="images/menu.png" width="" alt="" />
+			<a href="#home"><img class="tres" src="images/menu.png" width="" alt="" /></a>
 			<img class="cuatro" src="images/menuline.png" width="1" height="300" alt="" />
 			
 			<ul id="menunav">
@@ -53,12 +53,12 @@
 				<li class="careyesa"><a href="#careyes"><img src="images/careyes.png" width="" alt="" /></a></li>
 				<li><br />
 				</li>
-				<li class="a"><a href="#!"><img src="images/contacto.png" width="" alt="" /></a></li>
+				<li class="a"><a href="#contacto"><img src="images/contacto.png" width="" alt="" /></a></li>
 			</ul>
 			
 			<div class="bajan">
-				<a href="#!"><img class="vari" src="images/allanpoedown.png" alt="" width="100" /></a>
-				<a href="#!"><img class="arrw" src="images/downarrow.png" alt="" width="25" /></a>
+				<a href="#allanpoe"><img class="vari" src="images/allanpoedown.png" alt="" width="80" /></a>
+				<a href="#allanpoe"><img class="arrw" src="images/downarrow.png" alt="" width="20" /></a>
 			</div>
 			
 		</div>
@@ -100,6 +100,41 @@
 			</div>
 			<div class="slide">
 				<img class="mainimagegall" src="images/allanpoegall4.png" alt="" />
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<img class="mainimagegall" src="images/allanpoegall5.png" alt="" />
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<img class="mainimagegall" src="images/allanpoegall6.png" alt="" />
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<img class="mainimagegall" src="images/allanpoegall7.png" alt="" />
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<img class="mainimagegall" src="images/allanpoegall8.png" alt="" />
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<img class="mainimagegall" src="images/allanpoegall9.png" alt="" />
 				<div class="gallerynav">
 					<a href="#!" class="l"></a>
 					<a href="#!" class="r"></a>
@@ -221,7 +256,7 @@
         </div>
         <div class="section">
         	<div class="slide">
-        		<img class="mainimageb" src="images/careyesb.png" alt="" />
+        		<img class="mainimageb" src="images/careyesc.png" alt="" />
         		<a href="#!" class="galerry"></a>
         		<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect?check_in_date=28-01-2018&check_out_date=29-01-2018&number_adults=2" target="_blank" class="minfo"></a>
         	</div>
@@ -244,6 +279,32 @@
         		</div>
         	</div>
         </div>
+		<div class="section">
+			<div class="slide">
+				<img class="mainimageb" src="images/contctb.png" alt="" />
+				<img class="mainimage" src="images/homebg.png" alt="" />
+				<a href="#!" class="galerry"></a>
+				<a href="https://app.thebookingbutton.com/properties/pugsealpolancodirect?check_in_date=28-01-2018&check_out_date=29-01-2018&number_adults=2" target="_blank" class="minfo"></a>
+			</div>
+			<div class="slide">
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+			<div class="slide">
+				<div class="gallerynav">
+					<a href="#!" class="l"></a>
+					<a href="#!" class="r"></a>
+				</div>
+			</div>
+		</div>
     </div>
 
 
@@ -272,39 +333,92 @@
         });
         $(document).ready(function() {
             $('#fullpage').fullpage({
-                anchors: ['home', 'allanpoe', 'tennyson', 'proxima', 'careyes'],
+                anchors: ['home', 'allanpoe', 'tennyson', 'proxima', 'careyes', 'contacto'],
                 scrollBar: true,
                 scrollingSpeed: 1000,
 				resetSlidersKey: 'cHVnc2VhbC5jb21fRUtZY21WelpYUlRiR2xrWlhKejNmNA==',
 				resetSliders: true,
                 paddingTop: '-56px',
 				controlArrows: false,
-                afterLoad: function(anchorLink, index, slideIndex) {
+                afterLoad: function(anchorLink) {
                     var loadedSection = $(this);
 
                     if (anchorLink == 'home') {
-						$('#menunav li a').removeClass('active');
+						$('.allanpoea a img').attr('src','images/allanpoe.png');
+						$('.tennysona a img').attr('src','images/tennyson.png');
+						$('.proximaa a img').attr('src','images/casapug.png');
+						$('.careyesa a img').attr('src','images/careyes.png');
+						$('.a a img').attr('src','images/contacto.png');
+						
+						$('.bajan a').attr('href','#allanpoe');
+						$('.bajan a img.vari').attr('src','images/allanpoedown.png');
+						$('.bajan a img.arrw').attr('src','images/downarrow.png');
+						
                     }
 
                     if (anchorLink == 'allanpoe') {
-//						$('#menunav li a').removeClass('active');
-//						$('.allanpoea a').addClass('active');
+						$('.allanpoea a img').attr('src','images/allanpoeb.png');
+						$('.tennysona a img').attr('src','images/tennyson.png');
+						$('.proximaa a img').attr('src','images/casapug.png');
+						$('.careyesa a img').attr('src','images/careyes.png');
+						$('.a a img').attr('src','images/contacto.png');
+						
+						$('.bajan a').attr('href','#tennyson');
+						$('.bajan a img.vari').attr('src','images/tennysondown.png');
+						$('.bajan a img.arrw').attr('src','images/downarrow.png');
+						
                     }
 					
 					if (anchorLink == 'tennyson') {
-//						$('#menunav li a').removeClass('active');
-//						$('.tennysona a').addClass('active');
+						$('.tennysona a img').attr('src','images/tennysonb.png');
+						$('.allanpoea a img').attr('src','images/allanpoe.png');
+						$('.proximaa a img').attr('src','images/casapug.png');
+						$('.careyesa a img').attr('src','images/careyes.png');
+						$('.a a img').attr('src','images/contacto.png');
+						
+						$('.bajan a').attr('href','#proxima');
+						$('.bajan a img.vari').attr('src','images/casadown.png');
+						$('.bajan a img.arrw').attr('src','images/downarrow.png');
+						
 					}
 
-                    if (anchorLink != 'proxima') {
-//						$('#menunav li a').removeClass('active');
-//						$('.proximaa a').addClass('active');
+                    if (anchorLink == 'proxima') {
+						$('.proximaa a img').attr('src','images/casapugb.png');
+						$('.allanpoea a img').attr('src','images/allanpoe.png');
+						$('.tennysona a img').attr('src','images/tennyson.png');
+						$('.careyesa a img').attr('src','images/careyes.png');
+						$('.a a img').attr('src','images/contacto.png');
+						
+						$('.bajan a').attr('href','#careyes');
+						$('.bajan a img.vari').attr('src','images/careyesdown.png');
+						$('.bajan a img.arrw').attr('src','images/downarrow.png');
+						
                     }
 
-                    if (anchorLink != 'careyes') {
-//						$('#menunav li a').removeClass('active');
-//						$('.careyesa a').addClass('active');
+                    if (anchorLink == 'careyes') {
+						$('.careyesa a img').attr('src','images/careyesb.png');
+						$('.allanpoea a img').attr('src','images/allanpoe.png');
+						$('.tennysona a img').attr('src','images/tennyson.png');
+						$('.proximaa a img').attr('src','images/casapug.png');
+						$('.a a img').attr('src','images/contacto.png');
+						
+						$('.bajan a').attr('href','#contacto');
+						$('.bajan a img.vari').attr('src','images/contactodown.png');
+						$('.bajan a img.arrw').attr('src','images/downarrow.png');
+						
                     }
+					
+					if (anchorLink == 'contacto') {
+						$('.a a img').attr('src','images/contactob.png');
+						$('.allanpoea a img').attr('src','images/allanpoe.png');
+						$('.tennysona a img').attr('src','images/tennyson.png');
+						$('.proximaa a img').attr('src','images/casapug.png');
+						$('.careyesa a img').attr('src','images/careyes.png');
+						
+						$('.bajan a').attr('href','#contacto');
+						$('.bajan a img').attr('src','images/');
+						
+					}
 
                 }
             });
@@ -331,11 +445,36 @@
 				$.fn.fullpage.moveSlideLeft();
 			});
 			
-			$('#menunav li > a').click(function() {
-			    $('li a').removeClass();
-			    $(this).addClass('active');
+//			$('#menunav li > a').click(function() {
+//			    $('li a').removeClass();
+//			    $(this).addClass('active');
+//			});
+			
+			var booklick = 0;
+			$('.uno').on('click', function() {
+				if (booklick==0) {
+					$(this).attr('src','images/book-cls.png');
+					$('.booknw').fadeIn();
+					booklick = 1;
+				}else {
+					$(this).attr('src','images/book.png');
+					$('.booknw').fadeOut();
+					booklick = 0;
+				}
+				
 			});
 			
+			var aclick = 0;
+			$('.allanpoea').hover(function() {
+				if (aclick==0) {
+					$(this).attr('src','images/allanpoeb.png');
+					aclick = 1;
+				}else {
+					$(this).attr('src','images/allanpoe.png');
+					aclick = 0;
+				}
+				
+			});
 
             function rotate(el, degs) {
                 iedegs = degs / 90;

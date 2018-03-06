@@ -7,7 +7,7 @@
 		"uuidString": "908F78E3-5B3E-448E-85FD-E6D9A28BFC52"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -6541,14 +6541,25 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/m\/images\/allanpoeb.png": {
+		"ft": 32768,
+		"iS": 3008,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoeb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/m\/images\/allanpoedown.png": {
 		"ft": 32768,
 		"iS": 1332,
 		"oA": 0,
 		"oAP": "\/m\/images\/allanpoedown.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6591,8 +6602,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/allanpoegall4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6601,6 +6612,50 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/m\/images\/allanpoegall5.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall6.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall7.png": {
+		"ft": 32768,
+		"iS": 320087,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall8.png": {
+		"ft": 32768,
+		"iS": 417384,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/allanpoegall9.png": {
+		"ft": 32768,
+		"iS": 272953,
+		"oA": 0,
+		"oAP": "\/m\/images\/allanpoegall9.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -6629,6 +6684,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/m\/images\/arteb.png": {
+		"ft": 32768,
+		"iS": 2809,
+		"oA": 0,
+		"oAP": "\/m\/images\/arteb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/m\/images\/book-cls.png": {
 		"ft": 32768,
 		"iS": 1674,
@@ -6646,8 +6712,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/book.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6679,6 +6745,39 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/careyesb.png",
 		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/careyesc.png": {
+		"ft": 32768,
+		"iS": 222774,
+		"oA": 0,
+		"oAP": "\/m\/images\/careyesc.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/careyesdown.png": {
+		"ft": 32768,
+		"iS": 3396,
+		"oA": 0,
+		"oAP": "\/m\/images\/careyesdown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/casadown.png": {
+		"ft": 32768,
+		"iS": 3546,
+		"oA": 0,
+		"oAP": "\/m\/images\/casadown.png",
+		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -6695,6 +6794,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/m\/images\/casapugb.png": {
+		"ft": 32768,
+		"iS": 3427,
+		"oA": 0,
+		"oAP": "\/m\/images\/casapugb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/m\/images\/contacto.png": {
 		"ft": 32768,
 		"iS": 2961,
@@ -6706,14 +6816,47 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/m\/images\/contactob.png": {
+		"ft": 32768,
+		"iS": 3010,
+		"oA": 0,
+		"oAP": "\/m\/images\/contactob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/contactodown.png": {
+		"ft": 32768,
+		"iS": 2499,
+		"oA": 0,
+		"oAP": "\/m\/images\/contactodown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/contctb.png": {
+		"ft": 32768,
+		"iS": 10848,
+		"oA": 0,
+		"oAP": "\/m\/images\/contctb.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/m\/images\/downarrow.png": {
 		"ft": 32768,
 		"iS": 580,
 		"oA": 0,
 		"oAP": "\/m\/images\/downarrow.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6789,8 +6932,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/next.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6866,8 +7009,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/tenngall2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6877,8 +7020,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/tenngall3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6910,8 +7053,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/tenngall6.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6921,8 +7064,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/tenngall7.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6932,8 +7075,8 @@
 		"oA": 0,
 		"oAP": "\/m\/images\/tenngall8.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -6956,6 +7099,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tennysonb.png": {
+		"ft": 32768,
+		"iS": 2983,
+		"oA": 0,
+		"oAP": "\/m\/images\/tennysonb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/m\/images\/tennysondown.png": {
+		"ft": 32768,
+		"iS": 3620,
+		"oA": 0,
+		"oAP": "\/m\/images\/tennysondown.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
